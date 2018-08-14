@@ -1,0 +1,20 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading ALBIRB_EXPERIENCEEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for ALBIRB_EXPERIENCEEditor
+    Running UnrealHeaderTool "D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.uproject" "D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\ALBIRB_EXPERIENCEEditor\Development\ALBIRB_EXPERIENCEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ALBIRB_EXPERIENCEEditor in 6.877911 seconds
+  Performing 8 actions (4 in parallel)
+  ALBIRB_EXPERIENCEGameMode.cpp
+  ALBIRB_EXPERIENCE.cpp
+  ALBIRB_EXPERIENCEPawn.cpp
+  ALBIRB_EXPERIENCE.init.gen.cpp
+  ALBIRB_EXPERIENCEGameMode.gen.cpp
+  ALBIRB_EXPERIENCEPawn.gen.cpp
+  [7/8] Link UE4Editor-ALBIRB_EXPERIENCE-2851.dll
+  [8/8] Link UE4Editor-ALBIRB_EXPERIENCE-2851.lib
+     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-2851.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-2851.exp
+     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-2851.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-2851.suppressed.exp
+  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
+  Total build time: 12.59 seconds (Local executor: 1.82 seconds)

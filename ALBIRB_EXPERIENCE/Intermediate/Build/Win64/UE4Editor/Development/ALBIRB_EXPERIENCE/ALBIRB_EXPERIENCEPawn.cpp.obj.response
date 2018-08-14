@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I D:\Epic\UE_4.19\Engine\Source
-/I "D:\Users\james.dev7362\Documents\Unreal Projects\ALBIRB_EXPERIENCE\Source"
-/I "D:\Users\james.dev7362\Documents\Unreal Projects\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Inc\ALBIRB_EXPERIENCE"
-/I "D:\Users\james.dev7362\Documents\Unreal Projects\ALBIRB_EXPERIENCE\Source\ALBIRB_EXPERIENCE"
+/I D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Source
+/I D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Inc\ALBIRB_EXPERIENCE
+/I D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Source\ALBIRB_EXPERIENCE
 /I D:\Epic\UE_4.19\Engine\Source\Runtime\Core\Public
 /I D:\Epic\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization
 /I D:\Epic\UE_4.19\Engine\Source\Runtime\Core\Public\Async
@@ -364,9 +364,9 @@
 /FI"D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Users\james.dev7362\Documents\Unreal Projects\ALBIRB_EXPERIENCE\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.cpp"
-/FI"D:\Users\james.dev7362\Documents\Unreal Projects\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\Definitions.ALBIRB_EXPERIENCE.h"
-/Fo"D:\Users\james.dev7362\Documents\Unreal Projects\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.cpp.obj"
+"D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.cpp"
+/FI"D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\Definitions.ALBIRB_EXPERIENCE.h"
+/Fo"D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.cpp.obj"
 /TP
 /GR-
 /W4
