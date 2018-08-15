@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-2851.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-188.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-2851.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-188.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ALBIRB_EXPERIENCE-2851.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ALBIRB_EXPERIENCE-188.lib",
 			"Type": "ImportLibrary"
 		},
 		{
