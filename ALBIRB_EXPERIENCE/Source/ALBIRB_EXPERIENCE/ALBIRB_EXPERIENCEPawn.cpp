@@ -45,7 +45,7 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	TurnSpeed = 50.f;
 	MaxSpeed = 4000.f;
 	MinSpeed = 500.f;
-	CurrentForwardSpeed = 500.f;
+	CurrentForwardSpeed = 750.f;
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
