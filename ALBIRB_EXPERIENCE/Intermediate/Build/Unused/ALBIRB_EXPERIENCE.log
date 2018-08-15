@@ -1,15 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Parsing headers for ALBIRB_EXPERIENCEEditor
-    Running UnrealHeaderTool "C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.uproject" "C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\ALBIRB_EXPERIENCEEditor\Development\ALBIRB_EXPERIENCEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ALBIRB_EXPERIENCEEditor in 11.9570582 seconds
-  Performing 5 actions (4 in parallel)
-  ALBIRB_EXPERIENCEGameMode.cpp
+  Performing 3 actions (4 in parallel)
   ALBIRB_EXPERIENCEPawn.cpp
-  ALBIRB_EXPERIENCEPawn.gen.cpp
-  [4/5] Link UE4Editor-ALBIRB_EXPERIENCE-9491.dll
-  [5/5] Link UE4Editor-ALBIRB_EXPERIENCE-9491.lib
-     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9491.suppressed.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9491.suppressed.exp
-     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9491.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9491.exp
+  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE-7021.dll
+  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE-7021.lib
+     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-7021.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-7021.exp
+     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-7021.suppressed.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-7021.suppressed.exp
   Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
-  Total build time: 19.43 seconds (Local executor: 2.25 seconds)
+  Total build time: 12.56 seconds (Local executor: 7.10 seconds)

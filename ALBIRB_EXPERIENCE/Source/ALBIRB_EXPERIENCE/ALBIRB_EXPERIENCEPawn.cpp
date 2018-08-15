@@ -41,7 +41,7 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Camera->bUsePawnControlRotation = false; // Don't rotate camera with controller
 
 	// Set handling parameters
-	Gravity = -200.0f;
+	Gravity = -500.0f;
 	Acceleration = 500.f;
 	TurnSpeed = 50.f;
 	MaxSpeed = 4000.f;
@@ -106,7 +106,7 @@ void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 {
-	CurrentUpwardSpeed += 500.0f;
+	CurrentUpwardSpeed += 1000.0f;
 }
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInputReleased()
