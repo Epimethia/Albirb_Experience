@@ -1,4 +1,4 @@
-﻿Log file open, 08/15/18 14:14:14
+﻿Log file open, 08/15/18 19:12:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ALBIRB_EXPERIENCE
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1486742168) SRandInit(1486742169).
+LogInit: Display: RandInit(-1399420493) SRandInit(-1399420493).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.326451
+LogStats: Stats thread started at 0.349973
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,118 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.579s to configure plugins.
-LogModuleManager: Warning: Module file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-2851.dll is missing. This is likely a stale module that must be recompiled.
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
-LogInit: Warning: Incompatible or missing module: UE4Editor-ALBIRB_EXPERIENCE.dll
-Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ALBIRB_EXPERIENCE Development Win64 -project="C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/ALBIRB_EXPERIENCE.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build.
-Creating makefile for ALBIRB_EXPERIENCE (no existing makefile)
-Performing full C++ include scan (no include cache file)
-@progress push 5%
-Parsing headers for ALBIRB_EXPERIENCEEditor
-  Running UnrealHeaderTool "C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.uproject" "C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\ALBIRB_EXPERIENCEEditor\Development\ALBIRB_EXPERIENCEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for ALBIRB_EXPERIENCEEditor in 11.838714 seconds
-@progress pop
-Performing 11 actions (4 in parallel)
-[3/11] Resource PCLaunch.rc
-[2/11] Resource ModuleVersionResource.rc.inl
-SharedPCH.Engine.cpp
-ALBIRB_EXPERIENCE.cpp
-ALBIRB_EXPERIENCEPawn.cpp
-ALBIRB_EXPERIENCEGameMode.cpp
-ALBIRB_EXPERIENCE.init.gen.cpp
-ALBIRB_EXPERIENCEGameMode.gen.cpp
-ALBIRB_EXPERIENCEPawn.gen.cpp
-[10/11] Link UE4Editor-ALBIRB_EXPERIENCE.dll
-[11/11] Link UE4Editor-ALBIRB_EXPERIENCE.lib
-   Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.exp
-   Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.exp
-Total build time: 64.20 seconds (Local executor: 33.13 seconds)
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE.dll (API version 3944462).
+LogStreaming: Display: Took  0.551s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-9491.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -330,918 +220,366 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.15-02.15.28:792][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.15-02.15.28:792][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.15-02.15.28:814][  0]LogInit: Computer: DESKTOP-BNOP8B0
-[2018.08.15-02.15.28:814][  0]LogInit: User: PlagueDoctor
-[2018.08.15-02.15.28:814][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.08.15-02.15.28:814][  0]LogInit: High frequency timer resolution =3.919356 MHz
-[2018.08.15-02.15.28:814][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.08.15-02.15.28:814][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.15-02.15.28:814][  0]LogMemory: Process Physical Memory: 278.18 MB used, 278.18 MB peak
-[2018.08.15-02.15.28:814][  0]LogMemory: Process Virtual Memory: 265.42 MB used, 265.42 MB peak
-[2018.08.15-02.15.28:814][  0]LogMemory: Physical Memory: 6465.82 MB used,  9815.00 MB free, 16280.82 MB total
-[2018.08.15-02.15.28:814][  0]LogMemory: Virtual Memory: 4834.73 MB used,  9815.00 MB free, 134217728.00 MB total
-[2018.08.15-02.15.28:864][  0]LogInit: Using OS detected language (en-US).
-[2018.08.15-02.15.28:864][  0]LogInit: Using OS detected locale (en-US).
-[2018.08.15-02.15.28:867][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.08.15-02.15.29:475][  0]LogStreaming: Display: Took  0.612s to EndInitTextLocalization.
-[2018.08.15-02.15.29:476][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.15-02.15.29:523][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.15-02.15.29:524][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.15-02.15.29:772][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.15-02.15.29:879][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.08.15-02.15.29:879][  0]LogD3D11RHI:       6052/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.08.15-02.15.29:883][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.15-02.15.29:883][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.15-02.15.29:883][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.15-02.15.29:894][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.15-02.15.29:894][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.15-02.15.29:894][  0]LogWindows: EnumDisplayDevices:
-[2018.08.15-02.15.29:895][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.08.15-02.15.29:895][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.08.15-02.15.29:895][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.08.15-02.15.29:895][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.08.15-02.15.29:895][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.08.15-02.15.29:895][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.08.15-02.15.29:895][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.08.15-02.15.29:895][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.08.15-02.15.29:895][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.08.15-02.15.29:965][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.08.15-02.15.29:965][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.08.15-02.15.29:965][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.15-02.15.29:985][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.15-02.15.30:036][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Intermediate/Shaders/WorkingDirectory/1440/).
-[2018.08.15-02.15.30:036][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PlagueDoctor/AppData/Local/Temp/UnrealShaderWorkingDir/78E3FED0493FACC42D7B5C808C0DB36A/'.
-[2018.08.15-02.15.30:377][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.15-02.15.30:402][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.15-02.15.30:426][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.15-02.15.30:450][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.15-02.15.30:476][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.15-02.15.30:501][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.15-02.15.30:527][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.15-02.15.30:551][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.15-02.15.30:564][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.15-02.15.30:585][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.08.15-02.15.30:608][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.08.15-02.15.30:633][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.08.15-02.15.30:657][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.08.15-02.15.30:678][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.08.15-02.15.30:699][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.08.15-02.15.30:744][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.08.15-02.15.30:744][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.08.15-02.15.30:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.15-02.15.30:771][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.15-02.15.30:822][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.15-02.15.30:843][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.15-02.15.30:867][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.15-02.15.30:892][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.15-02.15.30:914][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.15-02.15.30:936][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.15-02.15.30:937][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.15-02.15.31:158][  0]LogXGEController: Cleaning working directory: C:/Users/PlagueDoctor/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.08.15-02.15.31:159][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.15-02.15.31:159][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.15-02.15.31:159][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.15-02.15.32:657][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.15-02.15.32:781][  0]LogDerivedDataCache: Loaded boot cache 0.12s 74MB C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.08.15-02.15.32:781][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.08.15-02.15.32:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.15-02.15.32:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.15-02.15.32:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.15-02.15.32:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.15-02.15.32:802][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.15-02.15.32:817][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.15-02.15.32:817][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.15-02.15.32:817][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.15-02.15.32:838][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.15-02.15.32:838][  0]LogSlate: Using Freetype 2.6.0
-[2018.08.15-02.15.32:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.15-02.15.32:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.15-02.15.33:073][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
-[2018.08.15-02.15.33:773][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.15-02.15.34:018][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.15-02.15.34:029][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.15-02.15.34:030][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.15-02.15.34:030][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.15-02.15.34:030][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.08.15-02.15.34:030][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.08.15-02.15.34:087][  0]LogNetVersion: ALBIRB_EXPERIENCE , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1179153627)
-[2018.08.15-02.15.35:056][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.325240 seconds
-[2018.08.15-02.15.35:066][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.08.15-02.15.35:066][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.08.15-02.15.35:066][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.15-02.15.37:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.15-02.15.37:629][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.15-02.15.38:286][  0]SourceControl: Source control is disabled
-[2018.08.15-02.15.38:286][  0]SourceControl: Source control is disabled
-[2018.08.15-02.15.38:320][  0]SourceControl: Source control is disabled
-[2018.08.15-02.15.38:350][  0]SourceControl: Source control is disabled
-[2018.08.15-02.15.39:128][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.15-02.15.39:387][  0]LogOcInput: OculusInput pre-init called
-[2018.08.15-02.15.39:553][  0]LogEngine: Initializing Engine...
-[2018.08.15-02.15.39:557][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.15-02.15.39:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.15-02.15.39:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.15-02.15.39:895][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.15-02.15.39:919][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.15.39:938][  0]LogInit: FAudioDevice initialized.
-[2018.08.15-02.15.40:058][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.08.15-02.15.40:076][  0]LogInit: Texture streaming: Enabled
-[2018.08.15-02.15.40:108][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.15-02.15.40:133][  0]LogInit: Transaction tracking system initialized
-[2018.08.15-02.15.40:182][  0]BlueprintLog: New page: Editor Load
-[2018.08.15-02.15.40:346][  0]LocalizationService: Localization service is disabled
-[2018.08.15-02.15.40:523][  0]LogConsoleResponse: Display: 
-[2018.08.15-02.15.40:843][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.15-02.15.40:843][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.15-02.15.40:844][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.15-02.15.40:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.15-02.15.40:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.15-02.15.41:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' took 0.01s
-[2018.08.15-02.15.41:536][  0]SourceControl: Source control is disabled
-[2018.08.15-02.15.41:536][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/FlyingCPP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.15-02.15.41:536][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/FlyingCPP/Maps/FlyingExampleMap.umap'
-[2018.08.15-02.15.41:536][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.15-02.15.41:711][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 174.723ms to complete.
-[2018.08.15-02.15.41:711][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.175
-[2018.08.15-02.15.41:925][  0]LogCollectionManager: Loaded 0 collections in 0.002512 seconds
-[2018.08.15-02.15.41:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/Collections/' took 0.01s
-[2018.08.15-02.15.41:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Developers/PlagueDoctor/Collections/' took 0.01s
-[2018.08.15-02.15.41:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Collections/' took 0.01s
-[2018.08.15-02.15.41:989][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.08.15-02.15.42:007][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2454 classes and 560 folders.
-[2018.08.15-02.15.42:019][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.08.15-02.15.42:090][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2018.08.15-02.15.42:101][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.08.15-02.15.42:182][  0]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.15-02.15.42:185][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.15-02.15.42:194][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.15-02.15.42:333][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
-[2018.08.15-02.15.42:509][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.08.15-02.15.42:509][  0]LogLoad: (Engine Initialization) Total time: 90.00 seconds
-[2018.08.15-02.15.42:509][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.15-02.15.42:519][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.08.15-02.15.42:541][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.08.15-02.15.42:594][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.15-02.15.42:620][  1]LogAssetRegistry: Asset discovery search completed in 9.5707 seconds
-[2018.08.15-02.15.42:623][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.08.15-02.15.42:623][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
-[2018.08.15-02.16.03:758][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.16.04:437][441]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.15-02.16.04:921][441]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.16.04:980][441]Cmd: MAP LOAD FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.15-02.16.04:980][441]LightingResults: New page: Lighting Build
-[2018.08.15-02.16.04:986][441]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0010 seconds. Added 5 classes and 0 folders.
-[2018.08.15-02.16.04:987][441]LoadErrors: New page: Loading map: FlyingExampleMap.umap
-[2018.08.15-02.16.04:987][441]MapCheck: New page: Map Check
-[2018.08.15-02.16.04:987][441]LightingResults: New page: Lighting Build
-[2018.08.15-02.16.05:143][441]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.15-02.16.05:213][441]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.15-02.16.05:364][441]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.177ms to complete.
-[2018.08.15-02.16.05:366][441]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.387
-[2018.08.15-02.16.14:035][298]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.08.15-02.16.22:954][165]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
-[2018.08.15-02.16.23:442][165]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ed4cac5970, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.08.15-02.16.23:443][165]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ed4cac5968, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.08.15-02.16.24:039][165]LogSlate: Window 'Add Blueprint Class' being destroyed
-[2018.08.15-02.16.24:167][165]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
-[2018.08.15-02.16.25:249][237]LogSlate: Window 'BP_GameMode*' being destroyed
-[2018.08.15-02.16.25:254][237]LogSlate: Window 'BP_GameMode*' being destroyed
-[2018.08.15-02.16.35:876][196]LogSlate: Window 'Add Blueprint Class' being destroyed
-[2018.08.15-02.16.37:665][294]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.08.15-02.16.46:864][824]BlueprintLog: New page: Compile BP_Pawn
-[2018.08.15-02.16.47:791][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Pawn" FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset" SILENT=true
-[2018.08.15-02.16.47:822][862]LogSavePackage: Save=25.11ms
-[2018.08.15-02.16.47:823][862]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/BP_Pawn89478D5845F64DCB43718F8D3ED3DD6A.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset'
-[2018.08.15-02.16.47:836][862]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset
-[2018.08.15-02.16.50:015][ 20]LogSlate: Window 'BP_Pawn' being destroyed
-[2018.08.15-02.16.50:020][ 20]LogSlate: Window 'BP_Pawn' being destroyed
-[2018.08.15-02.16.55:476][542]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.08.15-02.17.09:699][772]BlueprintLog: New page: Compile BP_GameMode
-[2018.08.15-02.17.10:295][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameMode" FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/BP_GameMode.uasset" SILENT=true
-[2018.08.15-02.17.10:318][797]LogSavePackage: Save=15.50ms
-[2018.08.15-02.17.10:318][797]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/BP_GameModeD17017814BD9B6C93C28558A27B18D32.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/BP_GameMode.uasset'
-[2018.08.15-02.17.10:335][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/BP_GameMode.uasset
-[2018.08.15-02.17.10:988][844]LogSlate: Window 'BP_GameMode' being destroyed
-[2018.08.15-02.17.10:995][844]LogSlate: Window 'BP_GameMode' being destroyed
-[2018.08.15-02.17.14:613][193]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.17.14:639][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.14:639][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.17.14:640][193]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:17:14 AM)
-[2018.08.15-02.17.14:640][193]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.17.14:688][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048310s)
-[2018.08.15-02.17.14:689][193]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.17.14:689][193]LogPlayLevel: PIE: World Init took: (0.000998s)
-[2018.08.15-02.17.14:689][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.049627s)
-[2018.08.15-02.17.14:743][193]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.17.14:754][193]LogInit: FAudioDevice initialized.
-[2018.08.15-02.17.14:807][193]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.17.14:816][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.17.14
-[2018.08.15-02.17.14:817][193]LogWorld: Bringing up level for play took: 0.007901
-[2018.08.15-02.17.14:825][193]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
-[2018.08.15-02.17.14:826][193]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.403
-[2018.08.15-02.17.14:826][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.18:261][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.17.20:501][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_29)
-[2018.08.15-02.17.21:109][796]LogEditorViewport: Clicking on Actor (LMB): ALBIRB_EXPERIENCEPawn (TP_FlyingPawn)
-[2018.08.15-02.17.24:056][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.17.24:140][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.24:204][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.26:626][188]LogEditorViewport: Clicking on Actor (LMB): ALBIRB_EXPERIENCEPawn (TP_FlyingPawn)
-[2018.08.15-02.17.29:419][442]Cmd: SELECT NONE
-[2018.08.15-02.17.36:008][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
-[2018.08.15-02.17.36:979][175]LogEditorViewport: Clicking on Actor (LMB): ALBIRB_EXPERIENCEPawn (TP_FlyingPawn)
-[2018.08.15-02.17.38:288][293]Cmd: DELETE
-[2018.08.15-02.17.38:288][293]Cmd: ACTOR DELETE
-[2018.08.15-02.17.38:302][293]LogEditorActor: Deleted Actor: ALBIRB_EXPERIENCEPawn
-[2018.08.15-02.17.38:384][293]LogEditorActor: Deleted 1 Actors (0.096 secs)
-[2018.08.15-02.17.39:301][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.17.39:361][393]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.17.39:380][393]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.39:380][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.17.39:380][393]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:17:39 AM)
-[2018.08.15-02.17.39:380][393]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.17.39:413][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032787s)
-[2018.08.15-02.17.39:414][393]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.17.39:414][393]LogPlayLevel: PIE: World Init took: (0.001273s)
-[2018.08.15-02.17.39:414][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.034351s)
-[2018.08.15-02.17.39:471][393]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.17.39:479][393]LogInit: FAudioDevice initialized.
-[2018.08.15-02.17.39:512][393]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.17.39:519][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.17.39
-[2018.08.15-02.17.39:520][393]LogWorld: Bringing up level for play took: 0.007098
-[2018.08.15-02.17.39:522][393]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 1.098
-[2018.08.15-02.17.39:522][393]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.43:000][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.17.44:571][887]LogEditorViewport: Clicking on Actor (LMB): BP_Pawn_C (BP_Pawn)
-[2018.08.15-02.17.46:241][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.17.46:816][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.46:881][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.47:456][ 98]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.17.47:474][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.17.47:474][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.17.47:474][ 98]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:17:47 AM)
-[2018.08.15-02.17.47:474][ 98]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.17.47:507][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032443s)
-[2018.08.15-02.17.47:508][ 98]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.17.47:508][ 98]LogPlayLevel: PIE: World Init took: (0.001406s)
-[2018.08.15-02.17.47:509][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.034264s)
-[2018.08.15-02.17.47:565][ 98]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.17.47:574][ 98]LogInit: FAudioDevice initialized.
-[2018.08.15-02.17.47:609][ 98]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.17.47:618][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.17.47
-[2018.08.15-02.17.47:618][ 98]LogWorld: Bringing up level for play took: 0.008849
-[2018.08.15-02.17.47:620][ 98]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.804
-[2018.08.15-02.17.47:620][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.18.11:482][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.18.11:519][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.18.12:737][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.18.39:956][714]LogSlate: Window 'BP_Pawn' being destroyed
-[2018.08.15-02.18.57:402][724]LogSlate: Window 'BP_Pawn' being destroyed
-[2018.08.15-02.18.57:408][724]LogSlate: Window 'BP_Pawn' being destroyed
-[2018.08.15-02.19.06:071][409]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.08.15-02.19.06:231][410]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ALBIRBEXPERIENCE
-[2018.08.15-02.19.06:232][410]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.19.06:232][410]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.08.15-02.19.06:232][410]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.19.06:232][410]LogTemp: BranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.08.15-02.19.06:232][410]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PlagueDoctor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.08.15-02.19.09:302][618]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.08.15-02.19.48:983][487]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.19.48:989][487]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.19.55:380][944]LogSavePackage: Save=1549.26ms
-[2018.08.15-02.19.55:381][944]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/FlyingExampleMapDA518F1743E34BB900A0C7A70ECCB10B.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap'
-[2018.08.15-02.19.55:400][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap
-[2018.08.15-02.29.10:875][692]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.08.15-02.29.11:056][693]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ALBIRBEXPERIENCE
-[2018.08.15-02.29.11:056][693]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.29.11:056][693]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.08.15-02.29.11:056][693]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.29.11:057][693]LogTemp: BranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.08.15-02.29.11:057][693]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PlagueDoctor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.08.15-02.30.03:502][406]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.30.03:510][406]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.30.05:991][515]LogSavePackage: Save=1240.57ms
-[2018.08.15-02.30.05:991][515]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/FlyingExampleMapA506F8C243C8065AE13D55BD3B1D98C7.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap'
-[2018.08.15-02.30.06:011][515]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap
-[2018.08.15-02.33.20:027][317]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-9022.dll
-[2018.08.15-02.33.21:393][322]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.33.21:476][322]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0013 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.33.21:482][322]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.33.22:095][322]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.33.22:110][322]Display: HotReload took  0.7s.
-[2018.08.15-02.33.24:726][469]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.33.24:750][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.33.24:750][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.33.24:750][469]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:33:24 AM)
-[2018.08.15-02.33.24:750][469]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.33.24:782][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031806s)
-[2018.08.15-02.33.24:783][469]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.33.24:783][469]LogPlayLevel: PIE: World Init took: (0.001117s)
-[2018.08.15-02.33.24:784][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.033271s)
-[2018.08.15-02.33.24:899][469]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.33.24:908][469]LogInit: FAudioDevice initialized.
-[2018.08.15-02.33.24:946][469]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.33.24:955][469]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.33.24
-[2018.08.15-02.33.24:956][469]LogWorld: Bringing up level for play took: 0.008514
-[2018.08.15-02.33.24:958][469]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.534
-[2018.08.15-02.33.24:958][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.33.27:001][660]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.33.27:041][660]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.36.14:671][614]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-9773.dll
-[2018.08.15-02.36.15:716][618]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.36.15:813][618]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0018 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.36.15:820][618]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.36.16:387][618]LogContentBrowser: Native class hierarchy populated in 0.0240 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.36.16:400][618]Display: HotReload took  0.7s.
-[2018.08.15-02.36.22:406][636]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.36.23:445][737]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.36.23:466][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.36.23:466][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.36.23:466][737]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:36:23 AM)
-[2018.08.15-02.36.23:466][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.36.23:501][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034705s)
-[2018.08.15-02.36.23:502][737]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.36.23:503][737]LogPlayLevel: PIE: World Init took: (0.001279s)
-[2018.08.15-02.36.23:503][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.036314s)
-[2018.08.15-02.36.23:624][737]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.36.23:637][737]LogInit: FAudioDevice initialized.
-[2018.08.15-02.36.23:677][737]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.36.23:687][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.36.23
-[2018.08.15-02.36.23:688][737]LogWorld: Bringing up level for play took: 0.009775
-[2018.08.15-02.36.23:690][737]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.734
-[2018.08.15-02.36.23:690][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.36.38:092][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.36.38:134][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.36.52:146][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.37.01:628][457]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.08.15-02.37.01:828][458]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ALBIRBEXPERIENCE
-[2018.08.15-02.37.01:828][458]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.37.01:829][458]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.08.15-02.37.01:829][458]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.37.01:829][458]LogTemp: BranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.08.15-02.37.01:829][458]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PlagueDoctor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.08.15-02.37.19:797][420]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.37.19:804][420]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.41.52:837][330]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-9321.dll
-[2018.08.15-02.41.53:868][334]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.41.53:961][334]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0017 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.41.53:969][334]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.41.54:510][334]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.41.54:522][334]Display: HotReload took  0.7s.
-[2018.08.15-02.42.01:419][566]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.42.01:438][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.42.01:438][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.42.01:438][566]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:42:01 AM)
-[2018.08.15-02.42.01:439][566]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.42.01:476][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037644s)
-[2018.08.15-02.42.01:477][566]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.42.01:478][566]LogPlayLevel: PIE: World Init took: (0.001208s)
-[2018.08.15-02.42.01:478][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.039218s)
-[2018.08.15-02.42.01:591][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.42.01:602][566]LogInit: FAudioDevice initialized.
-[2018.08.15-02.42.01:641][566]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.42.01:650][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.42.01
-[2018.08.15-02.42.01:650][566]LogWorld: Bringing up level for play took: 0.008702
-[2018.08.15-02.42.01:652][566]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.771
-[2018.08.15-02.42.01:652][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.42.06:872][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.42.06:910][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.42.14:762][198]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.44.06:059][130]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-6041.dll
-[2018.08.15-02.44.06:771][133]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.44.06:853][133]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0014 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.44.06:859][133]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.44.07:422][133]LogContentBrowser: Native class hierarchy populated in 0.0260 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.44.07:436][133]Display: HotReload took  0.7s.
-[2018.08.15-02.44.09:994][283]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.44.10:017][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.44.10:017][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.44.10:017][283]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:44:10 AM)
-[2018.08.15-02.44.10:017][283]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.44.10:048][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031096s)
-[2018.08.15-02.44.10:049][283]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.44.10:049][283]LogPlayLevel: PIE: World Init took: (0.001388s)
-[2018.08.15-02.44.10:050][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.032838s)
-[2018.08.15-02.44.10:168][283]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.44.10:178][283]LogInit: FAudioDevice initialized.
-[2018.08.15-02.44.10:214][283]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.44.10:222][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.44.10
-[2018.08.15-02.44.10:223][283]LogWorld: Bringing up level for play took: 0.008128
-[2018.08.15-02.44.10:225][283]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.198
-[2018.08.15-02.44.10:225][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.44.22:711][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.44.22:750][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.44.24:647][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.44.25:392][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.15-02.44.26:767][776]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.08.15-02.44.26:944][776]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ALBIRBEXPERIENCE
-[2018.08.15-02.44.26:944][776]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.44.26:944][776]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.08.15-02.44.26:944][776]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.08.15-02.44.26:944][776]LogTemp: BranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-BNOP8B0/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.08.15-02.44.26:945][776]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PlagueDoctor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.08.15-02.44.34:585][322]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.44.34:592][322]LogSlate: Window 'Project Settings' being destroyed
-[2018.08.15-02.45.15:696][585]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-188.dll
-[2018.08.15-02.45.16:728][589]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.45.16:813][589]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0015 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.45.16:818][589]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.45.17:350][589]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.45.17:361][589]Display: HotReload took  0.6s.
-[2018.08.15-02.45.55:771][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.45.55:854][771]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.45.55:873][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.45.55:874][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.45.55:874][771]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:45:55 AM)
-[2018.08.15-02.45.55:874][771]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.45.55:910][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036494s)
-[2018.08.15-02.45.55:912][771]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.45.55:912][771]LogPlayLevel: PIE: World Init took: (0.001260s)
-[2018.08.15-02.45.55:912][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.038170s)
-[2018.08.15-02.45.56:012][771]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.45.56:022][771]LogInit: FAudioDevice initialized.
-[2018.08.15-02.45.56:057][771]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.45.56:065][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.45.56
-[2018.08.15-02.45.56:065][771]LogWorld: Bringing up level for play took: 0.007350
-[2018.08.15-02.45.56:067][771]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.356
-[2018.08.15-02.45.56:067][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.46.03:697][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.46.03:733][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.48.33:594][ 79]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-3753.dll
-[2018.08.15-02.48.34:291][ 82]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.48.34:375][ 82]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0011 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.48.34:380][ 82]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.48.34:856][ 82]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.48.34:867][ 82]Display: HotReload took  0.6s.
-[2018.08.15-02.49.41:725][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.49.41:793][427]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.49.41:814][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.49.41:814][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.49.41:814][427]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:49:41 AM)
-[2018.08.15-02.49.41:815][427]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.49.41:847][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032086s)
-[2018.08.15-02.49.41:848][427]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.49.41:848][427]LogPlayLevel: PIE: World Init took: (0.001006s)
-[2018.08.15-02.49.41:848][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.033378s)
-[2018.08.15-02.49.41:956][427]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.49.41:965][427]LogInit: FAudioDevice initialized.
-[2018.08.15-02.49.42:006][427]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.49.42:013][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.49.42
-[2018.08.15-02.49.42:013][427]LogWorld: Bringing up level for play took: 0.006966
-[2018.08.15-02.49.42:015][427]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.409
-[2018.08.15-02.49.42:015][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.49.48:203][ 29]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.49.48:246][ 29]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.50.01:228][152]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-1279.dll
-[2018.08.15-02.50.01:921][155]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.50.02:012][155]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0014 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.50.02:018][155]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.50.02:593][155]LogContentBrowser: Native class hierarchy populated in 0.0236 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.50.02:607][155]Display: HotReload took  0.7s.
-[2018.08.15-02.50.12:763][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.50.12:853][259]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.50.12:874][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.50.12:874][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.50.12:874][259]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:50:12 AM)
-[2018.08.15-02.50.12:874][259]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.50.12:908][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033972s)
-[2018.08.15-02.50.12:909][259]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.50.12:909][259]LogPlayLevel: PIE: World Init took: (0.001111s)
-[2018.08.15-02.50.12:910][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.035442s)
-[2018.08.15-02.50.13:021][259]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.50.13:030][259]LogInit: FAudioDevice initialized.
-[2018.08.15-02.50.13:065][259]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.50.13:073][259]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.50.13
-[2018.08.15-02.50.13:073][259]LogWorld: Bringing up level for play took: 0.007145
-[2018.08.15-02.50.13:075][259]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.652
-[2018.08.15-02.50.13:075][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.50.16:239][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.50.16:279][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.50.49:936][752]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-3798.dll
-[2018.08.15-02.50.50:967][756]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.50.51:043][756]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0013 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.50.51:049][756]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.50.51:677][756]LogContentBrowser: Native class hierarchy populated in 0.0210 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.50.51:689][756]Display: HotReload took  0.7s.
-[2018.08.15-02.51.25:473][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.51.25:526][924]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.51.25:547][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.51.25:547][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.51.25:547][924]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:51:25 AM)
-[2018.08.15-02.51.25:547][924]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.51.25:578][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030914s)
-[2018.08.15-02.51.25:579][924]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.51.25:580][924]LogPlayLevel: PIE: World Init took: (0.001084s)
-[2018.08.15-02.51.25:580][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.032310s)
-[2018.08.15-02.51.25:681][924]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.51.25:690][924]LogInit: FAudioDevice initialized.
-[2018.08.15-02.51.25:728][924]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.51.25:736][924]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.51.25
-[2018.08.15-02.51.25:737][924]LogWorld: Bringing up level for play took: 0.008037
-[2018.08.15-02.51.25:739][924]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.684
-[2018.08.15-02.51.25:739][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.51.33:099][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.51.33:141][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.52.12:043][863]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-319.dll
-[2018.08.15-02.52.13:073][867]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.52.13:157][867]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0013 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.52.13:162][867]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.52.13:692][867]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.52.13:704][867]Display: HotReload took  0.6s.
-[2018.08.15-02.52.16:156][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.52.16:234][983]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.52.16:254][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.52.16:254][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.52.16:254][983]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:52:16 AM)
-[2018.08.15-02.52.16:254][983]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.52.16:285][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030264s)
-[2018.08.15-02.52.16:286][983]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.52.16:286][983]LogPlayLevel: PIE: World Init took: (0.001085s)
-[2018.08.15-02.52.16:286][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.031676s)
-[2018.08.15-02.52.16:391][983]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.52.16:400][983]LogInit: FAudioDevice initialized.
-[2018.08.15-02.52.16:436][983]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.52.16:447][983]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.52.16
-[2018.08.15-02.52.16:448][983]LogWorld: Bringing up level for play took: 0.010204
-[2018.08.15-02.52.16:450][983]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.027
-[2018.08.15-02.52.16:450][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.52.21:192][448]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.52.21:230][448]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.53.22:385][691]LogHotReload: New module detected: UE4Editor-ALBIRB_EXPERIENCE-9491.dll
-[2018.08.15-02.53.23:411][695]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.15-02.53.23:484][695]LogClass: Could not find existing class ALBIRB_EXPERIENCEPawn in package /Script/ALBIRB_EXPERIENCE for HotReload, assuming new class
-[2018.08.15-02.53.23:488][695]LogHotReload: Re-instancing ALBIRB_EXPERIENCEGameMode after hot-reload.
-[2018.08.15-02.53.23:617][695]LogHotReload: Re-instancing ALBIRB_EXPERIENCEPawn after hot-reload.
-[2018.08.15-02.53.24:125][695]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0012 seconds. Added 2 classes and 2 folders.
-[2018.08.15-02.53.24:130][695]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.08.15-02.53.24:614][695]LogContentBrowser: Native class hierarchy populated in 0.0210 seconds. Added 2455 classes and 562 folders.
-[2018.08.15-02.53.24:625][695]Display: HotReload took  1.2s.
-[2018.08.15-02.53.31:047][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.53.31:108][814]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.53.31:129][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.53.31:129][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.53.31:129][814]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:53:31 AM)
-[2018.08.15-02.53.31:129][814]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.53.31:163][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033186s)
-[2018.08.15-02.53.31:164][814]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.53.31:164][814]LogPlayLevel: PIE: World Init took: (0.001076s)
-[2018.08.15-02.53.31:164][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.034777s)
-[2018.08.15-02.53.31:271][814]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.53.31:281][814]LogInit: FAudioDevice initialized.
-[2018.08.15-02.53.31:321][814]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.53.31:332][814]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.53.31
-[2018.08.15-02.53.31:333][814]LogWorld: Bringing up level for play took: 0.010292
-[2018.08.15-02.53.31:335][814]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.912
-[2018.08.15-02.53.31:335][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.53.45:438][248]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.53.45:477][248]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.54.37:752][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.54.41:854][921]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.15-02.54.41:874][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.54.41:874][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.15-02.54.41:874][921]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 2:54:41 AM)
-[2018.08.15-02.54.41:874][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
-[2018.08.15-02.54.41:905][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031338s)
-[2018.08.15-02.54.41:906][921]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.08.15-02.54.41:907][921]LogPlayLevel: PIE: World Init took: (0.001210s)
-[2018.08.15-02.54.41:907][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.032855s)
-[2018.08.15-02.54.41:957][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.15-02.54.41:967][921]LogInit: FAudioDevice initialized.
-[2018.08.15-02.54.42:001][921]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.15-02.54.42:008][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-14.54.42
-[2018.08.15-02.54.42:009][921]LogWorld: Bringing up level for play took: 0.006917
-[2018.08.15-02.54.42:010][921]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.413
-[2018.08.15-02.54.42:011][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.54.51:898][910]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.54.51:936][910]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.08.15-02.54.54:250][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.54.55:710][123]LogSavePackage: Save=1267.64ms
-[2018.08.15-02.54.55:711][123]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/FlyingExampleMap2D200487419123D959C570A19CE1A8D3.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap'
-[2018.08.15-02.54.55:731][123]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap
-[2018.08.15-02.54.56:820][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.15-02.54.57:022][238]LogSlate: Window 'ALBIRB_EXPERIENCE - Unreal Editor' being destroyed
-[2018.08.15-02.54.57:360][239]Cmd: QUIT_EDITOR
-[2018.08.15-02.54.57:629][239]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.08.15-02.54.57:652][239]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.08.15-02.54.57:653][239]LogExit: Preparing to exit.
-[2018.08.15-02.54.58:457][239]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2018.08.15-02.54.58:497][239]LogDirectoryWatcher: A directory notification for 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' was aborted.
-[2018.08.15-02.54.58:595][239]LogExit: Editor shut down
-[2018.08.15-02.54.58:633][239]LogExit: Transaction tracking system shut down
-[2018.08.15-02.54.58:650][239]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ed4cac5970, Size=4
-[2018.08.15-02.54.58:650][239]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ed4cac5968, Size=4
-[2018.08.15-02.54.58:841][239]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.08.15-02.54.58:841][239]LogDirectoryWatcher: A directory notification for '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' was aborted.
-[2018.08.15-02.54.58:841][239]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.08.15-02.54.58:841][239]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.08.15-02.54.58:841][239]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.08.15-02.54.58:842][239]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.08.15-02.54.58:842][239]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.08.15-02.54.58:842][239]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.08.15-02.54.59:101][239]LogExit: Object subsystem successfully closed.
-[2018.08.15-02.54.59:136][239]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.08.15-02.54.59:146][239]LogD3D11RHI: Shutdown
-[2018.08.15-02.54.59:146][239]LogD3D11RHI: CleanupD3DDevice
-[2018.08.15-02.54.59:153][239]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module ALBIRB_EXPERIENCE (592)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (582)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module StatsViewer (576)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2018.08.15-02.54.59:296][239]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2018.08.15-02.54.59:296][239]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.08.15-02.54.59:305][239]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2018.08.15-02.54.59:305][239]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2018.08.15-02.54.59:305][239]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2018.08.15-02.54.59:305][239]LogDirectoryWatcher: A directory notification for 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Collections/' was aborted.
-[2018.08.15-02.54.59:305][239]LogDirectoryWatcher: A directory notification for 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Developers/PlagueDoctor/Collections/' was aborted.
-[2018.08.15-02.54.59:305][239]LogDirectoryWatcher: A directory notification for 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/Collections/' was aborted.
-[2018.08.15-02.54.59:305][239]LogModuleManager: Shutting down and abandoning module FoliageEdit (562)
-[2018.08.15-02.54.59:305][239]LogModuleManager: Shutting down and abandoning module LandscapeEditor (560)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module MeshPaintMode (558)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (556)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module ActorPickerMode (554)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module GeometryMode (552)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module TextureAlignMode (550)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module BspMode (548)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (546)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module HardwareSurvey (544)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (542)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module AutomationWorker (540)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (538)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module SequenceRecorder (537)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (534)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (532)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module PlacementMode (531)
-[2018.08.15-02.54.59:306][239]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (526)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (524)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (522)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (520)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (518)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (516)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (514)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (512)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (510)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (508)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module CharacterAI (506)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module SmartSnapping (504)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module SessionServices (502)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module ViewportSnapping (500)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module ViewportInteraction (498)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module ClothPainter (496)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (495)
-[2018.08.15-02.54.59:307][239]LogModuleManager: Shutting down and abandoning module LogVisualizer (492)
-[2018.08.15-02.54.59:308][239]LogModuleManager: Shutting down and abandoning module IntroTutorials (490)
-[2018.08.15-02.54.59:308][239]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (489)
-[2018.08.15-02.54.59:308][239]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (486)
-[2018.08.15-02.54.59:308][239]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (484)
-[2018.08.15-02.54.59:308][239]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (482)
-[2018.08.15-02.54.59:308][239]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (481)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (478)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (476)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (474)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module MergeActors (470)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module XmlParser (458)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module Blutility (456)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
-[2018.08.15-02.54.59:345][239]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
-[2018.08.15-02.54.59:346][239]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module AutomationController (436)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module AutomationWindow (434)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module Layers (432)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (430)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module DetailCustomizations (428)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module PackagesDialog (426)
-[2018.08.15-02.54.59:401][239]LogModuleManager: Shutting down and abandoning module Persona (424)
-[2018.08.15-02.54.59:402][239]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (423)
-[2018.08.15-02.54.59:402][239]LogModuleManager: Shutting down and abandoning module AnimGraph (421)
-[2018.08.15-02.54.59:402][239]LogModuleManager: Shutting down and abandoning module Kismet (418)
-[2018.08.15-02.54.59:413][239]LogModuleManager: Shutting down and abandoning module GraphEditor (416)
-[2018.08.15-02.54.59:413][239]LogModuleManager: Shutting down and abandoning module ClassViewer (414)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module Toolbox (412)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module ModuleUI (410)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module MovieSceneTools (408)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module OutputLog (406)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module GammaUI (404)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module Documentation (402)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (400)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module MovieScene (398)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (396)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module LauncherPlatform (394)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module AnalyticsET (392)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module PortalServices (390)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module PortalRpc (388)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module MessagingRpc (386)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module AIModule (384)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module GameplayDebugger (383)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module AITestSuite (381)
-[2018.08.15-02.54.59:417][239]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module SteamVRController (374)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (372)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module OculusInput (368)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (364)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module CableComponent (362)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module AudioCapture (360)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (358)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module AndroidPermission (356)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (352)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (350)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (348)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
-[2018.08.15-02.54.59:669][239]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module AlembicImporter (338)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module AlembicLibrary (337)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module GeometryCache (336)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (335)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (328)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module PluginBrowser (326)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (324)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
-[2018.08.15-02.54.59:676][239]LogModuleManager: Shutting down and abandoning module SourceControl (307)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
-[2018.08.15-02.54.59:677][239]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
-[2018.08.15-02.54.59:778][239]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
-[2018.08.15-02.54.59:879][239]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
-[2018.08.15-02.54.59:879][239]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
-[2018.08.15-02.54.59:879][239]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
-[2018.08.15-02.54.59:879][239]LogModuleManager: Shutting down and abandoning module DataValidation (264)
-[2018.08.15-02.54.59:879][239]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
-[2018.08.15-02.54.59:879][239]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
-[2018.08.15-02.54.59:881][239]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
-[2018.08.15-02.54.59:881][239]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
-[2018.08.15-02.54.59:882][239]LogModuleManager: Shutting down and abandoning module MainFrame (256)
-[2018.08.15-02.54.59:882][239]LogModuleManager: Shutting down and abandoning module HotReload (255)
-[2018.08.15-02.54.59:882][239]LogDirectoryWatcher: A directory notification for 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Binaries/Win64' was aborted.
-[2018.08.15-02.54.59:883][239]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
-[2018.08.15-02.54.59:885][239]LogModuleManager: Shutting down and abandoning module TreeMap (249)
-[2018.08.15-02.54.59:885][239]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
-[2018.08.15-02.54.59:885][239]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
-[2018.08.15-02.54.59:885][239]LogModuleManager: Shutting down and abandoning module LiveLink (242)
-[2018.08.15-02.54.59:997][239]LogModuleManager: Shutting down and abandoning module Paper2D (240)
-[2018.08.15-02.54.59:997][239]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
-[2018.08.15-02.54.59:997][239]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
-[2018.08.15-02.54.59:999][239]LogModuleManager: Shutting down and abandoning module Media (235)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module Overlay (224)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module VREditor (220)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module UMG (206)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
-[2018.08.15-02.55.00:006][239]LogModuleManager: Shutting down and abandoning module Sequencer (204)
-[2018.08.15-02.55.00:007][239]LogModuleManager: Shutting down and abandoning module MessageLog (201)
-[2018.08.15-02.55.00:007][239]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
-[2018.08.15-02.55.00:007][239]LogModuleManager: Shutting down and abandoning module Slate (194)
-[2018.08.15-02.55.00:007][239]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module MRMesh (190)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module Networking (182)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module Core (180)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
-[2018.08.15-02.55.00:010][239]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
-[2018.08.15-02.55.00:022][239]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
-[2018.08.15-02.55.00:035][239]LogDerivedDataCache: Shutdown
-[2018.08.15-02.55.00:035][239]LogModuleManager: Shutting down and abandoning module XGEController (154)
-[2018.08.15-02.55.00:035][239]LogXGEController: Cleaning working directory: C:/Users/PlagueDoctor/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.08.15-02.55.00:036][239]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
-[2018.08.15-02.55.00:036][239]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
-[2018.08.15-02.55.00:036][239]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
-[2018.08.15-02.55.00:037][239]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Messaging (111)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module InputCore (68)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module Settings (66)
-[2018.08.15-02.55.00:038][239]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module SteamVR (62)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2018.08.15-02.55.00:039][239]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2018.08.15-02.55.00:039][239]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.08.15-02.55.00:039][239]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE54709E0-40F1-C78F-AD44-22A6E369810D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ed72330b44cdae827db05e984ca3b4ed%7C0cf08c11e800428ca376de2f1e9ae35d%7C7fa8af28-5cae-43d9-a521-8b75501b5d0f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.08.15-02.55.00:059][239]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2018.08.15-02.55.00:061][239]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.08.15-02.55.00:062][239]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.08.15-02.55.00:069][239]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.08.15-02.55.00:082][239]LogExit: Exiting.
-[2018.08.15-02.55.00:109][239]Log file closed, 08/15/18 14:55:00
+[2018.08.15-07.12.30:533][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.15-07.12.30:533][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.15-07.12.30:563][  0]LogInit: Computer: DESKTOP-BNOP8B0
+[2018.08.15-07.12.30:563][  0]LogInit: User: PlagueDoctor
+[2018.08.15-07.12.30:563][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.15-07.12.30:563][  0]LogInit: High frequency timer resolution =3.919356 MHz
+[2018.08.15-07.12.30:563][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.15-07.12.30:564][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.15-07.12.30:564][  0]LogMemory: Process Physical Memory: 274.19 MB used, 274.19 MB peak
+[2018.08.15-07.12.30:564][  0]LogMemory: Process Virtual Memory: 264.68 MB used, 264.68 MB peak
+[2018.08.15-07.12.30:564][  0]LogMemory: Physical Memory: 7326.28 MB used,  8954.54 MB free, 16280.82 MB total
+[2018.08.15-07.12.30:564][  0]LogMemory: Virtual Memory: 4789.34 MB used,  8954.54 MB free, 134217728.00 MB total
+[2018.08.15-07.12.30:636][  0]LogInit: Using OS detected language (en-US).
+[2018.08.15-07.12.30:637][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.15-07.12.30:646][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.15-07.12.31:278][  0]LogStreaming: Display: Took  0.641s to EndInitTextLocalization.
+[2018.08.15-07.12.31:278][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.15-07.12.31:354][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.15-07.12.31:354][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.15-07.12.31:781][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.15-07.12.31:883][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.08.15-07.12.31:883][  0]LogD3D11RHI:       6052/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.15-07.12.31:887][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.15-07.12.31:887][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.15-07.12.31:887][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.15-07.12.31:899][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.15-07.12.31:899][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.15-07.12.31:899][  0]LogWindows: EnumDisplayDevices:
+[2018.08.15-07.12.31:900][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.08.15-07.12.31:900][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.08.15-07.12.31:900][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.15-07.12.31:901][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.15-07.12.31:901][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.15-07.12.31:901][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.08.15-07.12.31:901][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.15-07.12.31:901][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.15-07.12.31:901][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.08.15-07.12.31:979][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.15-07.12.31:979][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.15-07.12.31:979][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.15-07.12.32:001][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.15-07.12.32:053][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Intermediate/Shaders/WorkingDirectory/15184/).
+[2018.08.15-07.12.32:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PlagueDoctor/AppData/Local/Temp/UnrealShaderWorkingDir/383228DF4CEC2AEA3FB0AD9182FF7ED4/'.
+[2018.08.15-07.12.32:522][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.15-07.12.32:552][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.15-07.12.32:582][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.15-07.12.32:611][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.15-07.12.32:643][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.15-07.12.32:674][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.15-07.12.32:706][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.15-07.12.32:736][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.15-07.12.32:751][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.15-07.12.32:777][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.15-07.12.32:805][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.15-07.12.32:830][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.15-07.12.32:856][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.08.15-07.12.32:883][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.15-07.12.32:909][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.15-07.12.32:965][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.15-07.12.32:966][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.15-07.12.32:994][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.15-07.12.33:000][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.15-07.12.33:060][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.15-07.12.33:089][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.15-07.12.33:117][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.15-07.12.33:145][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.15-07.12.33:174][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.15-07.12.33:205][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.15-07.12.33:205][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.15-07.12.33:469][  0]LogXGEController: Cleaning working directory: C:/Users/PlagueDoctor/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.15-07.12.33:469][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.15-07.12.33:470][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.15-07.12.33:470][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.15-07.12.35:174][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.15-07.12.35:596][  0]LogDerivedDataCache: Loaded boot cache 0.42s 74MB C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.15-07.12.35:596][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.08.15-07.12.35:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.15-07.12.35:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.15-07.12.35:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.15-07.12.35:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.15-07.12.35:622][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.15-07.12.35:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.15-07.12.35:638][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.15-07.12.35:638][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.15-07.12.35:658][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.15-07.12.35:659][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.15-07.12.35:660][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.15-07.12.35:660][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.15-07.12.36:122][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
+[2018.08.15-07.12.36:841][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.15-07.12.37:094][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.15-07.12.37:101][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.15-07.12.37:102][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.15-07.12.37:102][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.15-07.12.37:102][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.15-07.12.37:102][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.15-07.12.37:162][  0]LogNetVersion: ALBIRB_EXPERIENCE , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1179153627)
+[2018.08.15-07.12.38:206][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.292429 seconds
+[2018.08.15-07.12.38:217][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.08.15-07.12.38:217][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.08.15-07.12.38:217][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.15-07.12.41:925][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.15-07.12.41:972][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.15-07.12.42:635][  0]SourceControl: Source control is disabled
+[2018.08.15-07.12.42:635][  0]SourceControl: Source control is disabled
+[2018.08.15-07.12.42:669][  0]SourceControl: Source control is disabled
+[2018.08.15-07.12.42:699][  0]SourceControl: Source control is disabled
+[2018.08.15-07.12.43:555][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.15-07.12.43:846][  0]LogOcInput: OculusInput pre-init called
+[2018.08.15-07.12.44:021][  0]LogEngine: Initializing Engine...
+[2018.08.15-07.12.44:025][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.15-07.12.44:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.15-07.12.44:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.15-07.12.44:411][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.15-07.12.44:536][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.15-07.12.44:562][  0]LogInit: FAudioDevice initialized.
+[2018.08.15-07.12.44:684][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/PlagueDoctor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.15-07.12.44:703][  0]LogInit: Texture streaming: Enabled
+[2018.08.15-07.12.44:750][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.15-07.12.44:793][  0]LogInit: Transaction tracking system initialized
+[2018.08.15-07.12.44:855][  0]BlueprintLog: New page: Editor Load
+[2018.08.15-07.12.45:052][  0]LocalizationService: Localization service is disabled
+[2018.08.15-07.12.45:238][  0]LogConsoleResponse: Display: 
+[2018.08.15-07.12.45:503][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.15-07.12.45:503][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.15-07.12.45:503][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.15-07.12.45:503][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.15-07.12.45:503][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.15-07.12.45:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' took 0.01s
+[2018.08.15-07.12.46:241][  0]SourceControl: Source control is disabled
+[2018.08.15-07.12.46:242][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.15-07.12.46:243][  0]LightingResults: New page: Lighting Build
+[2018.08.15-07.12.46:250][  0]MapCheck: New page: Map Check
+[2018.08.15-07.12.46:250][  0]LightingResults: New page: Lighting Build
+[2018.08.15-07.12.47:010][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.15-07.12.47:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.15-07.12.47:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.15-07.12.47:260][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 191.914ms to complete.
+[2018.08.15-07.12.47:261][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 1.018
+[2018.08.15-07.12.47:493][  0]LogCollectionManager: Loaded 0 collections in 0.003485 seconds
+[2018.08.15-07.12.47:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/Collections/' took 0.01s
+[2018.08.15-07.12.47:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Developers/PlagueDoctor/Collections/' took 0.01s
+[2018.08.15-07.12.47:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Collections/' took 0.01s
+[2018.08.15-07.12.47:566][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.08.15-07.12.47:590][  0]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 2454 classes and 560 folders.
+[2018.08.15-07.12.47:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.08.15-07.12.47:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.08.15-07.12.47:799][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2018.08.15-07.12.47:941][  0]LogSlate: Took 0.002074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.15-07.12.47:951][  0]LogSlate: Took 0.006687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.15-07.12.47:964][  0]LogSlate: Took 0.002291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.15-07.12.48:124][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2018.08.15-07.12.48:239][  0]LogSlate: Took 0.001838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.15-07.12.48:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.08.15-07.12.48:466][  0]LogLoad: (Engine Initialization) Total time: 23.17 seconds
+[2018.08.15-07.12.48:466][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.15-07.12.48:476][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.15-07.12.48:532][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.15-07.12.48:612][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' took 0.12s
+[2018.08.15-07.12.48:667][  2]LogAssetRegistry: Asset discovery search completed in 12.5673 seconds
+[2018.08.15-07.12.48:671][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.15-07.12.48:671][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000212 seconds (updated 0 objects)
+[2018.08.15-07.12.51:627][211]LogSlate: Took 0.000563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.15-07.13.52:939][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.13.52:974][395]AssetReimport: New page: Outstanding source content changes 7:13:52 AM
+[2018.08.15-07.13.53:011][396]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.fbx)
+[2018.08.15-07.13.53:041][396]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.08.15-07.13.53:041][396]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.08.15-07.13.53:041][396]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.08.15-07.13.53:042][396]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.08.15-07.13.53:042][396]LogFbx: ItemName: Material, ItemCount : 1
+[2018.08.15-07.13.53:042][396]LogFbx: ItemName: Model, ItemCount : 1
+[2018.08.15-07.13.53:053][396]LogFbx: Loading FBX Scene from C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.fbx
+[2018.08.15-07.13.53:068][396]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.13.55:797][396]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.15-07.13.55:909][396]LogFbx: Loading FBX Scene from C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.fbx
+[2018.08.15-07.13.55:919][396]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.13.55:934][396]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.08.15-07.13.56:049][396]LogStaticMesh: Building static mesh MESH_SaddleBack_v1...
+[2018.08.15-07.13.56:071][396]LogStaticMesh: Built static mesh [0.02s] /Game/Player/MESH_SaddleBack_v1.MESH_SaddleBack_v1
+[2018.08.15-07.13.56:109][396]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.13.56:310][397]LogSavePackage: Save=21.42ms
+[2018.08.15-07.13.56:310][397]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/MESH_SaddleBack_v1F0A8CF43456CDE8CE8F682B68018648B.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.uasset'
+[2018.08.15-07.13.56:328][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.uasset
+[2018.08.15-07.13.59:342][569]AssetReimport: Importing new asset /Game/Player/MESH_SaddleBack_v1.
+[2018.08.15-07.14.00:857][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.14.05:192][ 39]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.14.05:199][ 39]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.14.06:116][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.14.11:263][427]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2018.08.15-07.14.11:746][427]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024e9fc97b70, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.08.15-07.14.11:746][427]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024e9fc97b68, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.08.15-07.14.24:925][465]LogSlate: Window 'BP_Pawn' being destroyed
+[2018.08.15-07.14.25:518][465]LogSlate: Took 0.002270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.15-07.14.32:167][496]LogSlate: Took 0.003289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.15-07.14.36:447][662]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
+[2018.08.15-07.14.51:350][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.15.01:042][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.15.18:544][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.15.51:896][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.15.51:964][188]LogSlate: Window 'BP_Pawn*' being destroyed
+[2018.08.15-07.15.51:971][188]LogSlate: Window 'BP_Pawn*' being destroyed
+[2018.08.15-07.15.55:453][361]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.15-07.15.59:399][427]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.15-07.16.50:163][718]AssetReimport: New page: Outstanding source content changes 7:16:50 AM
+[2018.08.15-07.16.50:165][718]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.fbx)
+[2018.08.15-07.16.50:169][718]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.08.15-07.16.50:170][718]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.08.15-07.16.50:170][718]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.08.15-07.16.50:170][718]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.08.15-07.16.50:170][718]LogFbx: ItemName: Material, ItemCount : 1
+[2018.08.15-07.16.50:170][718]LogFbx: ItemName: Model, ItemCount : 1
+[2018.08.15-07.16.50:178][718]LogFbx: Loading FBX Scene from C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.fbx
+[2018.08.15-07.16.50:187][718]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.17.12:365][718]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.15-07.17.12:428][718]LogFbx: Loading FBX Scene from C:/Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.fbx
+[2018.08.15-07.17.12:439][718]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.17.12:446][718]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.08.15-07.17.12:510][718]LogStaticMesh: Building static mesh MESH_SaddleBack_v1...
+[2018.08.15-07.17.12:524][718]LogStaticMesh: Built static mesh [0.02s] /Game/Player/MESH_SaddleBack_v1.MESH_SaddleBack_v1
+[2018.08.15-07.17.12:733][719]LogSavePackage: Save=20.83ms
+[2018.08.15-07.17.12:733][719]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/MESH_SaddleBack_v100A6D46445B725ED6329A9A32F95E5E6.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.uasset'
+[2018.08.15-07.17.12:753][719]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/MESH_SaddleBack_v1.uasset
+[2018.08.15-07.17.14:328][808]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.17.14:338][808]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.17.15:773][884]AssetReimport: Importing new asset /Game/Player/MESH_SaddleBack_v1.
+[2018.08.15-07.18.04:971][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.06:053][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.06:964][501]LogRenderer: Reallocating scene render targets to support 1432x932 Format 10 NumSamples 1 (Frame:1).
+[2018.08.15-07.18.12:510][804]LogEditorTransaction: Undo Edit Static Mesh
+[2018.08.15-07.18.17:512][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.18:345][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.18:390][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.18:422][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.32:419][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.18.38:118][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.18.40:974][365]LogSlate: Window 'BP_Pawn*' being destroyed
+[2018.08.15-07.18.40:982][365]LogSlate: Window 'BP_Pawn*' being destroyed
+[2018.08.15-07.18.46:324][587]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.15-07.19.02:552][987]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Content\Player\MESH_SaddleBack_v1.fbx)
+[2018.08.15-07.19.02:565][987]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.08.15-07.19.02:565][987]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.08.15-07.19.02:566][987]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.08.15-07.19.02:566][987]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.08.15-07.19.02:566][987]LogFbx: ItemName: Material, ItemCount : 1
+[2018.08.15-07.19.02:566][987]LogFbx: ItemName: Model, ItemCount : 1
+[2018.08.15-07.19.02:573][987]LogFbx: Loading FBX Scene from C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Content\Player\MESH_SaddleBack_v1.fbx
+[2018.08.15-07.19.02:583][987]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.19.28:504][987]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.15-07.19.28:553][987]LogFbx: Loading FBX Scene from C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Content\Player\MESH_SaddleBack_v1.fbx
+[2018.08.15-07.19.28:564][987]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.19.28:571][987]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.08.15-07.19.28:584][987]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.15-07.19.28:584][987]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.15-07.19.28:584][987]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.15-07.19.28:584][987]LogFbx: Warning: Triangulating static mesh SaddleBack1_MESH_SaddleBack_Base
+[2018.08.15-07.19.28:632][987]LogStaticMesh: Building static mesh MESH_SaddleBack_v1...
+[2018.08.15-07.19.28:649][987]LogStaticMesh: Built static mesh [0.02s] /Game/Player/MESH_SaddleBack_v1.MESH_SaddleBack_v1
+[2018.08.15-07.19.28:666][987]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.08.15-07.19.32:492][196]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.19.32:501][196]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.19.43:678][720]LogSlate: Window 'BP_Pawn*' being destroyed
+[2018.08.15-07.19.43:686][720]LogSlate: Window 'BP_Pawn*' being destroyed
+[2018.08.15-07.19.47:824][924]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.15-07.19.51:312][160]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Content\Player\MESH_SaddleBack_v1.fbx)
+[2018.08.15-07.19.51:319][160]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.08.15-07.19.51:319][160]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.08.15-07.19.51:320][160]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.08.15-07.19.51:320][160]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.08.15-07.19.51:320][160]LogFbx: ItemName: Material, ItemCount : 1
+[2018.08.15-07.19.51:320][160]LogFbx: ItemName: Model, ItemCount : 1
+[2018.08.15-07.19.51:328][160]LogFbx: Loading FBX Scene from C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Content\Player\MESH_SaddleBack_v1.fbx
+[2018.08.15-07.19.51:338][160]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.20.05:659][160]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.15-07.20.05:707][160]LogFbx: Loading FBX Scene from C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Content\Player\MESH_SaddleBack_v1.fbx
+[2018.08.15-07.20.05:720][160]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.15-07.20.05:727][160]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.08.15-07.20.05:739][160]LogFbx: Warning: Triangulating static mesh SaddleBack1_MESH_SaddleBack_Base
+[2018.08.15-07.20.05:785][160]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.15-07.20.05:785][160]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.15-07.20.05:785][160]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.15-07.20.05:786][160]LogStaticMesh: Building static mesh MESH_SaddleBack_v1...
+[2018.08.15-07.20.05:801][160]LogStaticMesh: Built static mesh [0.02s] /Game/Player/MESH_SaddleBack_v1.MESH_SaddleBack_v1
+[2018.08.15-07.20.05:816][160]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.08.15-07.20.07:114][232]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.20.07:122][232]LogSlate: Window 'Message Log' being destroyed
+[2018.08.15-07.20.16:092][628]BlueprintLog: New page: Compile BP_Pawn
+[2018.08.15-07.20.17:124][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Pawn" FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset" SILENT=true
+[2018.08.15-07.20.17:166][662]LogSavePackage: Save=24.21ms
+[2018.08.15-07.20.17:166][662]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/BP_PawnD7CA7676447FE630698AD4BA8092C89B.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset'
+[2018.08.15-07.20.17:183][662]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset
+[2018.08.15-07.20.18:003][711]LogSlate: Window 'BP_Pawn' being destroyed
+[2018.08.15-07.20.18:009][711]LogSlate: Window 'BP_Pawn' being destroyed
+[2018.08.15-07.20.18:824][761]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.15-07.20.18:846][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.18:846][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.15-07.20.18:847][761]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 7:20:18 AM)
+[2018.08.15-07.20.18:847][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.15-07.20.18:886][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039195s)
+[2018.08.15-07.20.18:887][761]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.15-07.20.18:887][761]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2018.08.15-07.20.18:888][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.040988s)
+[2018.08.15-07.20.19:010][761]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.15-07.20.19:022][761]LogInit: FAudioDevice initialized.
+[2018.08.15-07.20.19:071][761]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.15-07.20.19:081][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-19.20.19
+[2018.08.15-07.20.19:081][761]LogWorld: Bringing up level for play took: 0.008991
+[2018.08.15-07.20.19:090][761]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.08.15-07.20.19:092][761]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.668
+[2018.08.15-07.20.19:092][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.27:082][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.15-07.20.33:860][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.20.33:943][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.33:987][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.37:532][266]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.15-07.20.37:555][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.37:555][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.15-07.20.37:555][266]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 7:20:37 AM)
+[2018.08.15-07.20.37:555][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.15-07.20.37:594][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039296s)
+[2018.08.15-07.20.37:596][266]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.15-07.20.37:597][266]LogPlayLevel: PIE: World Init took: (0.002052s)
+[2018.08.15-07.20.37:597][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.041873s)
+[2018.08.15-07.20.37:661][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.15-07.20.37:672][266]LogInit: FAudioDevice initialized.
+[2018.08.15-07.20.37:709][266]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.15-07.20.37:718][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-19.20.37
+[2018.08.15-07.20.37:718][266]LogWorld: Bringing up level for play took: 0.008938
+[2018.08.15-07.20.37:720][266]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.703
+[2018.08.15-07.20.37:721][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.39:628][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.39:669][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.45:553][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.20.55:874][243]BlueprintLog: New page: Compile BP_Pawn
+[2018.08.15-07.20.56:777][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Pawn" FILE="../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset" SILENT=true
+[2018.08.15-07.20.56:816][264]LogSavePackage: Save=24.17ms
+[2018.08.15-07.20.56:816][264]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/BP_Pawn4F859AF8455F821E0BBDBB99DEB0474F.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset'
+[2018.08.15-07.20.56:835][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset
+[2018.08.15-07.20.59:186][419]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.15-07.20.59:210][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.20.59:211][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.15-07.20.59:211][419]PIE: New page: PIE session: FlyingExampleMap (Aug 16, 2018, 7:20:59 AM)
+[2018.08.15-07.20.59:211][419]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.15-07.20.59:249][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038212s)
+[2018.08.15-07.20.59:252][419]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.15-07.20.59:252][419]LogPlayLevel: PIE: World Init took: (0.003217s)
+[2018.08.15-07.20.59:253][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.041804s)
+[2018.08.15-07.20.59:316][419]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.15-07.20.59:325][419]LogInit: FAudioDevice initialized.
+[2018.08.15-07.20.59:364][419]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.15-07.20.59:373][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.15-19.20.59
+[2018.08.15-07.20.59:374][419]LogWorld: Bringing up level for play took: 0.008362
+[2018.08.15-07.20.59:376][419]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.952
+[2018.08.15-07.20.59:376][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.21.37:437][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.21.37:481][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.15-07.22.04:023][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.15-07.22.05:438][105]LogSavePackage: Save=1265.04ms
+[2018.08.15-07.22.05:438][105]LogSavePackage: Moving '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/FlyingExampleMap674741F74EF72BD6C50A3685169D2858.tmp' to '../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap'
+[2018.08.15-07.22.05:458][105]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/PlagueDoctor/Documents/repos/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap
