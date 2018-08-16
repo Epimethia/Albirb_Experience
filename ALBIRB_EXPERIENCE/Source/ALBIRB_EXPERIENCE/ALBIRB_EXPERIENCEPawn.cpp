@@ -41,23 +41,25 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Camera->bUsePawnControlRotation = false; // Don't rotate camera with controller
 
 	// Set handling parameters
+	Gravity = -500.0f;
 	Acceleration = 500.f;
 	TurnSpeed = 50.f;
 	MaxSpeed = 4000.f;
 	MinSpeed = 500.f;
 	CurrentForwardSpeed = 500.f;
+	CurrentUpwardSpeed = Gravity;
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 {
-	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.f, 0.f);
+	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.0f, CurrentUpwardSpeed * DeltaSeconds);
 
 	// Move plan forwards (with sweep so we stop when we collide with things)
-	AddActorLocalOffset(LocalMove, true);
+	AddActorLocalOffset(LocalMove, true);	
 
 	// Calculate change in rotation this frame
 	FRotator DeltaRotation(0,0,0);
-	DeltaRotation.Pitch = CurrentPitchSpeed * DeltaSeconds;
+	//DeltaRotation.Pitch = CurrentPitchSpeed * DeltaSeconds;
 	DeltaRotation.Yaw = CurrentYawSpeed * DeltaSeconds;
 	DeltaRotation.Roll = CurrentRollSpeed * DeltaSeconds;
 
@@ -84,8 +86,9 @@ void AALBIRB_EXPERIENCEPawn::SetupPlayerInputComponent(class UInputComponent* Pl
 	check(PlayerInputComponent);
 
 	// Bind our control axis' to callback functions
-	PlayerInputComponent->BindAxis("Thrust", this, &AALBIRB_EXPERIENCEPawn::ThrustInput);
-	PlayerInputComponent->BindAxis("MoveUp", this, &AALBIRB_EXPERIENCEPawn::MoveUpInput);
+	PlayerInputComponent->BindAxis("Thrust", this, &AALBIRB_EXPERIENCEPawn::ThrustInput);	
+	PlayerInputComponent->BindAction("MoveUp", IE_Pressed, this, &AALBIRB_EXPERIENCEPawn::MoveUpInput);
+	PlayerInputComponent->BindAction("MoveUp", IE_Released, this, &AALBIRB_EXPERIENCEPawn::MoveUpInputReleased);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AALBIRB_EXPERIENCEPawn::MoveRightInput);
 }
 
@@ -101,16 +104,14 @@ void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 	CurrentForwardSpeed = FMath::Clamp(NewForwardSpeed, MinSpeed, MaxSpeed);
 }
 
-void AALBIRB_EXPERIENCEPawn::MoveUpInput(float Val)
+void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 {
-	// Target pitch speed is based in input
-	float TargetPitchSpeed = (Val * TurnSpeed * -1.f);
+	CurrentUpwardSpeed += 1000.0f;
+}
 
-	// When steering, we decrease pitch slightly
-	TargetPitchSpeed += (FMath::Abs(CurrentYawSpeed) * -0.2f);
-
-	// Smoothly interpolate to target pitch speed
-	CurrentPitchSpeed = FMath::FInterpTo(CurrentPitchSpeed, TargetPitchSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+void AALBIRB_EXPERIENCEPawn::MoveUpInputReleased()
+{
+	CurrentUpwardSpeed = Gravity;	
 }
 
 void AALBIRB_EXPERIENCEPawn::MoveRightInput(float Val)
@@ -124,10 +125,10 @@ void AALBIRB_EXPERIENCEPawn::MoveRightInput(float Val)
 	// Is there any left/right input?
 	const bool bIsTurning = FMath::Abs(Val) > 0.2f;
 
-	// If turning, yaw value is used to influence roll
-	// If not turning, roll to reverse current roll value.
-	float TargetRollSpeed = bIsTurning ? (CurrentYawSpeed * 0.5f) : (GetActorRotation().Roll * -2.f);
-
-	// Smoothly interpolate roll speed
-	CurrentRollSpeed = FMath::FInterpTo(CurrentRollSpeed, TargetRollSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+	//// If turning, yaw value is used to influence roll
+	//// If not turning, roll to reverse current roll value.
+	//float TargetRollSpeed = bIsTurning ? (CurrentYawSpeed * 0.5f) : (GetActorRotation().Roll * -2.f);
+	//
+	//// Smoothly interpolate roll speed
+	//CurrentRollSpeed = FMath::FInterpTo(CurrentRollSpeed, TargetRollSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
 }

@@ -39,7 +39,8 @@ protected:
 	void ThrustInput(float Val);
 	
 	/** Bound to the vertical axis */
-	void MoveUpInput(float Val);
+	void MoveUpInput();
+	void MoveUpInputReleased();
 
 	/** Bound to the horizontal axis */
 	void MoveRightInput(float Val);
@@ -68,11 +69,13 @@ private:
 	/** Current yaw speed */
 	float CurrentYawSpeed;
 
-	/** Current pitch speed */
-	float CurrentPitchSpeed;
+	/** Current upward speed */
+	float CurrentUpwardSpeed;
 
 	/** Current roll speed */
 	float CurrentRollSpeed;
+
+	float Gravity;
 
 public:
 	/** Returns PlaneMesh subobject **/
