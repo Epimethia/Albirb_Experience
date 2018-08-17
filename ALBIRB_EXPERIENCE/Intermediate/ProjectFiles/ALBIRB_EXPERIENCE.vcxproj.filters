@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\ALBIRB_EXPERIENCE.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{E89A6E97-450F-4B68-838D-D0020C308980}</UniqueIdentifier>
+			<UniqueIdentifier>{4E5D89AC-9095-427C-AAE1-C02A793DBAD9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{A7669847-A5BE-4420-8A03-59DF97779112}</UniqueIdentifier>
+			<UniqueIdentifier>{0D2560E8-4673-4091-BF26-53E87135848F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ALBIRB_EXPERIENCE">
-			<UniqueIdentifier>{0371E038-B07D-4DDB-9F93-56760D2A68E8}</UniqueIdentifier>
+			<UniqueIdentifier>{5AE31C75-17F8-42EC-A046-488978770FB5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.Build.cs">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
