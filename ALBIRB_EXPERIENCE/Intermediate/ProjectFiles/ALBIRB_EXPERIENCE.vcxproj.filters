@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\ALBIRB_EXPERIENCE.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{4E5D89AC-9095-427C-AAE1-C02A793DBAD9}</UniqueIdentifier>
+			<UniqueIdentifier>{0641A06D-7C35-4CC7-9535-1F9C0A271E40}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0D2560E8-4673-4091-BF26-53E87135848F}</UniqueIdentifier>
+			<UniqueIdentifier>{4EA5386F-8F4E-4A9E-88B1-9CA8EF13966E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ALBIRB_EXPERIENCE">
-			<UniqueIdentifier>{5AE31C75-17F8-42EC-A046-488978770FB5}</UniqueIdentifier>
+			<UniqueIdentifier>{E0E4469C-7C27-4BA9-A7FF-E7DFAA8DE506}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.Build.cs">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
@@ -52,6 +52,12 @@
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.h">
+			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ALBIRB_EXPERIENCE\PerchingComponent.cpp">
+			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ALBIRB_EXPERIENCE\PerchingComponent.h">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
 		</ClInclude >
 	</ItemGroup>
