@@ -33,7 +33,6 @@ public:
 	// End AActor overrides
 
 	/** Current forward speed */
-<<<<<<< HEAD
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float CurrentForwardSpeed;
 
@@ -41,17 +40,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float CurrentUpwardSpeed;
 
-=======
-	UPROPERTY(BlueprintReadWrite)
-	float CurrentForwardSpeed;
-
-	/** Current upward speed */
-	UPROPERTY(BlueprintReadWrite)
-	float CurrentUpwardSpeed;
-
 	/** Current stamina*/
 	float Stamina;
->>>>>>> origin/Jasper-BrokeMasterMonkaS
 
 protected:
 
@@ -88,13 +78,7 @@ private:
 
 	/** Min forward speed */
 	UPROPERTY(Category=Yaw, EditAnywhere)
-<<<<<<< HEAD
 	float MinSpeed;
-
-
-=======
-	float MinSpeed;	
->>>>>>> origin/Jasper-BrokeMasterMonkaS
 
 	/** Current yaw speed */
 	float CurrentYawSpeed;	
