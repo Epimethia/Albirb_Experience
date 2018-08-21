@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 	ALBIRB_EXPERIENCE_API UClass* Z_Construct_UClass_AALBIRB_EXPERIENCEPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_ALBIRB_EXPERIENCE();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -44,6 +46,13 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PerchBlueprint_MetaData[] = {
+				{ "Category", "ALBIRB_EXPERIENCEPawn" },
+				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_PerchBlueprint = { UE4CodeGen_Private::EPropertyClass::Class, "PerchBlueprint", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, PerchBlueprint), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_PerchBlueprint_MetaData, ARRAY_COUNT(NewProp_PerchBlueprint_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Gravity_MetaData[] = {
 				{ "Category", "ALBIRB_EXPERIENCEPawn" },
@@ -131,6 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlaneMesh = { UE4CodeGen_Private::EPropertyClass::Object, "PlaneMesh", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b001d, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, PlaneMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_PlaneMesh_MetaData, ARRAY_COUNT(NewProp_PlaneMesh_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PerchBlueprint,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Gravity,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxSpeed,
@@ -160,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 1553814957);
+	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 256838597);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AALBIRB_EXPERIENCEPawn(Z_Construct_UClass_AALBIRB_EXPERIENCEPawn, &AALBIRB_EXPERIENCEPawn::StaticClass, TEXT("/Script/ALBIRB_EXPERIENCE"), TEXT("AALBIRB_EXPERIENCEPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AALBIRB_EXPERIENCEPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

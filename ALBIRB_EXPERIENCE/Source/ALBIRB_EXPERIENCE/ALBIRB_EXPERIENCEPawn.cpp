@@ -6,8 +6,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "Engine/TriggerVolume.h"
-#include "Engine/World.h"
+
+#include "EngineUtils.h"
 #include "Engine/StaticMesh.h"
 
 AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
@@ -51,6 +51,8 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Stamina = 100.0f;
 	CurrentUpwardSpeed = Gravity;	
 	CurrentForwardSpeed = 750.f;
+
+	World = GetWorld();
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
@@ -123,6 +125,17 @@ void AALBIRB_EXPERIENCEPawn::PerchInput()
 {
 	Perching = true;	
 	CurrentUpwardSpeed = Gravity;
+
+	// Check if we're perching
+	//for (TActorIterator<AActor> It(World, PerchBlueprint); It; ++It)
+	//{		
+	//	//float Distance = GetOwner()->GetDistanceTo(*It);
+	//	//if (Distance < 1500)
+	//	//{
+	//	//	UE_LOG(LogTemp, Error, TEXT("Incrementing Stamina"));
+	//	//	Stamina += 1.1f;
+	//	//}				
+	//}
 }
 
 void AALBIRB_EXPERIENCEPawn::PerchInputReleased()

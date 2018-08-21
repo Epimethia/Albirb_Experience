@@ -3,6 +3,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Engine/World.h"
 #include "ALBIRB_EXPERIENCEPawn.generated.h"
 
 UCLASS(Config=Game)
@@ -89,6 +90,11 @@ private:
 
 	/** Current perch status */
 	bool Perching;	
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> PerchBlueprint;	
+
+	UWorld* World;
 
 public:
 	/** Returns PlaneMesh subobject **/
