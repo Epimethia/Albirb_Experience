@@ -26,6 +26,7 @@
 /NODEFAULTLIB:"LIBCP"
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
+<<<<<<< HEAD
 "D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.cpp.obj"
 "D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEGameMode.cpp.obj"
@@ -37,6 +38,19 @@
 "D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\PerchingComponent.gen.cpp.obj"
 "D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\PCLaunch.rc.res"
 "D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+=======
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEGameMode.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\PerchingComponent.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.init.gen.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEGameMode.gen.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.gen.cpp.obj"
+"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\PerchingComponent.gen.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ALBIRB_EXPERIENCE\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+>>>>>>> origin/StevenBranch
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -61,6 +75,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
+<<<<<<< HEAD
 "D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
 "D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "D:\Epic\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
@@ -68,4 +83,13 @@
 /OUT:"D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Binaries\Win64\UE4Editor-ALBIRB_EXPERIENCE.dll"
 /IMPLIB:"D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.lib"
 /PDB:"D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Binaries\Win64\UE4Editor-ALBIRB_EXPERIENCE.pdb"
+=======
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+/OUT:"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Binaries\Win64\UE4Editor-ALBIRB_EXPERIENCE.dll"
+/IMPLIB:"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.lib"
+/PDB:"D:\Users\steven.zha7447\Desktop\AlBirbExperience\ALBIRB_EXPERIENCE\Binaries\Win64\UE4Editor-ALBIRB_EXPERIENCE.pdb"
+>>>>>>> origin/StevenBranch
 /ignore:4078
