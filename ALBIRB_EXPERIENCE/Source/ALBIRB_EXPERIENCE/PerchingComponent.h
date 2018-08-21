@@ -24,12 +24,12 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-private:
-	UPROPERTY(Category = TriggerVolume, EditAnywhere)
-	ATriggerVolume * PerchTrigger;
+private:	
 	UPROPERTY(EditAnywhere)	
 	AActor* PlayerPawn;
-	AActor* OwnerActor;	
+	AActor* OwnerActor;		
+	bool PlayerPerchStatus;
 	float LerpDelta;
+	float PerchHeight; // how high above the object do we perch
 	
 };

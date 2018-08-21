@@ -3,6 +3,7 @@
 #include "PerchingComponent.h"
 #include "Engine/World.h"
 #include "Math/UnrealMathUtility.h"
+#include "ALBIRB_EXPERIENCEPawn.h"
 
 
 // Sets default values for this component's properties
@@ -26,6 +27,8 @@ void UPerchingComponent::BeginPlay()
 	PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
 	OwnerActor = GetOwner();
 	LerpDelta = 0.0f;
+	PerchHeight = 700.0f;
+	PlayerPerchStatus = false;
 }
 
 
@@ -33,29 +36,36 @@ void UPerchingComponent::BeginPlay()
 void UPerchingComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);		
-
 	
-	// ...	
-	float Distance = OwnerActor->GetDistanceTo(PlayerPawn);
-	//UE_LOG(LogTemp, Warning, TEXT("Distance = %f"), Distance);
+	float Distance = OwnerActor->GetDistanceTo(PlayerPawn);	
 
 	// If the player is within 1000 units of the perch, check for trigger overlap
-	if (Distance < 5000.0f)
+	if (Distance < 2500.0f)
 	{		
-		if (PerchTrigger->IsOverlappingActor(PlayerPawn) // Check trigger overlap
-		 && GetWorld()->GetFirstPlayerController()->IsInputKeyDown(EKeys::E)) // Check that PerchKey is held (EKeys::PerchKey)
-		{										
-			LerpDelta += DeltaTime / 50;
+		UE_LOG(LogTemp, Warning, TEXT("Distance = %f"), Distance);
+		// Check if the player is trying to perch
+		if (GetWorld()->GetFirstPlayerController()->IsInputKeyDown(EKeys::E))
+		{
+			LerpDelta += DeltaTime;
 			UE_LOG(LogTemp, Warning, TEXT("OVERLAPPING - %f"), LerpDelta);
 
 			if (LerpDelta > 1.0f)
 			{
 				LerpDelta = 1.0f;
 			}
-			FVector lerpPosition = FMath::Lerp<FVector>(PlayerPawn->GetActorLocation(), OwnerActor->GetActorLocation() + FVector(0.0f, 0.0f, 300.0f), LerpDelta);
-			PlayerPawn->SetActorLocation(lerpPosition);		
+
+			FVector lerpPosition = FMath::Lerp<FVector>(
+				PlayerPawn->GetActorLocation(),
+				OwnerActor->GetActorLocation() + FVector(0.0f, 0.0f, PerchHeight),
+				LerpDelta
+			);
+
+			PlayerPawn->SetActorLocation(lerpPosition);
+		}	
+		else
+		{
+			LerpDelta = 0.0f;
 		}
-	}
-	
+	}	
 }
 
