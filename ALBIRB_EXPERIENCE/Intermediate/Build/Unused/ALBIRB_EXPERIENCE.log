@@ -1,8 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
   Performing 3 actions (4 in parallel)
   ALBIRB_EXPERIENCEPawn.cpp
-  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE.dll
-  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE.lib
-     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.exp
-     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.exp
-  Total build time: 5.07 seconds (Local executor: 4.22 seconds)
+  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE-5749.dll
+  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE-5749.lib
+     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5749.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5749.exp
+     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5749.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5749.suppressed.exp
+  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
+  Total build time: 3.16 seconds (Local executor: 1.82 seconds)

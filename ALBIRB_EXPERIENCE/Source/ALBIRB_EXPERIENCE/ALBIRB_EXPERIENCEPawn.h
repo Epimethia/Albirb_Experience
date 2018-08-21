@@ -21,6 +21,8 @@ class AALBIRB_EXPERIENCEPawn : public APawn
 	/** Camera component that will be our viewpoint */
 	UPROPERTY(Category = Camera, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
+
+
 public:
 	AALBIRB_EXPERIENCEPawn();
 
@@ -28,6 +30,15 @@ public:
 	virtual void Tick(float DeltaSeconds) override;
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;		
 	// End AActor overrides
+
+	/** Current forward speed */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float CurrentForwardSpeed;
+
+	/** Current upward speed */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float CurrentUpwardSpeed;
+
 
 protected:
 
@@ -66,13 +77,7 @@ private:
 	UPROPERTY(Category=Yaw, EditAnywhere)
 	float MinSpeed;
 
-	/** Current forward speed */
-	UPROPERTY(EditAnywhere)
-	float CurrentForwardSpeed;
 
-	/** Current upward speed */
-	UPROPERTY(EditAnywhere)
-	float CurrentUpwardSpeed;
 
 	/** Current yaw speed */
 	float CurrentYawSpeed;	
