@@ -1,16 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-<<<<<<< HEAD
-  Performing 3 actions (4 in parallel)
+  Parsing headers for ALBIRB_EXPERIENCEEditor
+    Running UnrealHeaderTool "D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.uproject" "D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\ALBIRB_EXPERIENCEEditor\Development\ALBIRB_EXPERIENCEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ALBIRB_EXPERIENCEEditor in 6.8432829 seconds
+  Performing 8 actions (4 in parallel)
+  ALBIRB_EXPERIENCEPawn.cpp
+  ALBIRB_EXPERIENCEGameMode.cpp
   PerchingComponent.cpp
-  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE-9266.dll
-  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE-9266.lib
-     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.suppressed.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.suppressed.exp
-     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.exp
+  ALBIRB_EXPERIENCE.init.gen.cpp
+  ALBIRB_EXPERIENCEPawn.gen.cpp
+  PerchingComponent.gen.cpp
+  [7/8] Link UE4Editor-ALBIRB_EXPERIENCE-5003.dll
+  [8/8] Link UE4Editor-ALBIRB_EXPERIENCE-5003.lib
+     Creating library D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.lib and object D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.exp
+     Creating library D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.suppressed.lib and object D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.suppressed.exp
   Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
-  Total build time: 5.74 seconds (Local executor: 1.74 seconds)
-=======
-  Target is up to date
-  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
-  Total build time: 0.63 seconds (NoActionsToExecute executor: 0.00 seconds)
->>>>>>> Tree-Spawning-James
+  Total build time: 9.95 seconds (Local executor: 1.52 seconds)

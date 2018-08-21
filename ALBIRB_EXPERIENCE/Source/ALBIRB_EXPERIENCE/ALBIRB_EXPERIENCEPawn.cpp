@@ -42,19 +42,15 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Camera->bUsePawnControlRotation = false; // Don't rotate camera with controller
 
 	// Set handling parameters
-	Gravity = -500.0f;
+	Gravity = -900.0f;
 	Acceleration = 500.f;
 	TurnSpeed = 50.f;
 	MaxSpeed = 4000.f;
 	MinSpeed = 500.f;
-<<<<<<< HEAD
 	CurrentForwardSpeed = 500.f;
 	Stamina = 100.0f;
-	CurrentUpwardSpeed = Gravity;
-	Perching = false;
-=======
+	CurrentUpwardSpeed = Gravity;	
 	CurrentForwardSpeed = 750.f;
->>>>>>> Tree-Spawning-James
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
@@ -141,7 +137,7 @@ void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 		// Decrement Stamina
 		Stamina -= 0.005;
 		// Increase Upward Speed
-		CurrentUpwardSpeed += 1000.0f;
+		CurrentUpwardSpeed += 2500.0f;
 	}
 }
 

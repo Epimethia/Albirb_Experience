@@ -67,8 +67,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AALBIRB_EXPERIENCEPawn); \
 	FORCEINLINE static uint32 __PPO__TurnSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, TurnSpeed); } \
 	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, MaxSpeed); } \
 	FORCEINLINE static uint32 __PPO__MinSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, MinSpeed); } \
-	FORCEINLINE static uint32 __PPO__CurrentForwardSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentForwardSpeed); } \
-	FORCEINLINE static uint32 __PPO__CurrentUpwardSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentUpwardSpeed); } \
 	FORCEINLINE static uint32 __PPO__Gravity() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, Gravity); }
 
 

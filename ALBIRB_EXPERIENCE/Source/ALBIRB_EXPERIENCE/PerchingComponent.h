@@ -24,12 +24,12 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-private:	
-	UPROPERTY(EditAnywhere)	
+private:		
 	AActor* PlayerPawn;
+	UPROPERTY(EditAnywhere)
+	FVector PerchOffset = FVector(0.0f, 0.0f, 700.0f); // Where, relative to the objects position do we perch
 	AActor* OwnerActor;		
-	bool PlayerPerchStatus;
-	float LerpDelta;
-	float PerchHeight; // how high above the object do we perch
+	bool PlayerPerchStatus; 
+	float LerpDelta; // lerp t variable
 	
 };

@@ -29,6 +29,17 @@ public:
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;		
 	// End AActor overrides
 
+	/** Current forward speed */
+	UPROPERTY(BlueprintReadWrite)
+	float CurrentForwardSpeed;
+
+	/** Current upward speed */
+	UPROPERTY(BlueprintReadWrite)
+	float CurrentUpwardSpeed;
+
+	/** Current stamina*/
+	float Stamina;
+
 protected:
 
 	// Begin APawn overrides
@@ -64,15 +75,7 @@ private:
 
 	/** Min forward speed */
 	UPROPERTY(Category=Yaw, EditAnywhere)
-	float MinSpeed;
-
-	/** Current forward speed */
-	UPROPERTY(EditAnywhere)
-	float CurrentForwardSpeed;
-
-	/** Current upward speed */
-	UPROPERTY(EditAnywhere)
-	float CurrentUpwardSpeed;
+	float MinSpeed;	
 
 	/** Current yaw speed */
 	float CurrentYawSpeed;	
@@ -85,10 +88,7 @@ private:
 	float Gravity;
 
 	/** Current perch status */
-	bool Perching;		
-
-	/** Current stamina*/	
-	float Stamina;
+	bool Perching;	
 
 public:
 	/** Returns PlaneMesh subobject **/
