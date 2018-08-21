@@ -47,10 +47,14 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	TurnSpeed = 50.f;
 	MaxSpeed = 4000.f;
 	MinSpeed = 500.f;
+<<<<<<< HEAD
 	CurrentForwardSpeed = 500.f;
 	Stamina = 100.0f;
 	CurrentUpwardSpeed = Gravity;
 	Perching = false;
+=======
+	CurrentForwardSpeed = 750.f;
+>>>>>>> Tree-Spawning-James
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)

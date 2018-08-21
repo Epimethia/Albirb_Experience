@@ -19,8 +19,13 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCE_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ALBIRB_EXPERIENCE",
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0x3888F414,
 				0xD0A5E790,
+=======
+				0x7FCE7130,
+				0xF0CFC89A,
+>>>>>>> Tree-Spawning-James
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

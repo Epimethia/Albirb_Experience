@@ -1,5 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
+<<<<<<< HEAD
   Performing 3 actions (4 in parallel)
   PerchingComponent.cpp
   [2/3] Link UE4Editor-ALBIRB_EXPERIENCE-9266.dll
@@ -8,3 +9,8 @@
      Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.exp
   Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
   Total build time: 5.74 seconds (Local executor: 1.74 seconds)
+=======
+  Target is up to date
+  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
+  Total build time: 0.63 seconds (NoActionsToExecute executor: 0.00 seconds)
+>>>>>>> Tree-Spawning-James

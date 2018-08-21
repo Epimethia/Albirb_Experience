@@ -2,6 +2,10 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"ALBIRB_EXPERIENCE": "UE4Editor-ALBIRB_EXPERIENCE-9266.dll"
+=======
+		"ALBIRB_EXPERIENCE": "UE4Editor-ALBIRB_EXPERIENCE.dll"
+>>>>>>> Tree-Spawning-James
 	}
 }

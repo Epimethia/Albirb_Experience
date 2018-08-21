@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\ALBIRB_EXPERIENCE.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
 			<UniqueIdentifier>{0641A06D-7C35-4CC7-9535-1F9C0A271E40}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{73241AC2-A898-4B98-A7F2-563EF8F4E7B6}</UniqueIdentifier>
+>>>>>>> Tree-Spawning-James
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{4EA5386F-8F4E-4A9E-88B1-9CA8EF13966E}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{0F2A13F0-FB99-432C-A5F1-F4C5522F41FA}</UniqueIdentifier>
+>>>>>>> Tree-Spawning-James
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +39,11 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ALBIRB_EXPERIENCE">
+<<<<<<< HEAD
 			<UniqueIdentifier>{E0E4469C-7C27-4BA9-A7FF-E7DFAA8DE506}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{9F030651-E4DA-407D-91F1-D6A76B166043}</UniqueIdentifier>
+>>>>>>> Tree-Spawning-James
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.Build.cs">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
@@ -54,10 +66,17 @@
 		<ClInclude Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCEPawn.h">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
 		</ClInclude >
+<<<<<<< HEAD
 		<ClCompile Include="..\..\Source\ALBIRB_EXPERIENCE\PerchingComponent.cpp">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\ALBIRB_EXPERIENCE\PerchingComponent.h">
+=======
+		<ClCompile Include="..\..\Source\ALBIRB_EXPERIENCE\Albirb_Gamemode.cpp">
+			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ALBIRB_EXPERIENCE\Albirb_Gamemode.h">
+>>>>>>> Tree-Spawning-James
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
 		</ClInclude >
 	</ItemGroup>
