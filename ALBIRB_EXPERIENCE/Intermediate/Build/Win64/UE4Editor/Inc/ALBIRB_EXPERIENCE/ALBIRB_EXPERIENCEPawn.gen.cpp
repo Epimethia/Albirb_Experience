@@ -45,6 +45,14 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentForwardSpeed_MetaData[] = {
+				{ "Category", "ALBIRB_EXPERIENCEPawn" },
+				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
+				{ "ToolTip", "Current forward speed" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentForwardSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentForwardSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentForwardSpeed), METADATA_PARAMS(NewProp_CurrentForwardSpeed_MetaData, ARRAY_COUNT(NewProp_CurrentForwardSpeed_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinSpeed_MetaData[] = {
 				{ "Category", "Yaw" },
 				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
@@ -107,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlaneMesh = { UE4CodeGen_Private::EPropertyClass::Object, "PlaneMesh", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b001d, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, PlaneMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_PlaneMesh_MetaData, ARRAY_COUNT(NewProp_PlaneMesh_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentForwardSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TurnSpeed,
@@ -133,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 4269806886);
+	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 471851026);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AALBIRB_EXPERIENCEPawn(Z_Construct_UClass_AALBIRB_EXPERIENCEPawn, &AALBIRB_EXPERIENCEPawn::StaticClass, TEXT("/Script/ALBIRB_EXPERIENCE"), TEXT("AALBIRB_EXPERIENCEPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AALBIRB_EXPERIENCEPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

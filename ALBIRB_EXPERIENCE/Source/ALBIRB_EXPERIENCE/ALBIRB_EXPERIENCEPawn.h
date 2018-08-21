@@ -26,7 +26,7 @@ public:
 
 	// Begin AActor overrides
 	virtual void Tick(float DeltaSeconds) override;
-	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
+	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;	
 	// End AActor overrides
 
 protected:
@@ -44,6 +44,9 @@ protected:
 
 	/** Bound to the horizontal axis */
 	void MoveRightInput(float Val);
+
+	void PerchInput();
+	void PerchInputReleased();
 
 private:
 
@@ -64,6 +67,7 @@ private:
 	float MinSpeed;
 
 	/** Current forward speed */
+	UPROPERTY(EditAnywhere)
 	float CurrentForwardSpeed;
 
 	/** Current yaw speed */
@@ -75,7 +79,11 @@ private:
 	/** Current roll speed */
 	float CurrentRollSpeed;
 
+	/** Current gravity */
 	float Gravity;
+
+	/** Current perch status */
+	bool Perching;		
 
 public:
 	/** Returns PlaneMesh subobject **/

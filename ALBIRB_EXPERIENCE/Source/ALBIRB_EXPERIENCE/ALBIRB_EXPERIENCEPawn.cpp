@@ -6,6 +6,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Engine/TriggerVolume.h"
 #include "Engine/World.h"
 #include "Engine/StaticMesh.h"
 
@@ -48,14 +49,20 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	MinSpeed = 500.f;
 	CurrentForwardSpeed = 500.f;
 	CurrentUpwardSpeed = Gravity;
+	Perching = false;
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 {
 	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.0f, CurrentUpwardSpeed * DeltaSeconds);
 
-	// Move plan forwards (with sweep so we stop when we collide with things)
-	AddActorLocalOffset(LocalMove, true);	
+	
+
+	if (!Perching)
+	{
+		// Move plan forwards (with sweep so we stop when we collide with things)
+		AddActorLocalOffset(LocalMove, true);
+	}
 
 	// Calculate change in rotation this frame
 	FRotator DeltaRotation(0,0,0);
@@ -79,7 +86,6 @@ void AALBIRB_EXPERIENCEPawn::NotifyHit(class UPrimitiveComponent* MyComp, class 
 	SetActorRotation(FQuat::Slerp(CurrentRotation.Quaternion(), HitNormal.ToOrientationQuat(), 0.025f));
 }
 
-
 void AALBIRB_EXPERIENCEPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
     // Check if PlayerInputComponent is valid (not NULL)
@@ -89,24 +95,42 @@ void AALBIRB_EXPERIENCEPawn::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAxis("Thrust", this, &AALBIRB_EXPERIENCEPawn::ThrustInput);	
 	PlayerInputComponent->BindAction("MoveUp", IE_Pressed, this, &AALBIRB_EXPERIENCEPawn::MoveUpInput);
 	PlayerInputComponent->BindAction("MoveUp", IE_Released, this, &AALBIRB_EXPERIENCEPawn::MoveUpInputReleased);
+	PlayerInputComponent->BindAction("Perching", IE_Pressed, this, &AALBIRB_EXPERIENCEPawn::PerchInput);
+	PlayerInputComponent->BindAction("Perching", IE_Released, this, &AALBIRB_EXPERIENCEPawn::PerchInputReleased);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AALBIRB_EXPERIENCEPawn::MoveRightInput);
 }
 
 void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 {
-	// Is there any input?
-	bool bHasInput = !FMath::IsNearlyEqual(Val, 0.f);
-	// If input is not held down, reduce speed
-	float CurrentAcc = bHasInput ? (Val * Acceleration) : (-0.5f * Acceleration);
-	// Calculate new speed
-	float NewForwardSpeed = CurrentForwardSpeed + (GetWorld()->GetDeltaSeconds() * CurrentAcc);
-	// Clamp between MinSpeed and MaxSpeed
-	CurrentForwardSpeed = FMath::Clamp(NewForwardSpeed, MinSpeed, MaxSpeed);
+	if (!Perching)
+	{
+		// Is there any input?
+		bool bHasInput = !FMath::IsNearlyEqual(Val, 0.f);
+		// If input is not held down, reduce speed
+		float CurrentAcc = bHasInput ? (Val * Acceleration) : (-0.5f * Acceleration);
+		// Calculate new speed
+		float NewForwardSpeed = CurrentForwardSpeed + (GetWorld()->GetDeltaSeconds() * CurrentAcc);
+		// Clamp between MinSpeed and MaxSpeed
+		CurrentForwardSpeed = FMath::Clamp(NewForwardSpeed, MinSpeed, MaxSpeed);
+	}
+}
+
+void AALBIRB_EXPERIENCEPawn::PerchInput()
+{
+	//Perching = true;	
+}
+
+void AALBIRB_EXPERIENCEPawn::PerchInputReleased()
+{
+	Perching = false;	
 }
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 {
-	CurrentUpwardSpeed += 1000.0f;
+	if (!Perching)
+	{
+		CurrentUpwardSpeed += 1000.0f;
+	}
 }
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInputReleased()
@@ -116,19 +140,22 @@ void AALBIRB_EXPERIENCEPawn::MoveUpInputReleased()
 
 void AALBIRB_EXPERIENCEPawn::MoveRightInput(float Val)
 {
-	// Target yaw speed is based on input
-	float TargetYawSpeed = (Val * TurnSpeed);
+	if (!Perching)
+	{
+		// Target yaw speed is based on input
+		float TargetYawSpeed = (Val * TurnSpeed);
 
-	// Smoothly interpolate to target yaw speed
-	CurrentYawSpeed = FMath::FInterpTo(CurrentYawSpeed, TargetYawSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+		// Smoothly interpolate to target yaw speed
+		CurrentYawSpeed = FMath::FInterpTo(CurrentYawSpeed, TargetYawSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
 
-	// Is there any left/right input?
-	const bool bIsTurning = FMath::Abs(Val) > 0.2f;
+		// Is there any left/right input?
+		const bool bIsTurning = FMath::Abs(Val) > 0.2f;
 
-	//// If turning, yaw value is used to influence roll
-	//// If not turning, roll to reverse current roll value.
-	//float TargetRollSpeed = bIsTurning ? (CurrentYawSpeed * 0.5f) : (GetActorRotation().Roll * -2.f);
-	//
-	//// Smoothly interpolate roll speed
-	//CurrentRollSpeed = FMath::FInterpTo(CurrentRollSpeed, TargetRollSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+		// If turning, yaw value is used to influence roll
+		// If not turning, roll to reverse current roll value.
+		float TargetRollSpeed = GetActorRotation().Roll * -2.f;
+		
+		// Smoothly interpolate roll speed
+		CurrentRollSpeed = FMath::FInterpTo(CurrentRollSpeed, TargetRollSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+	}
 }

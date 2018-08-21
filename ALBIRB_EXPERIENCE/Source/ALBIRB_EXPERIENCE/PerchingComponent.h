@@ -18,7 +18,7 @@ public:
 
 protected:
 	// Called when the game starts
-	virtual void BeginPlay() override;
+	virtual void BeginPlay() override;	
 
 public:	
 	// Called every frame
@@ -27,7 +27,9 @@ public:
 private:
 	UPROPERTY(Category = TriggerVolume, EditAnywhere)
 	ATriggerVolume * PerchTrigger;
+	UPROPERTY(EditAnywhere)	
 	AActor* PlayerPawn;
-	AActor* OwnerActor;
+	AActor* OwnerActor;	
+	float LerpDelta;
 	
 };
