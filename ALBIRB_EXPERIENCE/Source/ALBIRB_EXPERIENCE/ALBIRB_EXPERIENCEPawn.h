@@ -3,6 +3,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Engine/World.h"
 #include "ALBIRB_EXPERIENCEPawn.generated.h"
 
 UCLASS(Config=Game)
@@ -32,6 +33,7 @@ public:
 	// End AActor overrides
 
 	/** Current forward speed */
+<<<<<<< HEAD
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float CurrentForwardSpeed;
 
@@ -39,6 +41,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float CurrentUpwardSpeed;
 
+=======
+	UPROPERTY(BlueprintReadWrite)
+	float CurrentForwardSpeed;
+
+	/** Current upward speed */
+	UPROPERTY(BlueprintReadWrite)
+	float CurrentUpwardSpeed;
+
+	/** Current stamina*/
+	float Stamina;
+>>>>>>> origin/Jasper-BrokeMasterMonkaS
 
 protected:
 
@@ -75,9 +88,13 @@ private:
 
 	/** Min forward speed */
 	UPROPERTY(Category=Yaw, EditAnywhere)
+<<<<<<< HEAD
 	float MinSpeed;
 
 
+=======
+	float MinSpeed;	
+>>>>>>> origin/Jasper-BrokeMasterMonkaS
 
 	/** Current yaw speed */
 	float CurrentYawSpeed;	
@@ -90,10 +107,12 @@ private:
 	float Gravity;
 
 	/** Current perch status */
-	bool Perching;		
+	bool Perching;	
 
-	/** Current stamina*/	
-	float Stamina;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> PerchBlueprint;	
+
+	UWorld* World;
 
 public:
 	/** Returns PlaneMesh subobject **/

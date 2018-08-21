@@ -6,8 +6,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "Engine/TriggerVolume.h"
-#include "Engine/World.h"
+
+#include "EngineUtils.h"
 #include "Engine/StaticMesh.h"
 
 AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
@@ -43,16 +43,17 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Camera->SetRelativeRotation(FRotator(45.0f, 0.0f, 0.0f));
 
 	// Set handling parameters
-	Gravity = -500.0f;
+	Gravity = -900.0f;
 	Acceleration = 500.f;
 	TurnSpeed = 50.f;
 	MaxSpeed = 4000.f;
 	MinSpeed = 500.f;
 	CurrentForwardSpeed = 500.f;
 	Stamina = 100.0f;
-	CurrentUpwardSpeed = Gravity;
-	Perching = false;
+	CurrentUpwardSpeed = Gravity;	
 	CurrentForwardSpeed = 750.f;
+
+	World = GetWorld();
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
@@ -125,6 +126,17 @@ void AALBIRB_EXPERIENCEPawn::PerchInput()
 {
 	Perching = true;	
 	CurrentUpwardSpeed = Gravity;
+
+	// Check if we're perching
+	//for (TActorIterator<AActor> It(World, PerchBlueprint); It; ++It)
+	//{		
+	//	//float Distance = GetOwner()->GetDistanceTo(*It);
+	//	//if (Distance < 1500)
+	//	//{
+	//	//	UE_LOG(LogTemp, Error, TEXT("Incrementing Stamina"));
+	//	//	Stamina += 1.1f;
+	//	//}				
+	//}
 }
 
 void AALBIRB_EXPERIENCEPawn::PerchInputReleased()
@@ -139,7 +151,7 @@ void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 		// Decrement Stamina
 		Stamina -= 0.005;
 		// Increase Upward Speed
-		CurrentUpwardSpeed += 1000.0f;
+		CurrentUpwardSpeed += 2500.0f;
 	}
 }
 

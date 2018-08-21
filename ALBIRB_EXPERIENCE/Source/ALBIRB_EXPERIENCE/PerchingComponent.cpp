@@ -22,12 +22,10 @@ void UPerchingComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
 	// Initialize Member Variables
 	PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
 	OwnerActor = GetOwner();
-	LerpDelta = 0.0f;
-	PerchHeight = 700.0f;
+	LerpDelta = 0.0f;	
 	PlayerPerchStatus = false;
 }
 
@@ -46,24 +44,26 @@ void UPerchingComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 		// Check if the player is trying to perch
 		if (GetWorld()->GetFirstPlayerController()->IsInputKeyDown(EKeys::E))
 		{
-			LerpDelta += DeltaTime;
+			// Increment by DeltaTime
+			LerpDelta += DeltaTime; 
 			UE_LOG(LogTemp, Warning, TEXT("OVERLAPPING - %f"), LerpDelta);
 
-			if (LerpDelta > 1.0f)
-			{
-				LerpDelta = 1.0f;
-			}
+			// Clamp/Limit LerpDelta
+			LerpDelta = FMath::Clamp(LerpDelta, 0.0f, 1.0f);			
 
+			// Lerp towards perch 
 			FVector lerpPosition = FMath::Lerp<FVector>(
-				PlayerPawn->GetActorLocation(),
-				OwnerActor->GetActorLocation() + FVector(0.0f, 0.0f, PerchHeight),
-				LerpDelta
+				PlayerPawn->GetActorLocation(), // Player Position
+				OwnerActor->GetActorLocation() + PerchOffset, // Perch Position
+				LerpDelta // t 
 			);
 
+			// Apply lerp 
 			PlayerPawn->SetActorLocation(lerpPosition);
 		}	
 		else
 		{
+			// Reset LerpDelta
 			LerpDelta = 0.0f;
 		}
 	}	

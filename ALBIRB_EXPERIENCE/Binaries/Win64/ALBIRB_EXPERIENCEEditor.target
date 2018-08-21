@@ -16,6 +16,7 @@
 	},
 	"BuildProducts": [
 		{
+<<<<<<< HEAD
 			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-3706.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -25,6 +26,17 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ALBIRB_EXPERIENCE-3706.lib",
+=======
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-3899.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-3899.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ALBIRB_EXPERIENCE-3899.lib",
+>>>>>>> origin/Jasper-BrokeMasterMonkaS
 			"Type": "ImportLibrary"
 		},
 		{

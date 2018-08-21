@@ -1,4 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+<<<<<<< HEAD
   Compiling game modules for hot reload
   Performing full C++ include scan (no include cache file)
   Performing 3 actions (4 in parallel)
@@ -9,3 +10,12 @@
      Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5749.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5749.suppressed.exp
   Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
   Total build time: 3.16 seconds (Local executor: 1.82 seconds)
+=======
+  Performing 2 actions (4 in parallel)
+  ALBIRB_EXPERIENCEPawn.cpp
+  [2/2] Link ALBIRB_EXPERIENCE.exe
+     Creating library D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Binaries\Win64\ALBIRB_EXPERIENCE.lib and object D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Binaries\Win64\ALBIRB_EXPERIENCE.exp
+  Deploying ALBIRB_EXPERIENCE Win64 Development...
+  Prepping UE4 for deployment to Win64
+  Total build time: 15.95 seconds (Local executor: 15.46 seconds)
+>>>>>>> origin/Jasper-BrokeMasterMonkaS

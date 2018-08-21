@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ALBIRB_EXPERIENCE.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{41275A0C-E82F-49E2-BB6D-CBFE16B45531}</UniqueIdentifier>
+			<UniqueIdentifier>{10A64C97-34DF-4FA7-A3D6-47FC9A7DF26B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E0044410-2D34-4C0F-A2BE-1C98EA8F74CB}</UniqueIdentifier>
+			<UniqueIdentifier>{A6A911BB-3D3B-46C7-914A-5ECFFDD01297}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ALBIRB_EXPERIENCE">
-			<UniqueIdentifier>{6C8DD74C-6989-43D6-8D13-14782A2A9246}</UniqueIdentifier>
+			<UniqueIdentifier>{0A1406D6-4BD4-4DE3-819E-8134FF0DBAC0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.Build.cs">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
