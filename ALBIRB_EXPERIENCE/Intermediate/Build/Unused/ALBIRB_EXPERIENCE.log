@@ -1,16 +1,8 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Compiling game modules for hot reload
-<<<<<<< HEAD
   Performing 3 actions (4 in parallel)
-  PerchingComponent.cpp
-  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE-9266.dll
-  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE-9266.lib
-     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.suppressed.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.suppressed.exp
-     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9266.exp
-  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
-  Total build time: 5.74 seconds (Local executor: 1.74 seconds)
-=======
-  Target is up to date
-  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
-  Total build time: 0.63 seconds (NoActionsToExecute executor: 0.00 seconds)
->>>>>>> Tree-Spawning-James
+  ALBIRB_EXPERIENCEPawn.cpp
+  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE.dll
+  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE.lib
+     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.exp
+     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.exp
+  Total build time: 5.07 seconds (Local executor: 4.22 seconds)

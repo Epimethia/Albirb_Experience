@@ -16,18 +16,6 @@
 	},
 	"BuildProducts": [
 		{
-<<<<<<< HEAD
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-8443.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE-8443.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ALBIRB_EXPERIENCE-8443.lib",
-			"Type": "ImportLibrary"
-=======
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 			"Type": "Executable",
 			"IsPrecompiled": true
@@ -6917,7 +6905,6 @@
 		{
 			"Path": "$(EngineDir)/Content/Slate/Icons/icon_warning_16x.png",
 			"Type": "UFS"
->>>>>>> Tree-Spawning-James
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Icons/NextIcon.png",
