@@ -2,6 +2,10 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"ALBIRB_EXPERIENCE": "UE4Editor-ALBIRB_EXPERIENCE.dll"
+=======
+		"ALBIRB_EXPERIENCE": "UE4Editor-ALBIRB_EXPERIENCE-1109.dll"
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764
 	}
 }

@@ -21,6 +21,8 @@ class AALBIRB_EXPERIENCEPawn : public APawn
 	/** Camera component that will be our viewpoint */
 	UPROPERTY(Category = Camera, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
+
+
 public:
 	AALBIRB_EXPERIENCEPawn();
 
@@ -30,12 +32,12 @@ public:
 	// End AActor overrides
 
 	/** Current forward speed */
-	UPROPERTY(BlueprintReadWrite)
-	float CurrentForwardSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float CurrentForwardSpeed;
 
 	/** Current upward speed */
-	UPROPERTY(BlueprintReadWrite)
-	float CurrentUpwardSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float CurrentUpwardSpeed;
 
 	/** Current stamina*/
 	float Stamina;
@@ -75,7 +77,7 @@ private:
 
 	/** Min forward speed */
 	UPROPERTY(Category=Yaw, EditAnywhere)
-	float MinSpeed;	
+	float MinSpeed;
 
 	/** Current yaw speed */
 	float CurrentYawSpeed;	

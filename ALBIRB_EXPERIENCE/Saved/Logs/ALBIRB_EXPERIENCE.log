@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 08/22/18 10:30:02
+=======
+﻿Log file open, 08/22/18 10:34:57
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +11,20 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ALBIRB_EXPERIENCE
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(134037570) SRandInit(134037570).
+=======
+LogInit: Display: RandInit(-744530879) SRandInit(-744530879).
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.251434
+=======
+LogStats: Stats thread started at 0.253273
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +96,13 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.075s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../../Users/steven.zha7447/Desktop/AlBirbExperience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE.dll (API version 3944462).
+=======
+LogStreaming: Display: Took  0.084s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE.dll (API version 3944462).
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -189,8 +206,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am 1806C022 (10.18.0.49:0)
-LogHMD: Failed initializing OVRPlugin 1.21.0
+LogInit: WinSock: I am 1806C024 (10.18.0.77:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,8 +235,9 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Epic/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
@@ -822,3 +839,1991 @@ LogInit: Object subsystem initialized
 [2018.08.21-23.23.14:528][663]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.08.21-23.23.14:534][663]LogExit: Exiting.
 [2018.08.21-23.23.14:543][663]Log file closed, 08/22/18 11:23:14
+=======
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.21-22.34.58:733][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.21-22.34.58:734][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.21-22.34.58:741][  0]LogInit: Computer: 1806C024
+[2018.08.21-22.34.58:741][  0]LogInit: User: jamesdev7362
+[2018.08.21-22.34.58:741][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.21-22.34.58:741][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2018.08.21-22.34.58:741][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.08.21-22.34.58:741][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.21-22.34.58:741][  0]LogMemory: Process Physical Memory: 275.70 MB used, 275.70 MB peak
+[2018.08.21-22.34.58:741][  0]LogMemory: Process Virtual Memory: 276.79 MB used, 276.79 MB peak
+[2018.08.21-22.34.58:741][  0]LogMemory: Physical Memory: 11670.08 MB used,  21057.57 MB free, 32727.65 MB total
+[2018.08.21-22.34.58:741][  0]LogMemory: Virtual Memory: 710.59 MB used,  21057.57 MB free, 134217728.00 MB total
+[2018.08.21-22.34.58:763][  0]LogInit: Using OS detected language (en-US).
+[2018.08.21-22.34.58:763][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.21-22.34.58:765][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.21-22.34.59:097][  0]LogStreaming: Display: Took  0.334s to EndInitTextLocalization.
+[2018.08.21-22.34.59:097][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.21-22.34.59:123][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.21-22.34.59:123][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.21-22.34.59:308][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.21-22.34.59:350][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.08.21-22.34.59:350][  0]LogD3D11RHI:       8086/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.21-22.34.59:352][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.21-22.34.59:352][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.21-22.34.59:352][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.21-22.34.59:359][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.21-22.34.59:359][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.21-22.34.59:359][  0]LogWindows: EnumDisplayDevices:
+[2018.08.21-22.34.59:359][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.08.21-22.34.59:360][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.08.21-22.34.59:360][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.08.21-22.34.59:360][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.08.21-22.34.59:360][  0]LogWindows:    4. 'Mirage Driver' (P:0 D:0)
+[2018.08.21-22.34.59:360][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.21-22.34.59:360][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.08.21-22.34.59:360][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.21-22.34.59:360][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.21-22.34.59:360][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.08.21-22.34.59:381][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.08.21-22.34.59:381][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.21-22.34.59:381][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.21-22.34.59:392][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.21-22.34.59:477][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Intermediate/Shaders/WorkingDirectory/12624/).
+[2018.08.21-22.34.59:477][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/james.dev7362/AppData/Local/Temp/UnrealShaderWorkingDir/096647D04379B5B4E9C2B08F851CAADD/'.
+[2018.08.21-22.34.59:669][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.21-22.34.59:681][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.21-22.34.59:691][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.21-22.34.59:702][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.21-22.34.59:713][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.21-22.34.59:725][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.21-22.34.59:735][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.21-22.34.59:747][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.21-22.34.59:753][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.21-22.34.59:763][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.21-22.34.59:772][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.21-22.34.59:783][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.21-22.34.59:793][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.08.21-22.34.59:803][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.21-22.34.59:813][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.21-22.34.59:835][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.21-22.34.59:835][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.21-22.34.59:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-22.34.59:847][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.21-22.34.59:880][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.21-22.34.59:890][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.21-22.34.59:900][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.21-22.34.59:910][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.21-22.34.59:920][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.21-22.34.59:931][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.21-22.34.59:931][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.21-22.35.00:008][  0]LogXGEController: Cleaning working directory: D:/Users/james.dev7362/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.21-22.35.00:008][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.21-22.35.00:008][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.21-22.35.00:008][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.21-22.35.00:534][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.21-22.35.00:586][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB D:/Users/james.dev7362/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.21-22.35.00:586][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Users/james.dev7362/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.08.21-22.35.00:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.21-22.35.00:586][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.21-22.35.00:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.21-22.35.00:586][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.21-22.35.00:598][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.21-22.35.00:611][  0]LogDerivedDataCache: Using Local data cache path D:/Users/james.dev7362/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.21-22.35.00:611][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.21-22.35.00:611][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.21-22.35.00:620][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.21-22.35.00:620][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.21-22.35.00:621][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.21-22.35.00:621][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.21-22.35.00:724][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2018.08.21-22.35.00:972][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.21-22.35.01:085][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.21-22.35.01:087][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.21-22.35.01:087][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.21-22.35.01:087][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.21-22.35.01:087][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.21-22.35.01:087][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.21-22.35.01:110][  0]LogNetVersion: ALBIRB_EXPERIENCE , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1179153627)
+[2018.08.21-22.35.01:469][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.063744 seconds
+[2018.08.21-22.35.01:473][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.08.21-22.35.01:473][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.08.21-22.35.01:473][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.21-22.35.02:778][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.21-22.35.02:803][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.21-22.35.03:090][  0]SourceControl: Source control is disabled
+[2018.08.21-22.35.03:090][  0]SourceControl: Source control is disabled
+[2018.08.21-22.35.03:105][  0]SourceControl: Source control is disabled
+[2018.08.21-22.35.03:117][  0]SourceControl: Source control is disabled
+[2018.08.21-22.35.03:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.21-22.35.03:572][  0]LogOcInput: OculusInput pre-init called
+[2018.08.21-22.35.03:653][  0]LogEngine: Initializing Engine...
+[2018.08.21-22.35.03:654][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.21-22.35.03:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.21-22.35.03:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.21-22.35.03:833][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.21-22.35.03:848][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.21-22.35.03:882][  0]LogInit: FAudioDevice initialized.
+[2018.08.21-22.35.03:990][  0]LogDerivedDataCache: Saved boot cache 0.11s 74MB D:/Users/james.dev7362/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.21-22.35.03:993][  0]LogInit: Texture streaming: Enabled
+[2018.08.21-22.35.04:003][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.21-22.35.04:013][  0]LogInit: Transaction tracking system initialized
+[2018.08.21-22.35.04:027][  0]BlueprintLog: New page: Editor Load
+[2018.08.21-22.35.04:079][  0]LocalizationService: Localization service is disabled
+[2018.08.21-22.35.04:156][  0]LogConsoleResponse: Display: 
+[2018.08.21-22.35.04:283][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.21-22.35.04:283][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.21-22.35.04:284][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.21-22.35.04:284][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.21-22.35.04:284][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.21-22.35.04:521][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' took 0.01s
+[2018.08.21-22.35.04:521][  0]SourceControl: Source control is disabled
+[2018.08.21-22.35.04:521][  0]Cmd: MAP LOAD FILE="../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.21-22.35.04:521][  0]LightingResults: New page: Lighting Build
+[2018.08.21-22.35.04:523][  0]MapCheck: New page: Map Check
+[2018.08.21-22.35.04:523][  0]LightingResults: New page: Lighting Build
+[2018.08.21-22.35.04:613][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e730b29000, Size=232, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.35.04:615][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e730b29000, Size=232
+[2018.08.21-22.35.04:615][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e730b29000, Size=232, Default__MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_7:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.35.04:616][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e730b2b800, Size=232, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.35.04:620][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e730c27398, Size=8, Default__BP_Gamemode_1_C Function /Game/Maps/BP_Gamemode_1.BP_Gamemode_1_C:ExecuteUbergraph_BP_Gamemode_1
+[2018.08.21-22.35.04:623][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e730c27398, Size=8
+[2018.08.21-22.35.04:623][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e730c27398, Size=8, Default__BP_Gamemode_1_C Function /Engine/Transient.REINST_BP_Gamemode_1_C_9:ExecuteUbergraph_BP_Gamemode_1
+[2018.08.21-22.35.04:627][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e730c253f0, Size=8, Default__BP_Gamemode_1_C Function /Game/Maps/BP_Gamemode_1.BP_Gamemode_1_C:ExecuteUbergraph_BP_Gamemode_1
+[2018.08.21-22.35.04:766][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.35.04:779][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.21-22.35.04:790][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e730b29000, Size=232
+[2018.08.21-22.35.04:790][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e730c27398, Size=8
+[2018.08.21-22.35.04:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.21-22.35.04:830][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.63ms to complete.
+[2018.08.21-22.35.04:830][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.309
+[2018.08.21-22.35.04:959][  0]LogCollectionManager: Loaded 0 collections in 0.000739 seconds
+[2018.08.21-22.35.04:999][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/Collections/' took 0.01s
+[2018.08.21-22.35.04:999][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Developers/jamesdev7362/Collections/' took 0.01s
+[2018.08.21-22.35.04:999][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Collections/' took 0.01s
+[2018.08.21-22.35.04:999][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.21-22.35.05:007][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2455 classes and 560 folders.
+[2018.08.21-22.35.05:011][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.21-22.35.05:040][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.21-22.35.05:044][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.08.21-22.35.05:135][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.21-22.35.05:137][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.21-22.35.05:142][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.21-22.35.05:228][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2018.08.21-22.35.05:267][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.21-22.35.05:355][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.21-22.35.05:356][  0]LogLoad: (Engine Initialization) Total time: 8.57 seconds
+[2018.08.21-22.35.05:356][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.21-22.35.05:366][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.21-22.35.05:399][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.21-22.35.05:451][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/' took 0.07s
+[2018.08.21-22.35.05:460][  1]LogAssetRegistry: Asset discovery search completed in 4.7584 seconds
+[2018.08.21-22.35.05:462][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.21-22.35.05:462][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.08.21-22.35.06:390][103]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.21-22.35.06:469][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.35.06:545][121]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.21-22.35.06:558][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.35.06:558][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.21-22.35.06:558][121]PIE: New page: PIE session: FlyingExampleMap (Aug 22, 2018, 10:35:06 PM)
+[2018.08.21-22.35.06:558][121]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.21-22.35.06:581][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022115s)
+[2018.08.21-22.35.06:581][121]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.35.06:581][121]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2018.08.21-22.35.06:582][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.023235s)
+[2018.08.21-22.35.06:593][121]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.21-22.35.06:598][121]LogInit: FAudioDevice initialized.
+[2018.08.21-22.35.06:640][121]LogLoad: Game class is 'BP_Gamemode_1_C'
+[2018.08.21-22.35.06:645][121]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.22-10.35.06
+[2018.08.21-22.35.06:646][121]LogWorld: Bringing up level for play took: 0.004052
+[2018.08.21-22.35.06:648][121]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.08.21-22.35.06:649][121]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.126
+[2018.08.21-22.35.06:649][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.35.06:649][121]LogTemp: Warning: Stamina = 99.995003
+[2018.08.21-22.35.06:692][122]LogTemp: Warning: Stamina = 99.985008
+[2018.08.21-22.35.06:705][123]LogTemp: Warning: Stamina = 99.975014
+[2018.08.21-22.35.06:714][124]LogTemp: Warning: Stamina = 99.965019
+[2018.08.21-22.35.06:723][125]LogTemp: Warning: Stamina = 99.955025
+[2018.08.21-22.35.06:732][126]LogTemp: Warning: Stamina = 99.945030
+[2018.08.21-22.35.06:742][127]LogTemp: Warning: Stamina = 99.935036
+[2018.08.21-22.35.06:751][128]LogTemp: Warning: Stamina = 99.925041
+[2018.08.21-22.35.06:761][129]LogTemp: Warning: Stamina = 99.915047
+[2018.08.21-22.35.06:771][130]LogTemp: Warning: Stamina = 99.905052
+[2018.08.21-22.35.06:780][131]LogTemp: Warning: Stamina = 99.895058
+[2018.08.21-22.35.06:789][132]LogTemp: Warning: Stamina = 99.885063
+[2018.08.21-22.35.06:799][133]LogTemp: Warning: Stamina = 99.875069
+[2018.08.21-22.35.06:807][134]LogTemp: Warning: Stamina = 99.865074
+[2018.08.21-22.35.06:817][135]LogTemp: Warning: Stamina = 99.855080
+[2018.08.21-22.35.06:826][136]LogTemp: Warning: Stamina = 99.845085
+[2018.08.21-22.35.06:836][137]LogTemp: Warning: Stamina = 99.835091
+[2018.08.21-22.35.06:845][138]LogTemp: Warning: Stamina = 99.825096
+[2018.08.21-22.35.06:853][139]LogTemp: Warning: Stamina = 99.815102
+[2018.08.21-22.35.06:863][140]LogTemp: Warning: Stamina = 99.805107
+[2018.08.21-22.35.06:871][141]LogTemp: Warning: Stamina = 99.795113
+[2018.08.21-22.35.06:879][142]LogTemp: Warning: Stamina = 99.785118
+[2018.08.21-22.35.06:887][143]LogTemp: Warning: Stamina = 99.775124
+[2018.08.21-22.35.06:896][144]LogTemp: Warning: Stamina = 99.765129
+[2018.08.21-22.35.06:904][145]LogTemp: Warning: Stamina = 99.755135
+[2018.08.21-22.35.06:912][146]LogTemp: Warning: Stamina = 99.745140
+[2018.08.21-22.35.06:921][147]LogTemp: Warning: Stamina = 99.735146
+[2018.08.21-22.35.06:929][148]LogTemp: Warning: Stamina = 99.725151
+[2018.08.21-22.35.06:938][149]LogTemp: Warning: Stamina = 99.715157
+[2018.08.21-22.35.06:946][150]LogTemp: Warning: Stamina = 99.705162
+[2018.08.21-22.35.06:954][151]LogTemp: Warning: Stamina = 99.695168
+[2018.08.21-22.35.06:962][152]LogTemp: Warning: Stamina = 99.685173
+[2018.08.21-22.35.06:971][153]LogTemp: Warning: Stamina = 99.675179
+[2018.08.21-22.35.06:979][154]LogTemp: Warning: Stamina = 99.665184
+[2018.08.21-22.35.06:990][155]LogTemp: Warning: Stamina = 99.655190
+[2018.08.21-22.35.06:998][156]LogTemp: Warning: Stamina = 99.645195
+[2018.08.21-22.35.07:006][157]LogTemp: Warning: Stamina = 99.635201
+[2018.08.21-22.35.07:015][158]LogTemp: Warning: Stamina = 99.625206
+[2018.08.21-22.35.07:023][159]LogTemp: Warning: Stamina = 99.615211
+[2018.08.21-22.35.07:031][160]LogTemp: Warning: Stamina = 99.605217
+[2018.08.21-22.35.07:040][161]LogTemp: Warning: Stamina = 99.595222
+[2018.08.21-22.35.07:049][162]LogTemp: Warning: Stamina = 99.585228
+[2018.08.21-22.35.07:057][163]LogTemp: Warning: Stamina = 99.575233
+[2018.08.21-22.35.07:065][164]LogTemp: Warning: Stamina = 99.565239
+[2018.08.21-22.35.07:073][165]LogTemp: Warning: Stamina = 99.555244
+[2018.08.21-22.35.07:082][166]LogTemp: Warning: Stamina = 99.545250
+[2018.08.21-22.35.07:090][167]LogTemp: Warning: Stamina = 99.535255
+[2018.08.21-22.35.07:099][168]LogTemp: Warning: Stamina = 99.520264
+[2018.08.21-22.35.07:107][169]LogTemp: Warning: Stamina = 99.510269
+[2018.08.21-22.35.07:115][170]LogTemp: Warning: Stamina = 99.500275
+[2018.08.21-22.35.07:123][171]LogTemp: Warning: Stamina = 99.490280
+[2018.08.21-22.35.07:132][172]LogTemp: Warning: Stamina = 99.480286
+[2018.08.21-22.35.07:140][173]LogTemp: Warning: Stamina = 99.470291
+[2018.08.21-22.35.07:149][174]LogTemp: Warning: Stamina = 99.460297
+[2018.08.21-22.35.07:157][175]LogTemp: Warning: Stamina = 99.450302
+[2018.08.21-22.35.07:165][176]LogTemp: Warning: Stamina = 99.440308
+[2018.08.21-22.35.07:173][177]LogTemp: Warning: Stamina = 99.430313
+[2018.08.21-22.35.07:181][178]LogTemp: Warning: Stamina = 99.420319
+[2018.08.21-22.35.07:190][179]LogTemp: Warning: Stamina = 99.410324
+[2018.08.21-22.35.07:198][180]LogTemp: Warning: Stamina = 99.400330
+[2018.08.21-22.35.07:206][181]LogTemp: Warning: Stamina = 99.390335
+[2018.08.21-22.35.07:215][182]LogTemp: Warning: Stamina = 99.380341
+[2018.08.21-22.35.07:223][183]LogTemp: Warning: Stamina = 99.370346
+[2018.08.21-22.35.07:231][184]LogTemp: Warning: Stamina = 99.360352
+[2018.08.21-22.35.07:240][185]LogTemp: Warning: Stamina = 99.350357
+[2018.08.21-22.35.07:248][186]LogTemp: Warning: Stamina = 99.340363
+[2018.08.21-22.35.07:256][187]LogTemp: Warning: Stamina = 99.330368
+[2018.08.21-22.35.07:265][188]LogTemp: Warning: Stamina = 99.320374
+[2018.08.21-22.35.07:274][189]LogTemp: Warning: Stamina = 99.310379
+[2018.08.21-22.35.07:282][190]LogTemp: Warning: Stamina = 99.300385
+[2018.08.21-22.35.07:290][191]LogTemp: Warning: Stamina = 99.290390
+[2018.08.21-22.35.07:298][192]LogTemp: Warning: Stamina = 99.280396
+[2018.08.21-22.35.07:307][193]LogTemp: Warning: Stamina = 99.270401
+[2018.08.21-22.35.07:315][194]LogTemp: Warning: Stamina = 99.260406
+[2018.08.21-22.35.07:323][195]LogTemp: Warning: Stamina = 99.250412
+[2018.08.21-22.35.07:331][196]LogTemp: Warning: Stamina = 99.240417
+[2018.08.21-22.35.07:340][197]LogTemp: Warning: Stamina = 99.230423
+[2018.08.21-22.35.07:349][198]LogTemp: Warning: Stamina = 99.220428
+[2018.08.21-22.35.07:357][199]LogTemp: Warning: Stamina = 99.210434
+[2018.08.21-22.35.07:365][200]LogTemp: Warning: Stamina = 99.200439
+[2018.08.21-22.35.07:373][201]LogTemp: Warning: Stamina = 99.190445
+[2018.08.21-22.35.07:382][202]LogTemp: Warning: Stamina = 99.180450
+[2018.08.21-22.35.07:390][203]LogTemp: Warning: Stamina = 99.170456
+[2018.08.21-22.35.07:398][204]LogTemp: Warning: Stamina = 99.160461
+[2018.08.21-22.35.07:407][205]LogTemp: Warning: Stamina = 99.150467
+[2018.08.21-22.35.07:415][206]LogTemp: Warning: Stamina = 99.140472
+[2018.08.21-22.35.07:423][207]LogTemp: Warning: Stamina = 99.130478
+[2018.08.21-22.35.07:432][208]LogTemp: Warning: Stamina = 99.120483
+[2018.08.21-22.35.07:440][209]LogTemp: Warning: Stamina = 99.110489
+[2018.08.21-22.35.07:448][210]LogTemp: Warning: Stamina = 99.100494
+[2018.08.21-22.35.07:457][211]LogTemp: Warning: Stamina = 99.090500
+[2018.08.21-22.35.07:465][212]LogTemp: Warning: Stamina = 99.080505
+[2018.08.21-22.35.07:473][213]LogTemp: Warning: Stamina = 99.070511
+[2018.08.21-22.35.07:481][214]LogTemp: Warning: Stamina = 99.060516
+[2018.08.21-22.35.07:490][215]LogTemp: Warning: Stamina = 99.050522
+[2018.08.21-22.35.07:498][216]LogTemp: Warning: Stamina = 99.040527
+[2018.08.21-22.35.07:506][217]LogTemp: Warning: Stamina = 99.030533
+[2018.08.21-22.35.07:515][218]LogTemp: Warning: Stamina = 99.020538
+[2018.08.21-22.35.07:523][219]LogTemp: Warning: Stamina = 99.010544
+[2018.08.21-22.35.07:532][220]LogTemp: Warning: Stamina = 99.000549
+[2018.08.21-22.35.07:540][221]LogTemp: Warning: Stamina = 98.990555
+[2018.08.21-22.35.07:549][222]LogTemp: Warning: Stamina = 98.980560
+[2018.08.21-22.35.07:557][223]LogTemp: Warning: Stamina = 98.970566
+[2018.08.21-22.35.07:565][224]LogTemp: Warning: Stamina = 98.960571
+[2018.08.21-22.35.07:573][225]LogTemp: Warning: Stamina = 98.950577
+[2018.08.21-22.35.07:582][226]LogTemp: Warning: Stamina = 98.940582
+[2018.08.21-22.35.07:590][227]LogTemp: Warning: Stamina = 98.930588
+[2018.08.21-22.35.07:598][228]LogTemp: Warning: Stamina = 98.920593
+[2018.08.21-22.35.07:607][229]LogTemp: Warning: Stamina = 98.910599
+[2018.08.21-22.35.07:615][230]LogTemp: Warning: Stamina = 98.900604
+[2018.08.21-22.35.07:623][231]LogTemp: Warning: Stamina = 98.890610
+[2018.08.21-22.35.07:632][232]LogTemp: Warning: Stamina = 98.880615
+[2018.08.21-22.35.07:640][233]LogTemp: Warning: Stamina = 98.870621
+[2018.08.21-22.35.07:648][234]LogTemp: Warning: Stamina = 98.860626
+[2018.08.21-22.35.07:657][235]LogTemp: Warning: Stamina = 98.850632
+[2018.08.21-22.35.07:665][236]LogTemp: Warning: Stamina = 98.840637
+[2018.08.21-22.35.07:673][237]LogTemp: Warning: Stamina = 98.830643
+[2018.08.21-22.35.07:682][238]LogTemp: Warning: Stamina = 98.820648
+[2018.08.21-22.35.07:690][239]LogTemp: Warning: Stamina = 98.810654
+[2018.08.21-22.35.07:699][240]LogTemp: Warning: Stamina = 98.800659
+[2018.08.21-22.35.07:707][241]LogTemp: Warning: Stamina = 98.790665
+[2018.08.21-22.35.07:715][242]LogTemp: Warning: Stamina = 98.780670
+[2018.08.21-22.35.07:724][243]LogTemp: Warning: Stamina = 98.770676
+[2018.08.21-22.35.07:733][244]LogTemp: Warning: Stamina = 98.760681
+[2018.08.21-22.35.07:740][245]LogTemp: Warning: Stamina = 98.750687
+[2018.08.21-22.35.07:749][246]LogTemp: Warning: Stamina = 98.740692
+[2018.08.21-22.35.07:757][247]LogTemp: Warning: Stamina = 98.730698
+[2018.08.21-22.35.07:765][248]LogTemp: Warning: Stamina = 98.720703
+[2018.08.21-22.35.07:773][249]LogTemp: Warning: Stamina = 98.710709
+[2018.08.21-22.35.07:782][250]LogTemp: Warning: Stamina = 98.700714
+[2018.08.21-22.35.07:790][251]LogTemp: Warning: Stamina = 98.690720
+[2018.08.21-22.35.07:798][252]LogTemp: Warning: Stamina = 98.680725
+[2018.08.21-22.35.07:807][253]LogTemp: Warning: Stamina = 98.670731
+[2018.08.21-22.35.07:815][254]LogTemp: Warning: Stamina = 98.660736
+[2018.08.21-22.35.07:823][255]LogTemp: Warning: Stamina = 98.650742
+[2018.08.21-22.35.07:832][256]LogTemp: Warning: Stamina = 98.640747
+[2018.08.21-22.35.07:840][257]LogTemp: Warning: Stamina = 98.630753
+[2018.08.21-22.35.07:848][258]LogTemp: Warning: Stamina = 98.620758
+[2018.08.21-22.35.07:857][259]LogTemp: Warning: Stamina = 98.610764
+[2018.08.21-22.35.07:865][260]LogTemp: Warning: Stamina = 98.595772
+[2018.08.21-22.35.07:874][261]LogTemp: Warning: Stamina = 98.585777
+[2018.08.21-22.35.07:882][262]LogTemp: Warning: Stamina = 98.575783
+[2018.08.21-22.35.07:890][263]LogTemp: Warning: Stamina = 98.565788
+[2018.08.21-22.35.07:899][264]LogTemp: Warning: Stamina = 98.555794
+[2018.08.21-22.35.07:907][265]LogTemp: Warning: Stamina = 98.545799
+[2018.08.21-22.35.07:915][266]LogTemp: Warning: Stamina = 98.535805
+[2018.08.21-22.35.07:924][267]LogTemp: Warning: Stamina = 98.525810
+[2018.08.21-22.35.07:932][268]LogTemp: Warning: Stamina = 98.515816
+[2018.08.21-22.35.07:940][269]LogTemp: Warning: Stamina = 98.505821
+[2018.08.21-22.35.07:949][270]LogTemp: Warning: Stamina = 98.495827
+[2018.08.21-22.35.07:957][271]LogTemp: Warning: Stamina = 98.485832
+[2018.08.21-22.35.07:965][272]LogTemp: Warning: Stamina = 98.475838
+[2018.08.21-22.35.07:973][273]LogTemp: Warning: Stamina = 98.465843
+[2018.08.21-22.35.07:982][274]LogTemp: Warning: Stamina = 98.455849
+[2018.08.21-22.35.07:990][275]LogTemp: Warning: Stamina = 98.445854
+[2018.08.21-22.35.07:998][276]LogTemp: Warning: Stamina = 98.435860
+[2018.08.21-22.35.08:007][277]LogTemp: Warning: Stamina = 98.425865
+[2018.08.21-22.35.08:016][278]LogTemp: Warning: Stamina = 98.415871
+[2018.08.21-22.35.08:023][279]LogTemp: Warning: Stamina = 98.405876
+[2018.08.21-22.35.08:032][280]LogTemp: Warning: Stamina = 98.395882
+[2018.08.21-22.35.08:040][281]LogTemp: Warning: Stamina = 98.385887
+[2018.08.21-22.35.08:048][282]LogTemp: Warning: Stamina = 98.375893
+[2018.08.21-22.35.08:057][283]LogTemp: Warning: Stamina = 98.365898
+[2018.08.21-22.35.08:065][284]LogTemp: Warning: Stamina = 98.355904
+[2018.08.21-22.35.08:073][285]LogTemp: Warning: Stamina = 98.345909
+[2018.08.21-22.35.08:082][286]LogTemp: Warning: Stamina = 98.335915
+[2018.08.21-22.35.08:090][287]LogTemp: Warning: Stamina = 98.325920
+[2018.08.21-22.35.08:098][288]LogTemp: Warning: Stamina = 98.315926
+[2018.08.21-22.35.08:107][289]LogTemp: Warning: Stamina = 98.305931
+[2018.08.21-22.35.08:115][290]LogTemp: Warning: Stamina = 98.295937
+[2018.08.21-22.35.08:123][291]LogTemp: Warning: Stamina = 98.285942
+[2018.08.21-22.35.08:132][292]LogTemp: Warning: Stamina = 98.275948
+[2018.08.21-22.35.08:140][293]LogTemp: Warning: Stamina = 98.265953
+[2018.08.21-22.35.08:149][294]LogTemp: Warning: Stamina = 98.255959
+[2018.08.21-22.35.08:157][295]LogTemp: Warning: Stamina = 98.245964
+[2018.08.21-22.35.08:165][296]LogTemp: Warning: Stamina = 98.235970
+[2018.08.21-22.35.08:173][297]LogTemp: Warning: Stamina = 98.225975
+[2018.08.21-22.35.08:182][298]LogTemp: Warning: Stamina = 98.215981
+[2018.08.21-22.35.08:190][299]LogTemp: Warning: Stamina = 98.205986
+[2018.08.21-22.35.08:198][300]LogTemp: Warning: Stamina = 98.195992
+[2018.08.21-22.35.08:207][301]LogTemp: Warning: Stamina = 98.185997
+[2018.08.21-22.35.08:215][302]LogTemp: Warning: Stamina = 98.176003
+[2018.08.21-22.35.08:224][303]LogTemp: Warning: Stamina = 98.166008
+[2018.08.21-22.35.08:233][304]LogTemp: Warning: Stamina = 98.156013
+[2018.08.21-22.35.08:240][305]LogTemp: Warning: Stamina = 98.146019
+[2018.08.21-22.35.08:249][306]LogTemp: Warning: Stamina = 98.136024
+[2018.08.21-22.35.08:257][307]LogTemp: Warning: Stamina = 98.126030
+[2018.08.21-22.35.08:265][308]LogTemp: Warning: Stamina = 98.116035
+[2018.08.21-22.35.08:273][309]LogTemp: Warning: Stamina = 98.106041
+[2018.08.21-22.35.08:282][310]LogTemp: Warning: Stamina = 98.096046
+[2018.08.21-22.35.08:290][311]LogTemp: Warning: Stamina = 98.086052
+[2018.08.21-22.35.08:298][312]LogTemp: Warning: Stamina = 98.076057
+[2018.08.21-22.35.08:307][313]LogTemp: Warning: Stamina = 98.066063
+[2018.08.21-22.35.08:315][314]LogTemp: Warning: Stamina = 98.056068
+[2018.08.21-22.35.08:324][315]LogTemp: Warning: Stamina = 98.046074
+[2018.08.21-22.35.08:332][316]LogTemp: Warning: Stamina = 98.036079
+[2018.08.21-22.35.08:340][317]LogTemp: Warning: Stamina = 98.026085
+[2018.08.21-22.35.08:349][318]LogTemp: Warning: Stamina = 98.016090
+[2018.08.21-22.35.08:357][319]LogTemp: Warning: Stamina = 98.006096
+[2018.08.21-22.35.08:366][320]LogTemp: Warning: Stamina = 97.996101
+[2018.08.21-22.35.08:374][321]LogTemp: Warning: Stamina = 97.986107
+[2018.08.21-22.35.08:382][322]LogTemp: Warning: Stamina = 97.976112
+[2018.08.21-22.35.08:391][323]LogTemp: Warning: Stamina = 97.966118
+[2018.08.21-22.35.08:399][324]LogTemp: Warning: Stamina = 97.956123
+[2018.08.21-22.35.08:407][325]LogTemp: Warning: Stamina = 97.946129
+[2018.08.21-22.35.08:416][326]LogTemp: Warning: Stamina = 97.936134
+[2018.08.21-22.35.08:424][327]LogTemp: Warning: Stamina = 97.926140
+[2018.08.21-22.35.08:425][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.35.08:457][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.35.12:374][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.35.19:333][617]LogAIModule: Creating AISystem for world MainMenu
+[2018.08.21-22.35.19:357][617]Cmd: MAP LOAD FILE="../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.21-22.35.19:357][617]LightingResults: New page: Lighting Build
+[2018.08.21-22.35.19:357][617]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.08.21-22.35.19:359][617]MapCheck: New page: Map Check
+[2018.08.21-22.35.19:359][617]LightingResults: New page: Lighting Build
+[2018.08.21-22.35.19:415][617]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.21-22.35.19:447][617]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.21-22.35.19:491][617]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.766ms to complete.
+[2018.08.21-22.35.19:491][617]LogFileHelpers: Loading map 'MainMenu' took 0.135
+[2018.08.21-22.35.21:969][897]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.35.21:990][897]Cmd: MAP LOAD FILE="../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.21-22.35.21:990][897]LightingResults: New page: Lighting Build
+[2018.08.21-22.35.21:990][897]LoadErrors: New page: Loading map: FlyingExampleMap.umap
+[2018.08.21-22.35.21:992][897]MapCheck: New page: Map Check
+[2018.08.21-22.35.21:992][897]LightingResults: New page: Lighting Build
+[2018.08.21-22.35.22:071][897]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.21-22.35.22:107][897]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.21-22.35.22:150][897]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.874ms to complete.
+[2018.08.21-22.35.22:150][897]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.161
+[2018.08.21-22.35.36:916][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e71ed686b0, Size=16, Default__BP_PauseWidget_C Function /Game/Menu/BP_PauseWidget.BP_PauseWidget_C:ExecuteUbergraph_BP_PauseWidget
+[2018.08.21-22.35.36:919][651]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e71ed686b0, Size=16
+[2018.08.21-22.35.36:919][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e71ed686b0, Size=16, Default__BP_PauseWidget_C Function /Engine/Transient.REINST_BP_PauseWidget_C_0:ExecuteUbergraph_BP_PauseWidget
+[2018.08.21-22.35.36:920][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e71ed6a5f0, Size=16, Default__BP_PauseWidget_C Function /Game/Menu/BP_PauseWidget.BP_PauseWidget_C:ExecuteUbergraph_BP_PauseWidget
+[2018.08.21-22.35.37:180][651]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.08.21-22.35.37:406][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e752111620, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.08.21-22.35.37:406][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e752111618, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.08.21-22.35.38:038][651]LogSlate: Took 0.028642 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.08.21-22.35.38:047][651]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.21-22.35.44:230][136]Candidate modules for hot reload:
+[2018.08.21-22.35.44:230][136]  ALBIRB_EXPERIENCE
+[2018.08.21-22.35.44:230][136]Launching UnrealBuildTool... [D:/Epic/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ALBIRB_EXPERIENCE -ModuleWithSuffix=ALBIRB_EXPERIENCE,1109 Win64 Development -editorrecompile -canskiplink "D:/Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/ALBIRB_EXPERIENCE.uproject" ]
+[2018.08.21-22.35.44:232][136]Warning: Starting HotReload took  0.0s.
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: New page: Compilation - Aug 22, 2018, 10:35:50 PM
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: Creating makefile for hot reloading ALBIRB_EXPERIENCE (game project files are newer)
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: Performing 8 actions (4 in parallel)
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: ALBIRB_EXPERIENCE.cpp
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: ALBIRB_EXPERIENCE.init.gen.cpp
+[2018.08.21-22.35.50:410][607]CompilerResultsLog: ALBIRB_EXPERIENCEPawn.cpp
+[2018.08.21-22.35.50:411][607]CompilerResultsLog: ALBIRB_EXPERIENCEGameMode.cpp
+[2018.08.21-22.35.50:411][607]CompilerResultsLog: ALBIRB_EXPERIENCEPawn.gen.cpp
+[2018.08.21-22.35.50:411][607]CompilerResultsLog: ALBIRB_EXPERIENCEGameMode.gen.cpp
+[2018.08.21-22.35.50:411][607]CompilerResultsLog: [7/8] Link UE4Editor-ALBIRB_EXPERIENCE-1109.dll
+[2018.08.21-22.35.50:411][607]CompilerResultsLog: [8/8] Link UE4Editor-ALBIRB_EXPERIENCE-1109.lib
+[2018.08.21-22.35.50:411][607]CompilerResultsLog:    Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-1109.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-1109.exp
+[2018.08.21-22.35.50:411][607]CompilerResultsLog:    Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-1109.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-1109.suppressed.exp
+[2018.08.21-22.35.50:411][607]CompilerResultsLog: Total build time: 5.98 seconds (Local executor: 2.12 seconds)
+[2018.08.21-22.35.50:411][607]LogMainFrame: MainFrame: Module compiling took 6.186 seconds
+[2018.08.21-22.35.50:430][607]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e71ed686b0, Size=16
+[2018.08.21-22.35.50:439][607]LogContentBrowser: Native class hierarchy updated for 'ALBIRB_EXPERIENCE' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2018.08.21-22.35.50:441][607]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.08.21-22.35.50:745][607]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2456 classes and 562 folders.
+[2018.08.21-22.35.50:746][607]Display: HotReload took  6.5s.
+[2018.08.21-22.35.59:045][307]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.21-22.35.59:063][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.35.59:064][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.21-22.35.59:064][307]PIE: New page: PIE session: FlyingExampleMap (Aug 22, 2018, 10:35:59 PM)
+[2018.08.21-22.35.59:064][307]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.21-22.35.59:087][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023721s)
+[2018.08.21-22.35.59:089][307]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.35.59:089][307]LogPlayLevel: PIE: World Init took: (0.001560s)
+[2018.08.21-22.35.59:089][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.025677s)
+[2018.08.21-22.35.59:128][307]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.21-22.35.59:134][307]LogInit: FAudioDevice initialized.
+[2018.08.21-22.35.59:165][307]LogLoad: Game class is 'BP_Gamemode_1_C'
+[2018.08.21-22.35.59:170][307]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.22-10.35.59
+[2018.08.21-22.35.59:170][307]LogWorld: Bringing up level for play took: 0.003929
+[2018.08.21-22.35.59:171][307]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.649
+[2018.08.21-22.35.59:171][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.35.59:171][307]LogTemp: Warning: Stamina = 99.995003
+[2018.08.21-22.35.59:209][308]LogTemp: Warning: Stamina = 99.985008
+[2018.08.21-22.35.59:220][309]LogTemp: Warning: Stamina = 99.975014
+[2018.08.21-22.35.59:232][310]LogTemp: Warning: Stamina = 99.965019
+[2018.08.21-22.35.59:244][311]LogTemp: Warning: Stamina = 99.955025
+[2018.08.21-22.35.59:255][312]LogTemp: Warning: Stamina = 99.945030
+[2018.08.21-22.35.59:267][313]LogTemp: Warning: Stamina = 99.935036
+[2018.08.21-22.35.59:278][314]LogTemp: Warning: Stamina = 99.925041
+[2018.08.21-22.35.59:289][315]LogTemp: Warning: Stamina = 99.915047
+[2018.08.21-22.35.59:302][316]LogTemp: Warning: Stamina = 99.905052
+[2018.08.21-22.35.59:313][317]LogTemp: Warning: Stamina = 99.895058
+[2018.08.21-22.35.59:325][318]LogTemp: Warning: Stamina = 99.885063
+[2018.08.21-22.35.59:337][319]LogTemp: Warning: Stamina = 99.875069
+[2018.08.21-22.35.59:348][320]LogTemp: Warning: Stamina = 99.865074
+[2018.08.21-22.35.59:359][321]LogTemp: Warning: Stamina = 99.855080
+[2018.08.21-22.35.59:371][322]LogTemp: Warning: Stamina = 99.845085
+[2018.08.21-22.35.59:382][323]LogTemp: Warning: Stamina = 99.835091
+[2018.08.21-22.35.59:393][324]LogTemp: Warning: Stamina = 99.825096
+[2018.08.21-22.35.59:404][325]LogTemp: Warning: Stamina = 99.815102
+[2018.08.21-22.35.59:415][326]LogTemp: Warning: Stamina = 99.805107
+[2018.08.21-22.35.59:429][327]LogTemp: Warning: Stamina = 99.795113
+[2018.08.21-22.35.59:442][328]LogTemp: Warning: Stamina = 99.785118
+[2018.08.21-22.35.59:453][329]LogTemp: Warning: Stamina = 99.775124
+[2018.08.21-22.35.59:465][330]LogTemp: Warning: Stamina = 99.765129
+[2018.08.21-22.35.59:476][331]LogTemp: Warning: Stamina = 99.755135
+[2018.08.21-22.35.59:487][332]LogTemp: Warning: Stamina = 99.745140
+[2018.08.21-22.35.59:498][333]LogTemp: Warning: Stamina = 99.735146
+[2018.08.21-22.35.59:509][334]LogTemp: Warning: Stamina = 99.725151
+[2018.08.21-22.35.59:521][335]LogTemp: Warning: Stamina = 99.715157
+[2018.08.21-22.35.59:532][336]LogTemp: Warning: Stamina = 99.705162
+[2018.08.21-22.35.59:543][337]LogTemp: Warning: Stamina = 99.690170
+[2018.08.21-22.35.59:554][338]LogTemp: Warning: Stamina = 99.680176
+[2018.08.21-22.35.59:566][339]LogTemp: Warning: Stamina = 99.670181
+[2018.08.21-22.35.59:578][340]LogTemp: Warning: Stamina = 99.660187
+[2018.08.21-22.35.59:589][341]LogTemp: Warning: Stamina = 99.650192
+[2018.08.21-22.35.59:602][342]LogTemp: Warning: Stamina = 99.640198
+[2018.08.21-22.35.59:613][343]LogTemp: Warning: Stamina = 99.630203
+[2018.08.21-22.35.59:623][344]LogTemp: Warning: Stamina = 99.620209
+[2018.08.21-22.35.59:635][345]LogTemp: Warning: Stamina = 99.610214
+[2018.08.21-22.35.59:646][346]LogTemp: Warning: Stamina = 99.600220
+[2018.08.21-22.35.59:658][347]LogTemp: Warning: Stamina = 99.590225
+[2018.08.21-22.35.59:669][348]LogTemp: Warning: Stamina = 99.580231
+[2018.08.21-22.35.59:681][349]LogTemp: Warning: Stamina = 99.570236
+[2018.08.21-22.35.59:693][350]LogTemp: Warning: Stamina = 99.560242
+[2018.08.21-22.35.59:705][351]LogTemp: Warning: Stamina = 99.550247
+[2018.08.21-22.35.59:717][352]LogTemp: Warning: Stamina = 99.540253
+[2018.08.21-22.35.59:728][353]LogTemp: Warning: Stamina = 99.530258
+[2018.08.21-22.35.59:740][354]LogTemp: Warning: Stamina = 99.520264
+[2018.08.21-22.35.59:751][355]LogTemp: Warning: Stamina = 99.510269
+[2018.08.21-22.35.59:762][356]LogTemp: Warning: Stamina = 99.500275
+[2018.08.21-22.35.59:773][357]LogTemp: Warning: Stamina = 99.490280
+[2018.08.21-22.35.59:785][358]LogTemp: Warning: Stamina = 99.480286
+[2018.08.21-22.35.59:797][359]LogTemp: Warning: Stamina = 99.470291
+[2018.08.21-22.35.59:808][360]LogTemp: Warning: Stamina = 99.460297
+[2018.08.21-22.35.59:820][361]LogTemp: Warning: Stamina = 99.450302
+[2018.08.21-22.35.59:831][362]LogTemp: Warning: Stamina = 99.440308
+[2018.08.21-22.35.59:842][363]LogTemp: Warning: Stamina = 99.430313
+[2018.08.21-22.35.59:853][364]LogTemp: Warning: Stamina = 99.420319
+[2018.08.21-22.35.59:866][365]LogTemp: Warning: Stamina = 99.410324
+[2018.08.21-22.35.59:877][366]LogTemp: Warning: Stamina = 99.400330
+[2018.08.21-22.35.59:888][367]LogTemp: Warning: Stamina = 99.390335
+[2018.08.21-22.35.59:900][368]LogTemp: Warning: Stamina = 99.380341
+[2018.08.21-22.35.59:912][369]LogTemp: Warning: Stamina = 99.370346
+[2018.08.21-22.35.59:923][370]LogTemp: Warning: Stamina = 99.360352
+[2018.08.21-22.35.59:934][371]LogTemp: Warning: Stamina = 99.350357
+[2018.08.21-22.35.59:945][372]LogTemp: Warning: Stamina = 99.340363
+[2018.08.21-22.35.59:956][373]LogTemp: Warning: Stamina = 99.330368
+[2018.08.21-22.35.59:968][374]LogTemp: Warning: Stamina = 99.320374
+[2018.08.21-22.35.59:979][375]LogTemp: Warning: Stamina = 99.310379
+[2018.08.21-22.35.59:990][376]LogTemp: Warning: Stamina = 99.300385
+[2018.08.21-22.36.00:002][377]LogTemp: Warning: Stamina = 99.290390
+[2018.08.21-22.36.00:014][378]LogTemp: Warning: Stamina = 99.280396
+[2018.08.21-22.36.00:025][379]LogTemp: Warning: Stamina = 99.270401
+[2018.08.21-22.36.00:036][380]LogTemp: Warning: Stamina = 99.260406
+[2018.08.21-22.36.00:048][381]LogTemp: Warning: Stamina = 99.250412
+[2018.08.21-22.36.00:059][382]LogTemp: Warning: Stamina = 99.240417
+[2018.08.21-22.36.00:071][383]LogTemp: Warning: Stamina = 99.230423
+[2018.08.21-22.36.00:082][384]LogTemp: Warning: Stamina = 99.220428
+[2018.08.21-22.36.00:093][385]LogTemp: Warning: Stamina = 99.210434
+[2018.08.21-22.36.00:105][386]LogTemp: Warning: Stamina = 99.200439
+[2018.08.21-22.36.00:116][387]LogTemp: Warning: Stamina = 99.190445
+[2018.08.21-22.36.00:128][388]LogTemp: Warning: Stamina = 99.180450
+[2018.08.21-22.36.00:140][389]LogTemp: Warning: Stamina = 99.170456
+[2018.08.21-22.36.00:151][390]LogTemp: Warning: Stamina = 99.160461
+[2018.08.21-22.36.00:166][391]LogTemp: Warning: Stamina = 99.150467
+[2018.08.21-22.36.00:178][392]LogTemp: Warning: Stamina = 99.140472
+[2018.08.21-22.36.00:190][393]LogTemp: Warning: Stamina = 99.130478
+[2018.08.21-22.36.00:203][394]LogTemp: Warning: Stamina = 99.120483
+[2018.08.21-22.36.00:215][395]LogTemp: Warning: Stamina = 99.110489
+[2018.08.21-22.36.00:226][396]LogTemp: Warning: Stamina = 99.100494
+[2018.08.21-22.36.00:239][397]LogTemp: Warning: Stamina = 99.090500
+[2018.08.21-22.36.00:250][398]LogTemp: Warning: Stamina = 99.080505
+[2018.08.21-22.36.00:261][399]LogTemp: Warning: Stamina = 99.070511
+[2018.08.21-22.36.00:273][400]LogTemp: Warning: Stamina = 99.060516
+[2018.08.21-22.36.00:284][401]LogTemp: Warning: Stamina = 99.050522
+[2018.08.21-22.36.00:295][402]LogTemp: Warning: Stamina = 99.040527
+[2018.08.21-22.36.00:309][403]LogTemp: Warning: Stamina = 99.030533
+[2018.08.21-22.36.00:320][404]LogTemp: Warning: Stamina = 99.020538
+[2018.08.21-22.36.00:332][405]LogTemp: Warning: Stamina = 99.010544
+[2018.08.21-22.36.00:343][406]LogTemp: Warning: Stamina = 99.000549
+[2018.08.21-22.36.00:355][407]LogTemp: Warning: Stamina = 98.990555
+[2018.08.21-22.36.00:366][408]LogTemp: Warning: Stamina = 98.980560
+[2018.08.21-22.36.00:377][409]LogTemp: Warning: Stamina = 98.970566
+[2018.08.21-22.36.00:389][410]LogTemp: Warning: Stamina = 98.960571
+[2018.08.21-22.36.00:401][411]LogTemp: Warning: Stamina = 98.950577
+[2018.08.21-22.36.00:411][412]LogTemp: Warning: Stamina = 98.940582
+[2018.08.21-22.36.00:422][413]LogTemp: Warning: Stamina = 98.930588
+[2018.08.21-22.36.00:434][414]LogTemp: Warning: Stamina = 98.920593
+[2018.08.21-22.36.00:446][415]LogTemp: Warning: Stamina = 98.910599
+[2018.08.21-22.36.00:457][416]LogTemp: Warning: Stamina = 98.900604
+[2018.08.21-22.36.00:469][417]LogTemp: Warning: Stamina = 98.890610
+[2018.08.21-22.36.00:480][418]LogTemp: Warning: Stamina = 98.880615
+[2018.08.21-22.36.00:492][419]LogTemp: Warning: Stamina = 98.870621
+[2018.08.21-22.36.00:504][420]LogTemp: Warning: Stamina = 98.860626
+[2018.08.21-22.36.00:515][421]LogTemp: Warning: Stamina = 98.850632
+[2018.08.21-22.36.00:525][422]LogTemp: Warning: Stamina = 98.840637
+[2018.08.21-22.36.00:537][423]LogTemp: Warning: Stamina = 98.830643
+[2018.08.21-22.36.00:549][424]LogTemp: Warning: Stamina = 98.820648
+[2018.08.21-22.36.00:559][425]LogTemp: Warning: Stamina = 98.810654
+[2018.08.21-22.36.00:571][426]LogTemp: Warning: Stamina = 98.800659
+[2018.08.21-22.36.00:582][427]LogTemp: Warning: Stamina = 98.790665
+[2018.08.21-22.36.00:593][428]LogTemp: Warning: Stamina = 98.780670
+[2018.08.21-22.36.00:605][429]LogTemp: Warning: Stamina = 98.770676
+[2018.08.21-22.36.00:617][430]LogTemp: Warning: Stamina = 98.760681
+[2018.08.21-22.36.00:628][431]LogTemp: Warning: Stamina = 98.750687
+[2018.08.21-22.36.00:640][432]LogTemp: Warning: Stamina = 98.740692
+[2018.08.21-22.36.00:651][433]LogTemp: Warning: Stamina = 98.730698
+[2018.08.21-22.36.00:662][434]LogTemp: Warning: Stamina = 98.720703
+[2018.08.21-22.36.00:674][435]LogTemp: Warning: Stamina = 98.710709
+[2018.08.21-22.36.00:685][436]LogTemp: Warning: Stamina = 98.700714
+[2018.08.21-22.36.00:697][437]LogTemp: Warning: Stamina = 98.690720
+[2018.08.21-22.36.00:707][438]LogTemp: Warning: Stamina = 98.680725
+[2018.08.21-22.36.00:719][439]LogTemp: Warning: Stamina = 98.670731
+[2018.08.21-22.36.00:730][440]LogTemp: Warning: Stamina = 98.660736
+[2018.08.21-22.36.00:741][441]LogTemp: Warning: Stamina = 98.650742
+[2018.08.21-22.36.00:753][442]LogTemp: Warning: Stamina = 98.640747
+[2018.08.21-22.36.00:765][443]LogTemp: Warning: Stamina = 98.630753
+[2018.08.21-22.36.00:776][444]LogTemp: Warning: Stamina = 98.620758
+[2018.08.21-22.36.00:787][445]LogTemp: Warning: Stamina = 98.610764
+[2018.08.21-22.36.00:799][446]LogTemp: Warning: Stamina = 98.600769
+[2018.08.21-22.36.00:809][447]LogTemp: Warning: Stamina = 98.590775
+[2018.08.21-22.36.00:821][448]LogTemp: Warning: Stamina = 98.580780
+[2018.08.21-22.36.00:832][449]LogTemp: Warning: Stamina = 98.570786
+[2018.08.21-22.36.00:843][450]LogTemp: Warning: Stamina = 98.560791
+[2018.08.21-22.36.00:854][451]LogTemp: Warning: Stamina = 98.550797
+[2018.08.21-22.36.00:865][452]LogTemp: Warning: Stamina = 98.540802
+[2018.08.21-22.36.00:876][453]LogTemp: Warning: Stamina = 98.530807
+[2018.08.21-22.36.00:888][454]LogTemp: Warning: Stamina = 98.520813
+[2018.08.21-22.36.00:899][455]LogTemp: Warning: Stamina = 98.510818
+[2018.08.21-22.36.00:909][456]LogTemp: Warning: Stamina = 98.500824
+[2018.08.21-22.36.00:920][457]LogTemp: Warning: Stamina = 98.490829
+[2018.08.21-22.36.00:932][458]LogTemp: Warning: Stamina = 98.480835
+[2018.08.21-22.36.00:944][459]LogTemp: Warning: Stamina = 98.470840
+[2018.08.21-22.36.00:956][460]LogTemp: Warning: Stamina = 98.460846
+[2018.08.21-22.36.00:967][461]LogTemp: Warning: Stamina = 98.450851
+[2018.08.21-22.36.00:978][462]LogTemp: Warning: Stamina = 98.440857
+[2018.08.21-22.36.00:990][463]LogTemp: Warning: Stamina = 98.430862
+[2018.08.21-22.36.01:002][464]LogTemp: Warning: Stamina = 98.420868
+[2018.08.21-22.36.01:012][465]LogTemp: Warning: Stamina = 98.410873
+[2018.08.21-22.36.01:024][466]LogTemp: Warning: Stamina = 98.400879
+[2018.08.21-22.36.01:036][467]LogTemp: Warning: Stamina = 98.390884
+[2018.08.21-22.36.01:047][468]LogTemp: Warning: Stamina = 98.380890
+[2018.08.21-22.36.01:058][469]LogTemp: Warning: Stamina = 98.365898
+[2018.08.21-22.36.01:070][470]LogTemp: Warning: Stamina = 98.355904
+[2018.08.21-22.36.01:081][471]LogTemp: Warning: Stamina = 98.345909
+[2018.08.21-22.36.01:093][472]LogTemp: Warning: Stamina = 98.335915
+[2018.08.21-22.36.01:105][473]LogTemp: Warning: Stamina = 98.325920
+[2018.08.21-22.36.01:116][474]LogTemp: Warning: Stamina = 98.315926
+[2018.08.21-22.36.01:127][475]LogTemp: Warning: Stamina = 98.305931
+[2018.08.21-22.36.01:139][476]LogTemp: Warning: Stamina = 98.295937
+[2018.08.21-22.36.01:150][477]LogTemp: Warning: Stamina = 98.285942
+[2018.08.21-22.36.01:162][478]LogTemp: Warning: Stamina = 98.275948
+[2018.08.21-22.36.01:174][479]LogTemp: Warning: Stamina = 98.265953
+[2018.08.21-22.36.01:185][480]LogTemp: Warning: Stamina = 98.255959
+[2018.08.21-22.36.01:196][481]LogTemp: Warning: Stamina = 98.245964
+[2018.08.21-22.36.01:207][482]LogTemp: Warning: Stamina = 98.235970
+[2018.08.21-22.36.01:219][483]LogTemp: Warning: Stamina = 98.225975
+[2018.08.21-22.36.01:230][484]LogTemp: Warning: Stamina = 98.215981
+[2018.08.21-22.36.01:242][485]LogTemp: Warning: Stamina = 98.205986
+[2018.08.21-22.36.01:253][486]LogTemp: Warning: Stamina = 98.195992
+[2018.08.21-22.36.01:265][487]LogTemp: Warning: Stamina = 98.185997
+[2018.08.21-22.36.01:276][488]LogTemp: Warning: Stamina = 98.176003
+[2018.08.21-22.36.01:288][489]LogTemp: Warning: Stamina = 98.166008
+[2018.08.21-22.36.01:301][490]LogTemp: Warning: Stamina = 98.156013
+[2018.08.21-22.36.01:313][491]LogTemp: Warning: Stamina = 98.146019
+[2018.08.21-22.36.01:324][492]LogTemp: Warning: Stamina = 98.136024
+[2018.08.21-22.36.01:337][493]LogTemp: Warning: Stamina = 98.126030
+[2018.08.21-22.36.01:348][494]LogTemp: Warning: Stamina = 98.116035
+[2018.08.21-22.36.01:359][495]LogTemp: Warning: Stamina = 98.106041
+[2018.08.21-22.36.01:370][496]LogTemp: Warning: Stamina = 98.096046
+[2018.08.21-22.36.01:381][497]LogTemp: Warning: Stamina = 98.086052
+[2018.08.21-22.36.01:392][498]LogTemp: Warning: Stamina = 98.076057
+[2018.08.21-22.36.01:404][499]LogTemp: Warning: Stamina = 98.066063
+[2018.08.21-22.36.01:415][500]LogTemp: Warning: Stamina = 98.056068
+[2018.08.21-22.36.01:426][501]LogTemp: Warning: Stamina = 98.046074
+[2018.08.21-22.36.01:437][502]LogTemp: Warning: Stamina = 98.036079
+[2018.08.21-22.36.01:447][503]LogTemp: Warning: Stamina = 98.026085
+[2018.08.21-22.36.01:459][504]LogTemp: Warning: Stamina = 98.016090
+[2018.08.21-22.36.01:470][505]LogTemp: Warning: Stamina = 98.006096
+[2018.08.21-22.36.01:481][506]LogTemp: Warning: Stamina = 97.996101
+[2018.08.21-22.36.01:493][507]LogTemp: Warning: Stamina = 97.986107
+[2018.08.21-22.36.01:505][508]LogTemp: Warning: Stamina = 97.976112
+[2018.08.21-22.36.01:517][509]LogTemp: Warning: Stamina = 97.966118
+[2018.08.21-22.36.01:528][510]LogTemp: Warning: Stamina = 97.956123
+[2018.08.21-22.36.01:539][511]LogTemp: Warning: Stamina = 97.946129
+[2018.08.21-22.36.01:551][512]LogTemp: Warning: Stamina = 97.936134
+[2018.08.21-22.36.01:562][513]LogTemp: Warning: Stamina = 97.926140
+[2018.08.21-22.36.01:573][514]LogTemp: Warning: Stamina = 97.916145
+[2018.08.21-22.36.01:585][515]LogTemp: Warning: Stamina = 97.906151
+[2018.08.21-22.36.01:596][516]LogTemp: Warning: Stamina = 97.896156
+[2018.08.21-22.36.01:607][517]LogTemp: Warning: Stamina = 97.886162
+[2018.08.21-22.36.01:618][518]LogTemp: Warning: Stamina = 97.876167
+[2018.08.21-22.36.01:630][519]LogTemp: Warning: Stamina = 97.866173
+[2018.08.21-22.36.01:641][520]LogTemp: Warning: Stamina = 97.856178
+[2018.08.21-22.36.01:653][521]LogTemp: Warning: Stamina = 97.846184
+[2018.08.21-22.36.01:664][522]LogTemp: Warning: Stamina = 97.836189
+[2018.08.21-22.36.01:675][523]LogTemp: Warning: Stamina = 97.826195
+[2018.08.21-22.36.01:687][524]LogTemp: Warning: Stamina = 97.816200
+[2018.08.21-22.36.01:698][525]LogTemp: Warning: Stamina = 97.806206
+[2018.08.21-22.36.01:709][526]LogTemp: Warning: Stamina = 97.796211
+[2018.08.21-22.36.01:720][527]LogTemp: Warning: Stamina = 97.786217
+[2018.08.21-22.36.01:731][528]LogTemp: Warning: Stamina = 97.776222
+[2018.08.21-22.36.01:742][529]LogTemp: Warning: Stamina = 97.766228
+[2018.08.21-22.36.01:754][530]LogTemp: Warning: Stamina = 97.756233
+[2018.08.21-22.36.01:766][531]LogTemp: Warning: Stamina = 97.746239
+[2018.08.21-22.36.01:776][532]LogTemp: Warning: Stamina = 97.736244
+[2018.08.21-22.36.01:787][533]LogTemp: Warning: Stamina = 97.726250
+[2018.08.21-22.36.01:798][534]LogTemp: Warning: Stamina = 97.716255
+[2018.08.21-22.36.01:809][535]LogTemp: Warning: Stamina = 97.706261
+[2018.08.21-22.36.01:821][536]LogTemp: Warning: Stamina = 97.696266
+[2018.08.21-22.36.01:833][537]LogTemp: Warning: Stamina = 97.686272
+[2018.08.21-22.36.01:844][538]LogTemp: Warning: Stamina = 97.676277
+[2018.08.21-22.36.01:855][539]LogTemp: Warning: Stamina = 97.666283
+[2018.08.21-22.36.01:866][540]LogTemp: Warning: Stamina = 97.656288
+[2018.08.21-22.36.01:877][541]LogTemp: Warning: Stamina = 97.646294
+[2018.08.21-22.36.01:887][542]LogTemp: Warning: Stamina = 97.636299
+[2018.08.21-22.36.01:899][543]LogTemp: Warning: Stamina = 97.626305
+[2018.08.21-22.36.01:911][544]LogTemp: Warning: Stamina = 97.616310
+[2018.08.21-22.36.01:923][545]LogTemp: Warning: Stamina = 97.606316
+[2018.08.21-22.36.01:934][546]LogTemp: Warning: Stamina = 97.596321
+[2018.08.21-22.36.01:945][547]LogTemp: Warning: Stamina = 97.586327
+[2018.08.21-22.36.01:957][548]LogTemp: Warning: Stamina = 97.576332
+[2018.08.21-22.36.01:969][549]LogTemp: Warning: Stamina = 97.566338
+[2018.08.21-22.36.01:980][550]LogTemp: Warning: Stamina = 97.556343
+[2018.08.21-22.36.01:991][551]LogTemp: Warning: Stamina = 97.546349
+[2018.08.21-22.36.02:003][552]LogTemp: Warning: Stamina = 97.536354
+[2018.08.21-22.36.02:013][553]LogTemp: Warning: Stamina = 97.526360
+[2018.08.21-22.36.02:025][554]LogTemp: Warning: Stamina = 97.516365
+[2018.08.21-22.36.02:036][555]LogTemp: Warning: Stamina = 97.506371
+[2018.08.21-22.36.02:047][556]LogTemp: Warning: Stamina = 97.496376
+[2018.08.21-22.36.02:057][557]LogTemp: Warning: Stamina = 97.486382
+[2018.08.21-22.36.02:069][558]LogTemp: Warning: Stamina = 97.476387
+[2018.08.21-22.36.02:080][559]LogTemp: Warning: Stamina = 97.461395
+[2018.08.21-22.36.02:091][560]LogTemp: Warning: Stamina = 97.451401
+[2018.08.21-22.36.02:102][561]LogTemp: Warning: Stamina = 97.441406
+[2018.08.21-22.36.02:114][562]LogTemp: Warning: Stamina = 97.431412
+[2018.08.21-22.36.02:125][563]LogTemp: Warning: Stamina = 97.421417
+[2018.08.21-22.36.02:137][564]LogTemp: Warning: Stamina = 97.411423
+[2018.08.21-22.36.02:149][565]LogTemp: Warning: Stamina = 97.401428
+[2018.08.21-22.36.02:160][566]LogTemp: Warning: Stamina = 97.391434
+[2018.08.21-22.36.02:172][567]LogTemp: Warning: Stamina = 97.381439
+[2018.08.21-22.36.02:183][568]LogTemp: Warning: Stamina = 97.371445
+[2018.08.21-22.36.02:194][569]LogTemp: Warning: Stamina = 97.361450
+[2018.08.21-22.36.02:205][570]LogTemp: Warning: Stamina = 97.351456
+[2018.08.21-22.36.02:216][571]LogTemp: Warning: Stamina = 97.341461
+[2018.08.21-22.36.02:228][572]LogTemp: Warning: Stamina = 97.331467
+[2018.08.21-22.36.02:239][573]LogTemp: Warning: Stamina = 97.321472
+[2018.08.21-22.36.02:250][574]LogTemp: Warning: Stamina = 97.311478
+[2018.08.21-22.36.02:261][575]LogTemp: Warning: Stamina = 97.301483
+[2018.08.21-22.36.02:273][576]LogTemp: Warning: Stamina = 97.291489
+[2018.08.21-22.36.02:284][577]LogTemp: Warning: Stamina = 97.281494
+[2018.08.21-22.36.02:295][578]LogTemp: Warning: Stamina = 97.271500
+[2018.08.21-22.36.02:307][579]LogTemp: Warning: Stamina = 97.261505
+[2018.08.21-22.36.02:320][580]LogTemp: Warning: Stamina = 97.251511
+[2018.08.21-22.36.02:331][581]LogTemp: Warning: Stamina = 97.241516
+[2018.08.21-22.36.02:343][582]LogTemp: Warning: Stamina = 97.231522
+[2018.08.21-22.36.02:354][583]LogTemp: Warning: Stamina = 97.221527
+[2018.08.21-22.36.02:365][584]LogTemp: Warning: Stamina = 97.211533
+[2018.08.21-22.36.02:376][585]LogTemp: Warning: Stamina = 97.201538
+[2018.08.21-22.36.02:388][586]LogTemp: Warning: Stamina = 97.191544
+[2018.08.21-22.36.02:399][587]LogTemp: Warning: Stamina = 97.181549
+[2018.08.21-22.36.02:411][588]LogTemp: Warning: Stamina = 97.171555
+[2018.08.21-22.36.02:422][589]LogTemp: Warning: Stamina = 97.161560
+[2018.08.21-22.36.02:433][590]LogTemp: Warning: Stamina = 97.151566
+[2018.08.21-22.36.02:444][591]LogTemp: Warning: Stamina = 97.141571
+[2018.08.21-22.36.02:455][592]LogTemp: Warning: Stamina = 97.131577
+[2018.08.21-22.36.02:467][593]LogTemp: Warning: Stamina = 97.121582
+[2018.08.21-22.36.02:478][594]LogTemp: Warning: Stamina = 97.111588
+[2018.08.21-22.36.02:489][595]LogTemp: Warning: Stamina = 97.101593
+[2018.08.21-22.36.02:500][596]LogTemp: Warning: Stamina = 97.091599
+[2018.08.21-22.36.02:511][597]LogTemp: Warning: Stamina = 97.081604
+[2018.08.21-22.36.02:523][598]LogTemp: Warning: Stamina = 97.071609
+[2018.08.21-22.36.02:534][599]LogTemp: Warning: Stamina = 97.061615
+[2018.08.21-22.36.02:545][600]LogTemp: Warning: Stamina = 97.051620
+[2018.08.21-22.36.02:556][601]LogTemp: Warning: Stamina = 97.041626
+[2018.08.21-22.36.02:568][602]LogTemp: Warning: Stamina = 97.031631
+[2018.08.21-22.36.02:578][603]LogTemp: Warning: Stamina = 97.021637
+[2018.08.21-22.36.02:590][604]LogTemp: Warning: Stamina = 97.011642
+[2018.08.21-22.36.02:602][605]LogTemp: Warning: Stamina = 97.001648
+[2018.08.21-22.36.02:613][606]LogTemp: Warning: Stamina = 96.991653
+[2018.08.21-22.36.02:624][607]LogTemp: Warning: Stamina = 96.981659
+[2018.08.21-22.36.02:635][608]LogTemp: Warning: Stamina = 96.971664
+[2018.08.21-22.36.02:646][609]LogTemp: Warning: Stamina = 96.961670
+[2018.08.21-22.36.02:658][610]LogTemp: Warning: Stamina = 96.951675
+[2018.08.21-22.36.02:669][611]LogTemp: Warning: Stamina = 96.941681
+[2018.08.21-22.36.02:680][612]LogTemp: Warning: Stamina = 96.931686
+[2018.08.21-22.36.02:691][613]LogTemp: Warning: Stamina = 96.921692
+[2018.08.21-22.36.02:702][614]LogTemp: Warning: Stamina = 96.911697
+[2018.08.21-22.36.02:713][615]LogTemp: Warning: Stamina = 96.901703
+[2018.08.21-22.36.02:726][616]LogTemp: Warning: Stamina = 96.891708
+[2018.08.21-22.36.02:737][617]LogTemp: Warning: Stamina = 96.881714
+[2018.08.21-22.36.02:748][618]LogTemp: Warning: Stamina = 96.871719
+[2018.08.21-22.36.02:759][619]LogTemp: Warning: Stamina = 96.861725
+[2018.08.21-22.36.02:771][620]LogTemp: Warning: Stamina = 96.851730
+[2018.08.21-22.36.02:781][621]LogTemp: Warning: Stamina = 96.841736
+[2018.08.21-22.36.02:793][622]LogTemp: Warning: Stamina = 96.831741
+[2018.08.21-22.36.02:805][623]LogTemp: Warning: Stamina = 96.821747
+[2018.08.21-22.36.02:816][624]LogTemp: Warning: Stamina = 96.811752
+[2018.08.21-22.36.02:826][625]LogTemp: Warning: Stamina = 96.801758
+[2018.08.21-22.36.02:838][626]LogTemp: Warning: Stamina = 96.791763
+[2018.08.21-22.36.02:849][627]LogTemp: Warning: Stamina = 96.781769
+[2018.08.21-22.36.02:861][628]LogTemp: Warning: Stamina = 96.771774
+[2018.08.21-22.36.02:873][629]LogTemp: Warning: Stamina = 96.761780
+[2018.08.21-22.36.02:885][630]LogTemp: Warning: Stamina = 96.746788
+[2018.08.21-22.36.02:896][631]LogTemp: Warning: Stamina = 96.736794
+[2018.08.21-22.36.02:908][632]LogTemp: Warning: Stamina = 96.726799
+[2018.08.21-22.36.02:919][633]LogTemp: Warning: Stamina = 96.716805
+[2018.08.21-22.36.02:931][634]LogTemp: Warning: Stamina = 96.706810
+[2018.08.21-22.36.02:942][635]LogTemp: Warning: Stamina = 96.696815
+[2018.08.21-22.36.02:953][636]LogTemp: Warning: Stamina = 96.686821
+[2018.08.21-22.36.02:964][637]LogTemp: Warning: Stamina = 96.676826
+[2018.08.21-22.36.02:976][638]LogTemp: Warning: Stamina = 96.666832
+[2018.08.21-22.36.02:988][639]LogTemp: Warning: Stamina = 96.656837
+[2018.08.21-22.36.02:999][640]LogTemp: Warning: Stamina = 96.646843
+[2018.08.21-22.36.03:009][641]LogTemp: Warning: Stamina = 96.636848
+[2018.08.21-22.36.03:022][642]LogTemp: Warning: Stamina = 96.626854
+[2018.08.21-22.36.03:033][643]LogTemp: Warning: Stamina = 96.616859
+[2018.08.21-22.36.03:043][644]LogTemp: Warning: Stamina = 96.606865
+[2018.08.21-22.36.03:056][645]LogTemp: Warning: Stamina = 96.596870
+[2018.08.21-22.36.03:067][646]LogTemp: Warning: Stamina = 96.586876
+[2018.08.21-22.36.03:078][647]LogTemp: Warning: Stamina = 96.576881
+[2018.08.21-22.36.03:089][648]LogTemp: Warning: Stamina = 96.566887
+[2018.08.21-22.36.03:101][649]LogTemp: Warning: Stamina = 96.556892
+[2018.08.21-22.36.03:112][650]LogTemp: Warning: Stamina = 96.546898
+[2018.08.21-22.36.03:123][651]LogTemp: Warning: Stamina = 96.536903
+[2018.08.21-22.36.03:136][652]LogTemp: Warning: Stamina = 96.526909
+[2018.08.21-22.36.03:147][653]LogTemp: Warning: Stamina = 96.516914
+[2018.08.21-22.36.03:159][654]LogTemp: Warning: Stamina = 96.506920
+[2018.08.21-22.36.03:170][655]LogTemp: Warning: Stamina = 96.496925
+[2018.08.21-22.36.03:181][656]LogTemp: Warning: Stamina = 96.486931
+[2018.08.21-22.36.03:192][657]LogTemp: Warning: Stamina = 96.476936
+[2018.08.21-22.36.03:204][658]LogTemp: Warning: Stamina = 96.466942
+[2018.08.21-22.36.03:215][659]LogTemp: Warning: Stamina = 96.456947
+[2018.08.21-22.36.03:226][660]LogTemp: Warning: Stamina = 96.446953
+[2018.08.21-22.36.03:238][661]LogTemp: Warning: Stamina = 96.436958
+[2018.08.21-22.36.03:248][662]LogTemp: Warning: Stamina = 96.426964
+[2018.08.21-22.36.03:260][663]LogTemp: Warning: Stamina = 96.416969
+[2018.08.21-22.36.03:271][664]LogTemp: Warning: Stamina = 96.406975
+[2018.08.21-22.36.03:282][665]LogTemp: Warning: Stamina = 96.396980
+[2018.08.21-22.36.03:294][666]LogTemp: Warning: Stamina = 96.386986
+[2018.08.21-22.36.03:306][667]LogTemp: Warning: Stamina = 96.376991
+[2018.08.21-22.36.03:317][668]LogTemp: Warning: Stamina = 96.366997
+[2018.08.21-22.36.03:328][669]LogTemp: Warning: Stamina = 96.357002
+[2018.08.21-22.36.03:340][670]LogTemp: Warning: Stamina = 96.347008
+[2018.08.21-22.36.03:351][671]LogTemp: Warning: Stamina = 96.337013
+[2018.08.21-22.36.03:362][672]LogTemp: Warning: Stamina = 96.327019
+[2018.08.21-22.36.03:373][673]LogTemp: Warning: Stamina = 96.317024
+[2018.08.21-22.36.03:384][674]LogTemp: Warning: Stamina = 96.307030
+[2018.08.21-22.36.03:395][675]LogTemp: Warning: Stamina = 96.297035
+[2018.08.21-22.36.03:406][676]LogTemp: Warning: Stamina = 96.287041
+[2018.08.21-22.36.03:417][677]LogTemp: Warning: Stamina = 96.277046
+[2018.08.21-22.36.03:428][678]LogTemp: Warning: Stamina = 96.267052
+[2018.08.21-22.36.03:439][679]LogTemp: Warning: Stamina = 96.257057
+[2018.08.21-22.36.03:451][680]LogTemp: Warning: Stamina = 96.247063
+[2018.08.21-22.36.03:461][681]LogTemp: Warning: Stamina = 96.237068
+[2018.08.21-22.36.03:473][682]LogTemp: Warning: Stamina = 96.227074
+[2018.08.21-22.36.03:484][683]LogTemp: Warning: Stamina = 96.217079
+[2018.08.21-22.36.03:495][684]LogTemp: Warning: Stamina = 96.207085
+[2018.08.21-22.36.03:506][685]LogTemp: Warning: Stamina = 96.197090
+[2018.08.21-22.36.03:517][686]LogTemp: Warning: Stamina = 96.187096
+[2018.08.21-22.36.03:528][687]LogTemp: Warning: Stamina = 96.177101
+[2018.08.21-22.36.03:539][688]LogTemp: Warning: Stamina = 96.167107
+[2018.08.21-22.36.03:550][689]LogTemp: Warning: Stamina = 96.157112
+[2018.08.21-22.36.03:562][690]LogTemp: Warning: Stamina = 96.147118
+[2018.08.21-22.36.03:573][691]LogTemp: Warning: Stamina = 96.137123
+[2018.08.21-22.36.03:584][692]LogTemp: Warning: Stamina = 96.127129
+[2018.08.21-22.36.03:595][693]LogTemp: Warning: Stamina = 96.117134
+[2018.08.21-22.36.03:606][694]LogTemp: Warning: Stamina = 96.107140
+[2018.08.21-22.36.03:617][695]LogTemp: Warning: Stamina = 96.097145
+[2018.08.21-22.36.03:628][696]LogTemp: Warning: Stamina = 96.087151
+[2018.08.21-22.36.03:639][697]LogTemp: Warning: Stamina = 96.077156
+[2018.08.21-22.36.03:649][698]LogTemp: Warning: Stamina = 96.067162
+[2018.08.21-22.36.03:661][699]LogTemp: Warning: Stamina = 96.057167
+[2018.08.21-22.36.03:672][700]LogTemp: Warning: Stamina = 96.047173
+[2018.08.21-22.36.03:682][701]LogTemp: Warning: Stamina = 96.037178
+[2018.08.21-22.36.03:693][702]LogTemp: Warning: Stamina = 96.027184
+[2018.08.21-22.36.03:704][703]LogTemp: Warning: Stamina = 96.017189
+[2018.08.21-22.36.03:716][704]LogTemp: Warning: Stamina = 96.007195
+[2018.08.21-22.36.03:727][705]LogTemp: Warning: Stamina = 95.997200
+[2018.08.21-22.36.03:739][706]LogTemp: Warning: Stamina = 95.987206
+[2018.08.21-22.36.03:749][707]LogTemp: Warning: Stamina = 95.977211
+[2018.08.21-22.36.03:761][708]LogTemp: Warning: Stamina = 95.967216
+[2018.08.21-22.36.03:773][709]LogTemp: Warning: Stamina = 95.957222
+[2018.08.21-22.36.03:785][710]LogTemp: Warning: Stamina = 95.947227
+[2018.08.21-22.36.03:796][711]LogTemp: Warning: Stamina = 95.937233
+[2018.08.21-22.36.03:807][712]LogTemp: Warning: Stamina = 95.927238
+[2018.08.21-22.36.03:819][713]LogTemp: Warning: Stamina = 95.917244
+[2018.08.21-22.36.03:831][714]LogTemp: Warning: Stamina = 95.907249
+[2018.08.21-22.36.03:842][715]LogTemp: Warning: Stamina = 95.897255
+[2018.08.21-22.36.03:854][716]LogTemp: Warning: Stamina = 95.887260
+[2018.08.21-22.36.03:865][717]LogTemp: Warning: Stamina = 95.877266
+[2018.08.21-22.36.03:876][718]LogTemp: Warning: Stamina = 95.867271
+[2018.08.21-22.36.03:888][719]LogTemp: Warning: Stamina = 95.857277
+[2018.08.21-22.36.03:900][720]LogTemp: Warning: Stamina = 95.847282
+[2018.08.21-22.36.03:911][721]LogTemp: Warning: Stamina = 95.837288
+[2018.08.21-22.36.03:924][722]LogTemp: Warning: Stamina = 95.827293
+[2018.08.21-22.36.03:925][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.36.03:956][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.36.06:795][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.36.13:684][523]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.21-22.36.18:318][902]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e765df0fc0, Size=4, Default__BP_MenuWidget_C Function /Game/Menu/BP_MenuWidget.BP_MenuWidget_C:ExecuteUbergraph_BP_MenuWidget
+[2018.08.21-22.36.18:321][902]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e765df0fc0, Size=4
+[2018.08.21-22.36.18:321][902]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e765df0fc0, Size=4, Default__BP_MenuWidget_C Function /Engine/Transient.REINST_BP_MenuWidget_C_1:ExecuteUbergraph_BP_MenuWidget
+[2018.08.21-22.36.18:322][902]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e765df03b8, Size=4, Default__BP_MenuWidget_C Function /Game/Menu/BP_MenuWidget.BP_MenuWidget_C:ExecuteUbergraph_BP_MenuWidget
+[2018.08.21-22.36.18:324][902]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e791e76050, Size=48, Default__BP_Pawn_C Function /Game/Player/BP_Pawn.BP_Pawn_C:ExecuteUbergraph_BP_Pawn
+[2018.08.21-22.36.18:327][902]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e791e76050, Size=48
+[2018.08.21-22.36.18:327][902]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e791e75840, Size=48, Default__BP_Pawn_C Function /Engine/Transient.REINST_BP_Pawn_C_27:ExecuteUbergraph_BP_Pawn
+[2018.08.21-22.36.18:330][902]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e791e74790, Size=48, Default__BP_Pawn_C Function /Game/Player/BP_Pawn.BP_Pawn_C:ExecuteUbergraph_BP_Pawn
+[2018.08.21-22.36.53:809][159]LogBlueprint: Warning: [MyALBIRB_EXPERIENCEPawn] 'MenuPause' variable not found. Base class was probably changed. /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.36.53:809][159]LogBlueprint: Warning: [MyALBIRB_EXPERIENCEPawn] 'MenuPause' variable not found. Base class was probably changed. /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.36.53:809][159]LogBlueprint: Warning: [MyALBIRB_EXPERIENCEPawn] 'MenuPause' variable not found. Base class was probably changed. /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.36.53:812][159]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7a6d13318, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.07:387][484]BlueprintLog: New page: Compile MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.07:393][484]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7a6d13318, Size=4
+[2018.08.21-22.37.07:393][484]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7b0d62020, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_31:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.07:399][484]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e730b2b800, Size=232
+[2018.08.21-22.37.07:399][484]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7420cfe00, Size=232, Default__MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_33:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.07:400][484]LogBlueprint: Warning: [Compiler MyALBIRB_EXPERIENCEPawn] Could not find a variable named "MenuPause" in 'MyALBIRB_EXPERIENCEPawn_C'.
+Make sure 'MyALBIRB_EXPERIENCEPawn_C' has been compiled for  Get MenuPause
+[2018.08.21-22.37.07:400][484]LogBlueprint: Warning: [Compiler MyALBIRB_EXPERIENCEPawn] Could not find a variable named "MenuPause" in 'MyALBIRB_EXPERIENCEPawn_C'.
+Make sure 'MyALBIRB_EXPERIENCEPawn_C' has been compiled for  Set MenuPause
+[2018.08.21-22.37.07:413][484]LogBlueprint: Error: [Compiler MyALBIRB_EXPERIENCEPawn] The property associated with  Menu Pause  could not be found
+[2018.08.21-22.37.07:413][484]LogBlueprint: Error: [Compiler MyALBIRB_EXPERIENCEPawn] The property associated with  Menu Pause  could not be found
+[2018.08.21-22.37.07:414][484]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7197a5300, Size=272, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.07:647][484]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7b0d62020, Size=4
+[2018.08.21-22.37.07:647][484]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e791e75840, Size=48
+[2018.08.21-22.37.07:647][484]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e765df0fc0, Size=4
+[2018.08.21-22.37.07:655][484]LogBlueprint: Warning: [Compiler MyALBIRB_EXPERIENCEPawn] [0130.87] Compile of MyALBIRB_EXPERIENCEPawn failed. 2 Fatal Issue(s) 2 Warning(s) [in 267 ms] (/Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn)
+[2018.08.21-22.37.17:819][487]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e765df07c8, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.40:295][607]BlueprintLog: New page: Compile MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.40:301][607]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e765df07c8, Size=4
+[2018.08.21-22.37.40:301][607]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e765df07c8, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_37:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.40:307][607]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7197a5300, Size=272
+[2018.08.21-22.37.40:307][607]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7abf1d940, Size=272, MyALBIRB_EXPERIENCEPawn_C_3 Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_39:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.40:309][607]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7abf1f240, Size=264, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.37.40:541][607]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7420cfe00, Size=232
+[2018.08.21-22.37.40:541][607]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e765df07c8, Size=4
+[2018.08.21-22.37.41:820][710]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.21-22.37.41:842][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.37.41:842][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.21-22.37.41:842][710]PIE: New page: PIE session: FlyingExampleMap (Aug 22, 2018, 10:37:41 PM)
+[2018.08.21-22.37.41:842][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.21-22.37.41:859][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016775s)
+[2018.08.21-22.37.41:860][710]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.37.41:860][710]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2018.08.21-22.37.41:860][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.017955s)
+[2018.08.21-22.37.41:886][710]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.21-22.37.41:892][710]LogInit: FAudioDevice initialized.
+[2018.08.21-22.37.41:925][710]LogLoad: Game class is 'BP_Gamemode_1_C'
+[2018.08.21-22.37.41:929][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.22-10.37.41
+[2018.08.21-22.37.41:930][710]LogWorld: Bringing up level for play took: 0.003687
+[2018.08.21-22.37.41:931][710]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap -0.59
+[2018.08.21-22.37.41:931][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.37.42:179][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.37.42:597][766]LogTemp: Warning: Stamina = 99.715157
+[2018.08.21-22.37.42:611][767]LogTemp: Warning: Stamina = 99.705162
+[2018.08.21-22.37.42:622][768]LogTemp: Warning: Stamina = 99.695168
+[2018.08.21-22.37.42:634][769]LogTemp: Warning: Stamina = 99.685173
+[2018.08.21-22.37.42:648][770]LogTemp: Warning: Stamina = 99.675179
+[2018.08.21-22.37.42:660][771]LogTemp: Warning: Stamina = 99.665184
+[2018.08.21-22.37.42:671][772]LogTemp: Warning: Stamina = 99.655190
+[2018.08.21-22.37.42:682][773]LogTemp: Warning: Stamina = 99.645195
+[2018.08.21-22.37.42:694][774]LogTemp: Warning: Stamina = 99.635201
+[2018.08.21-22.37.42:706][775]LogTemp: Warning: Stamina = 99.625206
+[2018.08.21-22.37.42:718][776]LogTemp: Warning: Stamina = 99.615211
+[2018.08.21-22.37.42:730][777]LogTemp: Warning: Stamina = 99.605217
+[2018.08.21-22.37.42:741][778]LogTemp: Warning: Stamina = 99.595222
+[2018.08.21-22.37.42:753][779]LogTemp: Warning: Stamina = 99.585228
+[2018.08.21-22.37.42:765][780]LogTemp: Warning: Stamina = 99.575233
+[2018.08.21-22.37.42:777][781]LogTemp: Warning: Stamina = 99.565239
+[2018.08.21-22.37.42:789][782]LogTemp: Warning: Stamina = 99.555244
+[2018.08.21-22.37.42:801][783]LogTemp: Warning: Stamina = 99.545250
+[2018.08.21-22.37.42:813][784]LogTemp: Warning: Stamina = 99.535255
+[2018.08.21-22.37.42:824][785]LogTemp: Warning: Stamina = 99.525261
+[2018.08.21-22.37.42:836][786]LogTemp: Warning: Stamina = 99.515266
+[2018.08.21-22.37.42:848][787]LogTemp: Warning: Stamina = 99.505272
+[2018.08.21-22.37.42:859][788]LogTemp: Warning: Stamina = 99.495277
+[2018.08.21-22.37.42:870][789]LogTemp: Warning: Stamina = 99.480286
+[2018.08.21-22.37.42:882][790]LogTemp: Warning: Stamina = 99.470291
+[2018.08.21-22.37.42:893][791]LogTemp: Warning: Stamina = 99.460297
+[2018.08.21-22.37.42:905][792]LogTemp: Warning: Stamina = 99.450302
+[2018.08.21-22.37.42:917][793]LogTemp: Warning: Stamina = 99.440308
+[2018.08.21-22.37.42:929][794]LogTemp: Warning: Stamina = 99.430313
+[2018.08.21-22.37.42:942][795]LogTemp: Warning: Stamina = 99.420319
+[2018.08.21-22.37.42:955][796]LogTemp: Warning: Stamina = 99.410324
+[2018.08.21-22.37.42:969][797]LogTemp: Warning: Stamina = 99.400330
+[2018.08.21-22.37.42:983][798]LogTemp: Warning: Stamina = 99.390335
+[2018.08.21-22.37.42:996][799]LogTemp: Warning: Stamina = 99.380341
+[2018.08.21-22.37.43:010][800]LogTemp: Warning: Stamina = 99.370346
+[2018.08.21-22.37.43:021][801]LogTemp: Warning: Stamina = 99.360352
+[2018.08.21-22.37.43:033][802]LogTemp: Warning: Stamina = 99.350357
+[2018.08.21-22.37.43:045][803]LogTemp: Warning: Stamina = 99.340363
+[2018.08.21-22.37.43:057][804]LogTemp: Warning: Stamina = 99.330368
+[2018.08.21-22.37.43:069][805]LogTemp: Warning: Stamina = 99.320374
+[2018.08.21-22.37.43:081][806]LogTemp: Warning: Stamina = 99.310379
+[2018.08.21-22.37.43:092][807]LogTemp: Warning: Stamina = 99.300385
+[2018.08.21-22.37.43:104][808]LogTemp: Warning: Stamina = 99.290390
+[2018.08.21-22.37.43:116][809]LogTemp: Warning: Stamina = 99.280396
+[2018.08.21-22.37.43:128][810]LogTemp: Warning: Stamina = 99.270401
+[2018.08.21-22.37.43:139][811]LogTemp: Warning: Stamina = 99.260406
+[2018.08.21-22.37.43:151][812]LogTemp: Warning: Stamina = 99.250412
+[2018.08.21-22.37.43:163][813]LogTemp: Warning: Stamina = 99.240417
+[2018.08.21-22.37.43:174][814]LogTemp: Warning: Stamina = 99.230423
+[2018.08.21-22.37.43:187][815]LogTemp: Warning: Stamina = 99.220428
+[2018.08.21-22.37.43:199][816]LogTemp: Warning: Stamina = 99.210434
+[2018.08.21-22.37.43:210][817]LogTemp: Warning: Stamina = 99.200439
+[2018.08.21-22.37.43:222][818]LogTemp: Warning: Stamina = 99.190445
+[2018.08.21-22.37.43:234][819]LogTemp: Warning: Stamina = 99.180450
+[2018.08.21-22.37.43:246][820]LogTemp: Warning: Stamina = 99.170456
+[2018.08.21-22.37.43:258][821]LogTemp: Warning: Stamina = 99.160461
+[2018.08.21-22.37.43:270][822]LogTemp: Warning: Stamina = 99.150467
+[2018.08.21-22.37.43:283][823]LogTemp: Warning: Stamina = 99.140472
+[2018.08.21-22.37.43:295][824]LogTemp: Warning: Stamina = 99.130478
+[2018.08.21-22.37.43:306][825]LogTemp: Warning: Stamina = 99.120483
+[2018.08.21-22.37.43:318][826]LogTemp: Warning: Stamina = 99.110489
+[2018.08.21-22.37.43:330][827]LogTemp: Warning: Stamina = 99.100494
+[2018.08.21-22.37.43:342][828]LogTemp: Warning: Stamina = 99.090500
+[2018.08.21-22.37.43:353][829]LogTemp: Warning: Stamina = 99.080505
+[2018.08.21-22.37.43:365][830]LogTemp: Warning: Stamina = 99.070511
+[2018.08.21-22.37.43:378][831]LogTemp: Warning: Stamina = 99.060516
+[2018.08.21-22.37.43:389][832]LogTemp: Warning: Stamina = 99.050522
+[2018.08.21-22.37.43:401][833]LogTemp: Warning: Stamina = 99.040527
+[2018.08.21-22.37.43:414][834]LogTemp: Warning: Stamina = 99.030533
+[2018.08.21-22.37.43:425][835]LogTemp: Warning: Stamina = 99.020538
+[2018.08.21-22.37.43:436][836]LogTemp: Warning: Stamina = 99.010544
+[2018.08.21-22.37.43:448][837]LogTemp: Warning: Stamina = 99.000549
+[2018.08.21-22.37.43:460][838]LogTemp: Warning: Stamina = 98.990555
+[2018.08.21-22.37.43:472][839]LogTemp: Warning: Stamina = 98.980560
+[2018.08.21-22.37.43:483][840]LogTemp: Warning: Stamina = 98.970566
+[2018.08.21-22.37.43:495][841]LogTemp: Warning: Stamina = 98.960571
+[2018.08.21-22.37.43:507][842]LogTemp: Warning: Stamina = 98.950577
+[2018.08.21-22.37.43:519][843]LogTemp: Warning: Stamina = 98.940582
+[2018.08.21-22.37.43:530][844]LogTemp: Warning: Stamina = 98.930588
+[2018.08.21-22.37.43:543][845]LogTemp: Warning: Stamina = 98.920593
+[2018.08.21-22.37.43:555][846]LogTemp: Warning: Stamina = 98.910599
+[2018.08.21-22.37.43:566][847]LogTemp: Warning: Stamina = 98.900604
+[2018.08.21-22.37.43:578][848]LogTemp: Warning: Stamina = 98.890610
+[2018.08.21-22.37.43:589][849]LogTemp: Warning: Stamina = 98.880615
+[2018.08.21-22.37.43:601][850]LogTemp: Warning: Stamina = 98.870621
+[2018.08.21-22.37.43:613][851]LogTemp: Warning: Stamina = 98.860626
+[2018.08.21-22.37.43:625][852]LogTemp: Warning: Stamina = 98.850632
+[2018.08.21-22.37.43:637][853]LogTemp: Warning: Stamina = 98.840637
+[2018.08.21-22.37.43:650][854]LogTemp: Warning: Stamina = 98.830643
+[2018.08.21-22.37.43:662][855]LogTemp: Warning: Stamina = 98.820648
+[2018.08.21-22.37.43:674][856]LogTemp: Warning: Stamina = 98.810654
+[2018.08.21-22.37.43:686][857]LogTemp: Warning: Stamina = 98.800659
+[2018.08.21-22.37.43:698][858]LogTemp: Warning: Stamina = 98.790665
+[2018.08.21-22.37.43:710][859]LogTemp: Warning: Stamina = 98.780670
+[2018.08.21-22.37.43:721][860]LogTemp: Warning: Stamina = 98.770676
+[2018.08.21-22.37.43:734][861]LogTemp: Warning: Stamina = 98.760681
+[2018.08.21-22.37.43:745][862]LogTemp: Warning: Stamina = 98.750687
+[2018.08.21-22.37.43:756][863]LogTemp: Warning: Stamina = 98.740692
+[2018.08.21-22.37.43:768][864]LogTemp: Warning: Stamina = 98.730698
+[2018.08.21-22.37.43:780][865]LogTemp: Warning: Stamina = 98.720703
+[2018.08.21-22.37.43:791][866]LogTemp: Warning: Stamina = 98.710709
+[2018.08.21-22.37.43:802][867]LogTemp: Warning: Stamina = 98.700714
+[2018.08.21-22.37.43:815][868]LogTemp: Warning: Stamina = 98.690720
+[2018.08.21-22.37.43:826][869]LogTemp: Warning: Stamina = 98.680725
+[2018.08.21-22.37.43:839][870]LogTemp: Warning: Stamina = 98.670731
+[2018.08.21-22.37.43:850][871]LogTemp: Warning: Stamina = 98.660736
+[2018.08.21-22.37.43:862][872]LogTemp: Warning: Stamina = 98.650742
+[2018.08.21-22.37.43:873][873]LogTemp: Warning: Stamina = 98.640747
+[2018.08.21-22.37.43:885][874]LogTemp: Warning: Stamina = 98.630753
+[2018.08.21-22.37.43:897][875]LogTemp: Warning: Stamina = 98.620758
+[2018.08.21-22.37.43:909][876]LogTemp: Warning: Stamina = 98.610764
+[2018.08.21-22.37.43:921][877]LogTemp: Warning: Stamina = 98.600769
+[2018.08.21-22.37.43:933][878]LogTemp: Warning: Stamina = 98.590775
+[2018.08.21-22.37.43:945][879]LogTemp: Warning: Stamina = 98.580780
+[2018.08.21-22.37.43:957][880]LogTemp: Warning: Stamina = 98.565788
+[2018.08.21-22.37.43:969][881]LogTemp: Warning: Stamina = 98.555794
+[2018.08.21-22.37.43:981][882]LogTemp: Warning: Stamina = 98.545799
+[2018.08.21-22.37.43:993][883]LogTemp: Warning: Stamina = 98.535805
+[2018.08.21-22.37.44:005][884]LogTemp: Warning: Stamina = 98.525810
+[2018.08.21-22.37.44:017][885]LogTemp: Warning: Stamina = 98.515816
+[2018.08.21-22.37.44:029][886]LogTemp: Warning: Stamina = 98.505821
+[2018.08.21-22.37.44:041][887]LogTemp: Warning: Stamina = 98.495827
+[2018.08.21-22.37.44:053][888]LogTemp: Warning: Stamina = 98.485832
+[2018.08.21-22.37.44:064][889]LogTemp: Warning: Stamina = 98.475838
+[2018.08.21-22.37.44:076][890]LogTemp: Warning: Stamina = 98.465843
+[2018.08.21-22.37.44:088][891]LogTemp: Warning: Stamina = 98.455849
+[2018.08.21-22.37.44:102][892]LogTemp: Warning: Stamina = 98.445854
+[2018.08.21-22.37.44:114][893]LogTemp: Warning: Stamina = 98.435860
+[2018.08.21-22.37.44:126][894]LogTemp: Warning: Stamina = 98.425865
+[2018.08.21-22.37.44:138][895]LogTemp: Warning: Stamina = 98.415871
+[2018.08.21-22.37.44:150][896]LogTemp: Warning: Stamina = 98.405876
+[2018.08.21-22.37.44:162][897]LogTemp: Warning: Stamina = 98.395882
+[2018.08.21-22.37.44:173][898]LogTemp: Warning: Stamina = 98.385887
+[2018.08.21-22.37.44:184][899]LogTemp: Warning: Stamina = 98.375893
+[2018.08.21-22.37.44:196][900]LogTemp: Warning: Stamina = 98.365898
+[2018.08.21-22.37.44:207][901]LogTemp: Warning: Stamina = 98.355904
+[2018.08.21-22.37.44:220][902]LogTemp: Warning: Stamina = 98.345909
+[2018.08.21-22.37.44:231][903]LogTemp: Warning: Stamina = 98.335915
+[2018.08.21-22.37.44:243][904]LogTemp: Warning: Stamina = 98.325920
+[2018.08.21-22.37.44:255][905]LogTemp: Warning: Stamina = 98.315926
+[2018.08.21-22.37.44:267][906]LogTemp: Warning: Stamina = 98.305931
+[2018.08.21-22.37.44:278][907]LogTemp: Warning: Stamina = 98.295937
+[2018.08.21-22.37.44:290][908]LogTemp: Warning: Stamina = 98.285942
+[2018.08.21-22.37.44:302][909]LogTemp: Warning: Stamina = 98.275948
+[2018.08.21-22.37.44:314][910]LogTemp: Warning: Stamina = 98.265953
+[2018.08.21-22.37.44:325][911]LogTemp: Warning: Stamina = 98.255959
+[2018.08.21-22.37.44:337][912]LogTemp: Warning: Stamina = 98.245964
+[2018.08.21-22.37.44:348][913]LogTemp: Warning: Stamina = 98.235970
+[2018.08.21-22.37.44:359][914]LogTemp: Warning: Stamina = 98.225975
+[2018.08.21-22.37.44:371][915]LogTemp: Warning: Stamina = 98.215981
+[2018.08.21-22.37.44:382][916]LogTemp: Warning: Stamina = 98.205986
+[2018.08.21-22.37.44:394][917]LogTemp: Warning: Stamina = 98.195992
+[2018.08.21-22.37.44:405][918]LogTemp: Warning: Stamina = 98.185997
+[2018.08.21-22.37.44:417][919]LogTemp: Warning: Stamina = 98.176003
+[2018.08.21-22.37.44:429][920]LogTemp: Warning: Stamina = 98.166008
+[2018.08.21-22.37.44:440][921]LogTemp: Warning: Stamina = 98.156013
+[2018.08.21-22.37.44:451][922]LogTemp: Warning: Stamina = 98.146019
+[2018.08.21-22.37.44:463][923]LogTemp: Warning: Stamina = 98.136024
+[2018.08.21-22.37.44:474][924]LogTemp: Warning: Stamina = 98.126030
+[2018.08.21-22.37.44:486][925]LogTemp: Warning: Stamina = 98.116035
+[2018.08.21-22.37.44:498][926]LogTemp: Warning: Stamina = 98.106041
+[2018.08.21-22.37.44:510][927]LogTemp: Warning: Stamina = 98.096046
+[2018.08.21-22.37.44:523][928]LogTemp: Warning: Stamina = 98.086052
+[2018.08.21-22.37.44:534][929]LogTemp: Warning: Stamina = 98.076057
+[2018.08.21-22.37.44:546][930]LogTemp: Warning: Stamina = 98.066063
+[2018.08.21-22.37.44:558][931]LogTemp: Warning: Stamina = 98.056068
+[2018.08.21-22.37.44:570][932]LogTemp: Warning: Stamina = 98.046074
+[2018.08.21-22.37.44:582][933]LogTemp: Warning: Stamina = 98.036079
+[2018.08.21-22.37.44:594][934]LogTemp: Warning: Stamina = 98.026085
+[2018.08.21-22.37.44:605][935]LogTemp: Warning: Stamina = 98.016090
+[2018.08.21-22.37.44:617][936]LogTemp: Warning: Stamina = 98.006096
+[2018.08.21-22.37.44:630][937]LogTemp: Warning: Stamina = 97.996101
+[2018.08.21-22.37.44:643][938]LogTemp: Warning: Stamina = 97.986107
+[2018.08.21-22.37.44:656][939]LogTemp: Warning: Stamina = 97.976112
+[2018.08.21-22.37.44:667][940]LogTemp: Warning: Stamina = 97.966118
+[2018.08.21-22.37.44:679][941]LogTemp: Warning: Stamina = 97.956123
+[2018.08.21-22.37.44:692][942]LogTemp: Warning: Stamina = 97.946129
+[2018.08.21-22.37.44:703][943]LogTemp: Warning: Stamina = 97.936134
+[2018.08.21-22.37.44:715][944]LogTemp: Warning: Stamina = 97.926140
+[2018.08.21-22.37.44:727][945]LogTemp: Warning: Stamina = 97.916145
+[2018.08.21-22.37.44:738][946]LogTemp: Warning: Stamina = 97.906151
+[2018.08.21-22.37.44:750][947]LogTemp: Warning: Stamina = 97.896156
+[2018.08.21-22.37.44:761][948]LogTemp: Warning: Stamina = 97.886162
+[2018.08.21-22.37.44:773][949]LogTemp: Warning: Stamina = 97.876167
+[2018.08.21-22.37.44:785][950]LogTemp: Warning: Stamina = 97.866173
+[2018.08.21-22.37.44:797][951]LogTemp: Warning: Stamina = 97.856178
+[2018.08.21-22.37.44:808][952]LogTemp: Warning: Stamina = 97.846184
+[2018.08.21-22.37.44:820][953]LogTemp: Warning: Stamina = 97.836189
+[2018.08.21-22.37.44:832][954]LogTemp: Warning: Stamina = 97.826195
+[2018.08.21-22.37.44:844][955]LogTemp: Warning: Stamina = 97.816200
+[2018.08.21-22.37.44:856][956]LogTemp: Warning: Stamina = 97.806206
+[2018.08.21-22.37.44:868][957]LogTemp: Warning: Stamina = 97.796211
+[2018.08.21-22.37.44:881][958]LogTemp: Warning: Stamina = 97.786217
+[2018.08.21-22.37.44:892][959]LogTemp: Warning: Stamina = 97.776222
+[2018.08.21-22.37.44:903][960]LogTemp: Warning: Stamina = 97.766228
+[2018.08.21-22.37.44:916][961]LogTemp: Warning: Stamina = 97.756233
+[2018.08.21-22.37.44:927][962]LogTemp: Warning: Stamina = 97.746239
+[2018.08.21-22.37.44:938][963]LogTemp: Warning: Stamina = 97.736244
+[2018.08.21-22.37.44:950][964]LogTemp: Warning: Stamina = 97.726250
+[2018.08.21-22.37.44:962][965]LogTemp: Warning: Stamina = 97.716255
+[2018.08.21-22.37.44:973][966]LogTemp: Warning: Stamina = 97.706261
+[2018.08.21-22.37.44:985][967]LogTemp: Warning: Stamina = 97.696266
+[2018.08.21-22.37.44:996][968]LogTemp: Warning: Stamina = 97.686272
+[2018.08.21-22.37.45:008][969]LogTemp: Warning: Stamina = 97.676277
+[2018.08.21-22.37.45:020][970]LogTemp: Warning: Stamina = 97.666283
+[2018.08.21-22.37.45:032][971]LogTemp: Warning: Stamina = 97.656288
+[2018.08.21-22.37.45:044][972]LogTemp: Warning: Stamina = 97.646294
+[2018.08.21-22.37.45:055][973]LogTemp: Warning: Stamina = 97.636299
+[2018.08.21-22.37.45:067][974]LogTemp: Warning: Stamina = 97.626305
+[2018.08.21-22.37.45:079][975]LogTemp: Warning: Stamina = 97.616310
+[2018.08.21-22.37.45:090][976]LogTemp: Warning: Stamina = 97.601318
+[2018.08.21-22.37.45:103][977]LogTemp: Warning: Stamina = 97.591324
+[2018.08.21-22.37.45:114][978]LogTemp: Warning: Stamina = 97.581329
+[2018.08.21-22.37.45:125][979]LogTemp: Warning: Stamina = 97.571335
+[2018.08.21-22.37.45:137][980]LogTemp: Warning: Stamina = 97.561340
+[2018.08.21-22.37.45:149][981]LogTemp: Warning: Stamina = 97.551346
+[2018.08.21-22.37.45:161][982]LogTemp: Warning: Stamina = 97.541351
+[2018.08.21-22.37.45:173][983]LogTemp: Warning: Stamina = 97.531357
+[2018.08.21-22.37.45:185][984]LogTemp: Warning: Stamina = 97.521362
+[2018.08.21-22.37.45:197][985]LogTemp: Warning: Stamina = 97.511368
+[2018.08.21-22.37.45:208][986]LogTemp: Warning: Stamina = 97.501373
+[2018.08.21-22.37.45:220][987]LogTemp: Warning: Stamina = 97.491379
+[2018.08.21-22.37.45:232][988]LogTemp: Warning: Stamina = 97.481384
+[2018.08.21-22.37.45:244][989]LogTemp: Warning: Stamina = 97.471390
+[2018.08.21-22.37.45:255][990]LogTemp: Warning: Stamina = 97.461395
+[2018.08.21-22.37.45:267][991]LogTemp: Warning: Stamina = 97.451401
+[2018.08.21-22.37.45:279][992]LogTemp: Warning: Stamina = 97.441406
+[2018.08.21-22.37.45:290][993]LogTemp: Warning: Stamina = 97.431412
+[2018.08.21-22.37.45:302][994]LogTemp: Warning: Stamina = 97.421417
+[2018.08.21-22.37.45:314][995]LogTemp: Warning: Stamina = 97.411423
+[2018.08.21-22.37.45:326][996]LogTemp: Warning: Stamina = 97.401428
+[2018.08.21-22.37.45:338][997]LogTemp: Warning: Stamina = 97.391434
+[2018.08.21-22.37.45:350][998]LogTemp: Warning: Stamina = 97.376442
+[2018.08.21-22.37.45:361][999]LogTemp: Warning: Stamina = 97.366447
+[2018.08.21-22.37.45:373][  0]LogTemp: Warning: Stamina = 97.356453
+[2018.08.21-22.37.45:385][  1]LogTemp: Warning: Stamina = 97.346458
+[2018.08.21-22.37.45:396][  2]LogTemp: Warning: Stamina = 97.336464
+[2018.08.21-22.37.45:408][  3]LogTemp: Warning: Stamina = 97.326469
+[2018.08.21-22.37.45:420][  4]LogTemp: Warning: Stamina = 97.316475
+[2018.08.21-22.37.45:431][  5]LogTemp: Warning: Stamina = 97.306480
+[2018.08.21-22.37.45:443][  6]LogTemp: Warning: Stamina = 97.296486
+[2018.08.21-22.37.45:455][  7]LogTemp: Warning: Stamina = 97.286491
+[2018.08.21-22.37.45:467][  8]LogTemp: Warning: Stamina = 97.276497
+[2018.08.21-22.37.45:479][  9]LogTemp: Warning: Stamina = 97.266502
+[2018.08.21-22.37.45:491][ 10]LogTemp: Warning: Stamina = 97.256508
+[2018.08.21-22.37.45:503][ 11]LogTemp: Warning: Stamina = 97.246513
+[2018.08.21-22.37.45:515][ 12]LogTemp: Warning: Stamina = 97.236519
+[2018.08.21-22.37.45:527][ 13]LogTemp: Warning: Stamina = 97.226524
+[2018.08.21-22.37.45:539][ 14]LogTemp: Warning: Stamina = 97.216530
+[2018.08.21-22.37.45:550][ 15]LogTemp: Warning: Stamina = 97.206535
+[2018.08.21-22.37.45:562][ 16]LogTemp: Warning: Stamina = 97.196541
+[2018.08.21-22.37.45:574][ 17]LogTemp: Warning: Stamina = 97.186546
+[2018.08.21-22.37.45:585][ 18]LogTemp: Warning: Stamina = 97.176552
+[2018.08.21-22.37.45:598][ 19]LogTemp: Warning: Stamina = 97.166557
+[2018.08.21-22.37.45:609][ 20]LogTemp: Warning: Stamina = 97.156563
+[2018.08.21-22.37.45:621][ 21]LogTemp: Warning: Stamina = 97.146568
+[2018.08.21-22.37.45:632][ 22]LogTemp: Warning: Stamina = 97.136574
+[2018.08.21-22.37.45:644][ 23]LogTemp: Warning: Stamina = 97.126579
+[2018.08.21-22.37.45:657][ 24]LogTemp: Warning: Stamina = 97.116585
+[2018.08.21-22.37.45:669][ 25]LogTemp: Warning: Stamina = 97.101593
+[2018.08.21-22.37.45:681][ 26]LogTemp: Warning: Stamina = 97.091599
+[2018.08.21-22.37.45:693][ 27]LogTemp: Warning: Stamina = 97.081604
+[2018.08.21-22.37.45:705][ 28]LogTemp: Warning: Stamina = 97.071609
+[2018.08.21-22.37.45:716][ 29]LogTemp: Warning: Stamina = 97.061615
+[2018.08.21-22.37.45:729][ 30]LogTemp: Warning: Stamina = 97.051620
+[2018.08.21-22.37.45:741][ 31]LogTemp: Warning: Stamina = 97.041626
+[2018.08.21-22.37.45:753][ 32]LogTemp: Warning: Stamina = 97.031631
+[2018.08.21-22.37.45:765][ 33]LogTemp: Warning: Stamina = 97.021637
+[2018.08.21-22.37.45:777][ 34]LogTemp: Warning: Stamina = 97.011642
+[2018.08.21-22.37.45:788][ 35]LogTemp: Warning: Stamina = 97.001648
+[2018.08.21-22.37.45:802][ 36]LogTemp: Warning: Stamina = 96.991653
+[2018.08.21-22.37.45:813][ 37]LogTemp: Warning: Stamina = 96.981659
+[2018.08.21-22.37.45:824][ 38]LogTemp: Warning: Stamina = 96.971664
+[2018.08.21-22.37.45:838][ 39]LogTemp: Warning: Stamina = 96.961670
+[2018.08.21-22.37.45:851][ 40]LogTemp: Warning: Stamina = 96.951675
+[2018.08.21-22.37.45:862][ 41]LogTemp: Warning: Stamina = 96.941681
+[2018.08.21-22.37.45:874][ 42]LogTemp: Warning: Stamina = 96.931686
+[2018.08.21-22.37.45:886][ 43]LogTemp: Warning: Stamina = 96.921692
+[2018.08.21-22.37.45:898][ 44]LogTemp: Warning: Stamina = 96.911697
+[2018.08.21-22.37.45:910][ 45]LogTemp: Warning: Stamina = 96.901703
+[2018.08.21-22.37.45:922][ 46]LogTemp: Warning: Stamina = 96.891708
+[2018.08.21-22.37.45:933][ 47]LogTemp: Warning: Stamina = 96.881714
+[2018.08.21-22.37.45:944][ 48]LogTemp: Warning: Stamina = 96.871719
+[2018.08.21-22.37.45:955][ 49]LogTemp: Warning: Stamina = 96.861725
+[2018.08.21-22.37.45:967][ 50]LogTemp: Warning: Stamina = 96.846733
+[2018.08.21-22.37.45:979][ 51]LogTemp: Warning: Stamina = 96.836739
+[2018.08.21-22.37.45:990][ 52]LogTemp: Warning: Stamina = 96.826744
+[2018.08.21-22.37.46:003][ 53]LogTemp: Warning: Stamina = 96.816750
+[2018.08.21-22.37.46:015][ 54]LogTemp: Warning: Stamina = 96.806755
+[2018.08.21-22.37.46:026][ 55]LogTemp: Warning: Stamina = 96.796761
+[2018.08.21-22.37.46:038][ 56]LogTemp: Warning: Stamina = 96.786766
+[2018.08.21-22.37.46:051][ 57]LogTemp: Warning: Stamina = 96.776772
+[2018.08.21-22.37.46:062][ 58]LogTemp: Warning: Stamina = 96.766777
+[2018.08.21-22.37.46:073][ 59]LogTemp: Warning: Stamina = 96.756783
+[2018.08.21-22.37.46:084][ 60]LogTemp: Warning: Stamina = 96.746788
+[2018.08.21-22.37.46:096][ 61]LogTemp: Warning: Stamina = 96.736794
+[2018.08.21-22.37.46:107][ 62]LogTemp: Warning: Stamina = 96.726799
+[2018.08.21-22.37.46:119][ 63]LogTemp: Warning: Stamina = 96.716805
+[2018.08.21-22.37.46:131][ 64]LogTemp: Warning: Stamina = 96.706810
+[2018.08.21-22.37.46:143][ 65]LogTemp: Warning: Stamina = 96.696815
+[2018.08.21-22.37.46:154][ 66]LogTemp: Warning: Stamina = 96.686821
+[2018.08.21-22.37.46:166][ 67]LogTemp: Warning: Stamina = 96.676826
+[2018.08.21-22.37.46:177][ 68]LogTemp: Warning: Stamina = 96.666832
+[2018.08.21-22.37.46:188][ 69]LogTemp: Warning: Stamina = 96.656837
+[2018.08.21-22.37.46:201][ 70]LogTemp: Warning: Stamina = 96.646843
+[2018.08.21-22.37.46:212][ 71]LogTemp: Warning: Stamina = 96.636848
+[2018.08.21-22.37.46:223][ 72]LogTemp: Warning: Stamina = 96.626854
+[2018.08.21-22.37.46:235][ 73]LogTemp: Warning: Stamina = 96.616859
+[2018.08.21-22.37.46:247][ 74]LogTemp: Warning: Stamina = 96.606865
+[2018.08.21-22.37.46:259][ 75]LogTemp: Warning: Stamina = 96.596870
+[2018.08.21-22.37.46:271][ 76]LogTemp: Warning: Stamina = 96.586876
+[2018.08.21-22.37.46:284][ 77]LogTemp: Warning: Stamina = 96.576881
+[2018.08.21-22.37.46:295][ 78]LogTemp: Warning: Stamina = 96.566887
+[2018.08.21-22.37.46:307][ 79]LogTemp: Warning: Stamina = 96.556892
+[2018.08.21-22.37.46:318][ 80]LogTemp: Warning: Stamina = 96.546898
+[2018.08.21-22.37.46:330][ 81]LogTemp: Warning: Stamina = 96.536903
+[2018.08.21-22.37.46:342][ 82]LogTemp: Warning: Stamina = 96.526909
+[2018.08.21-22.37.46:354][ 83]LogTemp: Warning: Stamina = 96.516914
+[2018.08.21-22.37.46:365][ 84]LogTemp: Warning: Stamina = 96.506920
+[2018.08.21-22.37.46:376][ 85]LogTemp: Warning: Stamina = 96.496925
+[2018.08.21-22.37.46:388][ 86]LogTemp: Warning: Stamina = 96.486931
+[2018.08.21-22.37.46:400][ 87]LogTemp: Warning: Stamina = 96.476936
+[2018.08.21-22.37.46:411][ 88]LogTemp: Warning: Stamina = 96.466942
+[2018.08.21-22.37.46:423][ 89]LogTemp: Warning: Stamina = 96.456947
+[2018.08.21-22.37.46:435][ 90]LogTemp: Warning: Stamina = 96.446953
+[2018.08.21-22.37.46:446][ 91]LogTemp: Warning: Stamina = 96.436958
+[2018.08.21-22.37.46:457][ 92]LogTemp: Warning: Stamina = 96.426964
+[2018.08.21-22.37.46:470][ 93]LogTemp: Warning: Stamina = 96.416969
+[2018.08.21-22.37.46:481][ 94]LogTemp: Warning: Stamina = 96.406975
+[2018.08.21-22.37.46:492][ 95]LogTemp: Warning: Stamina = 96.396980
+[2018.08.21-22.37.46:504][ 96]LogTemp: Warning: Stamina = 96.386986
+[2018.08.21-22.37.46:516][ 97]LogTemp: Warning: Stamina = 96.376991
+[2018.08.21-22.37.46:527][ 98]LogTemp: Warning: Stamina = 96.366997
+[2018.08.21-22.37.46:539][ 99]LogTemp: Warning: Stamina = 96.357002
+[2018.08.21-22.37.46:552][100]LogTemp: Warning: Stamina = 96.347008
+[2018.08.21-22.37.46:563][101]LogTemp: Warning: Stamina = 96.337013
+[2018.08.21-22.37.46:574][102]LogTemp: Warning: Stamina = 96.327019
+[2018.08.21-22.37.46:586][103]LogTemp: Warning: Stamina = 96.317024
+[2018.08.21-22.37.46:598][104]LogTemp: Warning: Stamina = 96.307030
+[2018.08.21-22.37.46:609][105]LogTemp: Warning: Stamina = 96.297035
+[2018.08.21-22.37.46:620][106]LogTemp: Warning: Stamina = 96.287041
+[2018.08.21-22.37.46:633][107]LogTemp: Warning: Stamina = 96.277046
+[2018.08.21-22.37.46:644][108]LogTemp: Warning: Stamina = 96.267052
+[2018.08.21-22.37.46:656][109]LogTemp: Warning: Stamina = 96.257057
+[2018.08.21-22.37.46:668][110]LogTemp: Warning: Stamina = 96.247063
+[2018.08.21-22.37.46:680][111]LogTemp: Warning: Stamina = 96.237068
+[2018.08.21-22.37.46:691][112]LogTemp: Warning: Stamina = 96.227074
+[2018.08.21-22.37.46:703][113]LogTemp: Warning: Stamina = 96.217079
+[2018.08.21-22.37.46:714][114]LogTemp: Warning: Stamina = 96.207085
+[2018.08.21-22.37.46:726][115]LogTemp: Warning: Stamina = 96.197090
+[2018.08.21-22.37.46:738][116]LogTemp: Warning: Stamina = 96.187096
+[2018.08.21-22.37.46:750][117]LogTemp: Warning: Stamina = 96.177101
+[2018.08.21-22.37.46:762][118]LogTemp: Warning: Stamina = 96.167107
+[2018.08.21-22.37.46:773][119]LogTemp: Warning: Stamina = 96.157112
+[2018.08.21-22.37.46:786][120]LogTemp: Warning: Stamina = 96.147118
+[2018.08.21-22.37.46:797][121]LogTemp: Warning: Stamina = 96.137123
+[2018.08.21-22.37.46:809][122]LogTemp: Warning: Stamina = 96.127129
+[2018.08.21-22.37.46:820][123]LogTemp: Warning: Stamina = 96.117134
+[2018.08.21-22.37.46:833][124]LogTemp: Warning: Stamina = 96.107140
+[2018.08.21-22.37.46:844][125]LogTemp: Warning: Stamina = 96.097145
+[2018.08.21-22.37.46:855][126]LogTemp: Warning: Stamina = 96.087151
+[2018.08.21-22.37.46:867][127]LogTemp: Warning: Stamina = 96.077156
+[2018.08.21-22.37.46:878][128]LogTemp: Warning: Stamina = 96.067162
+[2018.08.21-22.37.46:890][129]LogTemp: Warning: Stamina = 96.057167
+[2018.08.21-22.37.46:902][130]LogTemp: Warning: Stamina = 96.047173
+[2018.08.21-22.37.46:914][131]LogTemp: Warning: Stamina = 96.037178
+[2018.08.21-22.37.46:926][132]LogTemp: Warning: Stamina = 96.027184
+[2018.08.21-22.37.46:937][133]LogTemp: Warning: Stamina = 96.017189
+[2018.08.21-22.37.46:948][134]LogTemp: Warning: Stamina = 96.007195
+[2018.08.21-22.37.46:960][135]LogTemp: Warning: Stamina = 95.997200
+[2018.08.21-22.37.46:972][136]LogTemp: Warning: Stamina = 95.987206
+[2018.08.21-22.37.46:984][137]LogTemp: Warning: Stamina = 95.977211
+[2018.08.21-22.37.46:995][138]LogTemp: Warning: Stamina = 95.967216
+[2018.08.21-22.37.47:007][139]LogTemp: Warning: Stamina = 95.957222
+[2018.08.21-22.37.47:020][140]LogTemp: Warning: Stamina = 95.947227
+[2018.08.21-22.37.47:032][141]LogTemp: Warning: Stamina = 95.937233
+[2018.08.21-22.37.47:042][142]LogTemp: Warning: Stamina = 95.927238
+[2018.08.21-22.37.47:054][143]LogTemp: Warning: Stamina = 95.917244
+[2018.08.21-22.37.47:066][144]LogTemp: Warning: Stamina = 95.907249
+[2018.08.21-22.37.47:077][145]LogTemp: Warning: Stamina = 95.897255
+[2018.08.21-22.37.47:088][146]LogTemp: Warning: Stamina = 95.887260
+[2018.08.21-22.37.47:101][147]LogTemp: Warning: Stamina = 95.877266
+[2018.08.21-22.37.47:113][148]LogTemp: Warning: Stamina = 95.867271
+[2018.08.21-22.37.47:124][149]LogTemp: Warning: Stamina = 95.857277
+[2018.08.21-22.37.47:136][150]LogTemp: Warning: Stamina = 95.847282
+[2018.08.21-22.37.47:147][151]LogTemp: Warning: Stamina = 95.837288
+[2018.08.21-22.37.47:158][152]LogTemp: Warning: Stamina = 95.827293
+[2018.08.21-22.37.47:170][153]LogTemp: Warning: Stamina = 95.817299
+[2018.08.21-22.37.47:182][154]LogTemp: Warning: Stamina = 95.807304
+[2018.08.21-22.37.47:193][155]LogTemp: Warning: Stamina = 95.797310
+[2018.08.21-22.37.47:206][156]LogTemp: Warning: Stamina = 95.787315
+[2018.08.21-22.37.47:217][157]LogTemp: Warning: Stamina = 95.777321
+[2018.08.21-22.37.47:228][158]LogTemp: Warning: Stamina = 95.767326
+[2018.08.21-22.37.47:241][159]LogTemp: Warning: Stamina = 95.757332
+[2018.08.21-22.37.47:252][160]LogTemp: Warning: Stamina = 95.747337
+[2018.08.21-22.37.47:265][161]LogTemp: Warning: Stamina = 95.737343
+[2018.08.21-22.37.47:276][162]LogTemp: Warning: Stamina = 95.727348
+[2018.08.21-22.37.47:288][163]LogTemp: Warning: Stamina = 95.717354
+[2018.08.21-22.37.47:300][164]LogTemp: Warning: Stamina = 95.707359
+[2018.08.21-22.37.47:312][165]LogTemp: Warning: Stamina = 95.697365
+[2018.08.21-22.37.47:323][166]LogTemp: Warning: Stamina = 95.687370
+[2018.08.21-22.37.47:335][167]LogTemp: Warning: Stamina = 95.677376
+[2018.08.21-22.37.47:346][168]LogTemp: Warning: Stamina = 95.667381
+[2018.08.21-22.37.47:357][169]LogTemp: Warning: Stamina = 95.657387
+[2018.08.21-22.37.47:369][170]LogTemp: Warning: Stamina = 95.647392
+[2018.08.21-22.37.47:380][171]LogTemp: Warning: Stamina = 95.637398
+[2018.08.21-22.37.47:392][172]LogTemp: Warning: Stamina = 95.627403
+[2018.08.21-22.37.47:404][173]LogTemp: Warning: Stamina = 95.617409
+[2018.08.21-22.37.47:416][174]LogTemp: Warning: Stamina = 95.607414
+[2018.08.21-22.37.47:428][175]LogTemp: Warning: Stamina = 95.597420
+[2018.08.21-22.37.47:439][176]LogTemp: Warning: Stamina = 95.587425
+[2018.08.21-22.37.47:451][177]LogTemp: Warning: Stamina = 95.577431
+[2018.08.21-22.37.47:464][178]LogTemp: Warning: Stamina = 95.567436
+[2018.08.21-22.37.47:475][179]LogTemp: Warning: Stamina = 95.557442
+[2018.08.21-22.37.47:487][180]LogTemp: Warning: Stamina = 95.547447
+[2018.08.21-22.37.47:499][181]LogTemp: Warning: Stamina = 95.537453
+[2018.08.21-22.37.47:510][182]LogTemp: Warning: Stamina = 95.527458
+[2018.08.21-22.37.47:522][183]LogTemp: Warning: Stamina = 95.517464
+[2018.08.21-22.37.47:535][184]LogTemp: Warning: Stamina = 95.507469
+[2018.08.21-22.37.47:547][185]LogTemp: Warning: Stamina = 95.497475
+[2018.08.21-22.37.47:558][186]LogTemp: Warning: Stamina = 95.487480
+[2018.08.21-22.37.47:570][187]LogTemp: Warning: Stamina = 95.477486
+[2018.08.21-22.37.47:582][188]LogTemp: Warning: Stamina = 95.467491
+[2018.08.21-22.37.47:594][189]LogTemp: Warning: Stamina = 95.457497
+[2018.08.21-22.37.47:606][190]LogTemp: Warning: Stamina = 95.447502
+[2018.08.21-22.37.47:618][191]LogTemp: Warning: Stamina = 95.437508
+[2018.08.21-22.37.47:629][192]LogTemp: Warning: Stamina = 95.427513
+[2018.08.21-22.37.47:640][193]LogTemp: Warning: Stamina = 95.417519
+[2018.08.21-22.37.47:651][194]LogTemp: Warning: Stamina = 95.407524
+[2018.08.21-22.37.47:663][195]LogTemp: Warning: Stamina = 95.397530
+[2018.08.21-22.37.47:675][196]LogTemp: Warning: Stamina = 95.387535
+[2018.08.21-22.37.47:686][197]LogTemp: Warning: Stamina = 95.377541
+[2018.08.21-22.37.47:698][198]LogTemp: Warning: Stamina = 95.367546
+[2018.08.21-22.37.47:709][199]LogTemp: Warning: Stamina = 95.357552
+[2018.08.21-22.37.47:720][200]LogTemp: Warning: Stamina = 95.347557
+[2018.08.21-22.37.47:733][201]LogTemp: Warning: Stamina = 95.337563
+[2018.08.21-22.37.47:744][202]LogTemp: Warning: Stamina = 95.327568
+[2018.08.21-22.37.47:756][203]LogTemp: Warning: Stamina = 95.317574
+[2018.08.21-22.37.47:767][204]LogTemp: Warning: Stamina = 95.307579
+[2018.08.21-22.37.47:779][205]LogTemp: Warning: Stamina = 95.297585
+[2018.08.21-22.37.47:790][206]LogTemp: Warning: Stamina = 95.287590
+[2018.08.21-22.37.47:802][207]LogTemp: Warning: Stamina = 95.277596
+[2018.08.21-22.37.47:814][208]LogTemp: Warning: Stamina = 95.267601
+[2018.08.21-22.37.47:826][209]LogTemp: Warning: Stamina = 95.257607
+[2018.08.21-22.37.47:837][210]LogTemp: Warning: Stamina = 95.247612
+[2018.08.21-22.37.47:849][211]LogTemp: Warning: Stamina = 95.237617
+[2018.08.21-22.37.47:861][212]LogTemp: Warning: Stamina = 95.227623
+[2018.08.21-22.37.47:872][213]LogTemp: Warning: Stamina = 95.217628
+[2018.08.21-22.37.47:884][214]LogTemp: Warning: Stamina = 95.207634
+[2018.08.21-22.37.47:895][215]LogTemp: Warning: Stamina = 95.197639
+[2018.08.21-22.37.47:907][216]LogTemp: Warning: Stamina = 95.187645
+[2018.08.21-22.37.47:908][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.37.47:943][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.37.50:574][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.38.12:098][435]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e742131c68, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.14:646][717]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e742131c68, Size=4
+[2018.08.21-22.38.14:646][717]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7b0d62370, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_43:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.14:648][717]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7b0d626a0, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.18:614][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7b0d626a0, Size=4
+[2018.08.21-22.38.18:614][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7b0edde28, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_45:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.18:616][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7b0edf680, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.26:015][853]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7b0edf680, Size=4
+[2018.08.21-22.38.26:015][853]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228c270, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_47:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.26:017][853]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228fbb0, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.28:930][157]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228fbb0, Size=4
+[2018.08.21-22.38.28:930][157]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228fbb0, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_49:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.28:932][157]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228caf0, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.59:457][ 72]LogBlueprint: Warning: [MyALBIRB_EXPERIENCEPawn] 'Pause' variable not found. Base class was probably changed. /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.59:457][ 72]LogBlueprint: Warning: [MyALBIRB_EXPERIENCEPawn] 'Pause' variable not found. Base class was probably changed. /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.59:458][ 72]LogBlueprint: Warning: [MyALBIRB_EXPERIENCEPawn] 'Pause' variable not found. Base class was probably changed. /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.59:458][ 72]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228caf0, Size=4
+[2018.08.21-22.38.59:458][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228caf0, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_51:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.38.59:460][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228dc60, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.06:591][702]BlueprintLog: New page: Compile MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.06:600][702]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228dc60, Size=4
+[2018.08.21-22.39.06:600][702]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228dc60, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_53:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.06:609][702]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7abf1f240, Size=264
+[2018.08.21-22.39.06:609][702]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e78e0bf4c0, Size=264, Default__MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_55:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.06:612][702]LogBlueprint: Warning: [Compiler MyALBIRB_EXPERIENCEPawn] Could not find a variable named "Pause" in 'MyALBIRB_EXPERIENCEPawn_C'.
+Make sure 'MyALBIRB_EXPERIENCEPawn_C' has been compiled for  Set Pause
+[2018.08.21-22.39.06:612][702]LogBlueprint: Warning: [Compiler MyALBIRB_EXPERIENCEPawn] Could not find a variable named "Pause" in 'MyALBIRB_EXPERIENCEPawn_C'.
+Make sure 'MyALBIRB_EXPERIENCEPawn_C' has been compiled for  Get Pause
+[2018.08.21-22.39.06:613][702]LogBlueprint: Error: [Compiler MyALBIRB_EXPERIENCEPawn] The property associated with  Pause  could not be found
+[2018.08.21-22.39.06:613][702]LogBlueprint: Error: [Compiler MyALBIRB_EXPERIENCEPawn] The property associated with  Pause  could not be found
+[2018.08.21-22.39.06:613][702]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7b0914680, Size=312, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.06:919][702]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228dc60, Size=4
+[2018.08.21-22.39.06:919][702]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228caf0, Size=4
+[2018.08.21-22.39.06:926][702]LogBlueprint: Warning: [Compiler MyALBIRB_EXPERIENCEPawn] [0250.14] Compile of MyALBIRB_EXPERIENCEPawn failed. 2 Fatal Issue(s) 2 Warning(s) [in 335 ms] (/Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn)
+[2018.08.21-22.39.16:345][535]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228d9f8, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.SKEL_MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.33:845][ 80]BlueprintLog: New page: Compile MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.33:855][ 80]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228d9f8, Size=4
+[2018.08.21-22.39.33:855][ 80]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e74228d9f8, Size=4, Default__SKEL_MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_SKEL_MyALBIRB_EXPERIENCEPawn_C_59:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.33:864][ 80]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7b0914680, Size=312
+[2018.08.21-22.39.33:864][ 80]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7ba80e700, Size=312, MyALBIRB_EXPERIENCEPawn_C_6 Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_61:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.33:868][ 80]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e7ba80ec00, Size=312, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.34:242][ 80]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e74228d9f8, Size=4
+[2018.08.21-22.39.42:315][820]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.21-22.39.42:337][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.42:337][820]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.21-22.39.42:348][820]LogPlayLevel: [PlayLevel] Compiling MyALBIRB_EXPERIENCEPawn before play...
+[2018.08.21-22.39.42:358][820]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e7ba80ec00, Size=312
+[2018.08.21-22.39.42:358][820]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e718898180, Size=312, MyALBIRB_EXPERIENCEPawn_C_8 Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_65:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.42:363][820]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e78e59cf40, Size=312, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.21-22.39.42:818][820]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e718898180, Size=312
+[2018.08.21-22.39.42:819][820]LogPlayLevel: PlayLevel: Blueprint regeneration took 481 ms (1 blueprints)
+[2018.08.21-22.39.42:819][820]PIE: New page: PIE session: FlyingExampleMap (Aug 22, 2018, 10:39:42 PM)
+[2018.08.21-22.39.42:819][820]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.21-22.39.42:836][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016375s)
+[2018.08.21-22.39.42:836][820]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.39.42:837][820]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2018.08.21-22.39.42:837][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.017581s)
+[2018.08.21-22.39.42:861][820]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.21-22.39.42:866][820]LogInit: FAudioDevice initialized.
+[2018.08.21-22.39.42:898][820]LogLoad: Game class is 'BP_Gamemode_1_C'
+[2018.08.21-22.39.42:903][820]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.22-10.39.42
+[2018.08.21-22.39.42:903][820]LogWorld: Bringing up level for play took: 0.004234
+[2018.08.21-22.39.42:905][820]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.385
+[2018.08.21-22.39.42:905][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.44:184][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.39.44:280][954]LogTemp: Warning: Stamina = 99.325371
+[2018.08.21-22.39.44:291][955]LogTemp: Warning: Stamina = 99.315376
+[2018.08.21-22.39.44:301][956]LogTemp: Warning: Stamina = 99.305382
+[2018.08.21-22.39.44:311][957]LogTemp: Warning: Stamina = 99.295387
+[2018.08.21-22.39.44:321][958]LogTemp: Warning: Stamina = 99.285393
+[2018.08.21-22.39.44:332][959]LogTemp: Warning: Stamina = 99.275398
+[2018.08.21-22.39.44:342][960]LogTemp: Warning: Stamina = 99.265404
+[2018.08.21-22.39.44:351][961]LogTemp: Warning: Stamina = 99.255409
+[2018.08.21-22.39.44:361][962]LogTemp: Warning: Stamina = 99.245415
+[2018.08.21-22.39.44:372][963]LogTemp: Warning: Stamina = 99.235420
+[2018.08.21-22.39.44:383][964]LogTemp: Warning: Stamina = 99.225426
+[2018.08.21-22.39.44:394][965]LogTemp: Warning: Stamina = 99.210434
+[2018.08.21-22.39.44:403][966]LogTemp: Warning: Stamina = 99.200439
+[2018.08.21-22.39.44:414][967]LogTemp: Warning: Stamina = 99.190445
+[2018.08.21-22.39.44:424][968]LogTemp: Warning: Stamina = 99.180450
+[2018.08.21-22.39.44:433][969]LogTemp: Warning: Stamina = 99.170456
+[2018.08.21-22.39.44:444][970]LogTemp: Warning: Stamina = 99.160461
+[2018.08.21-22.39.44:453][971]LogTemp: Warning: Stamina = 99.150467
+[2018.08.21-22.39.44:464][972]LogTemp: Warning: Stamina = 99.140472
+[2018.08.21-22.39.44:474][973]LogTemp: Warning: Stamina = 99.130478
+[2018.08.21-22.39.44:484][974]LogTemp: Warning: Stamina = 99.120483
+[2018.08.21-22.39.44:494][975]LogTemp: Warning: Stamina = 99.110489
+[2018.08.21-22.39.44:504][976]LogTemp: Warning: Stamina = 99.100494
+[2018.08.21-22.39.44:515][977]LogTemp: Warning: Stamina = 99.090500
+[2018.08.21-22.39.44:524][978]LogTemp: Warning: Stamina = 99.080505
+[2018.08.21-22.39.44:534][979]LogTemp: Warning: Stamina = 99.070511
+[2018.08.21-22.39.44:544][980]LogTemp: Warning: Stamina = 99.060516
+[2018.08.21-22.39.44:554][981]LogTemp: Warning: Stamina = 99.050522
+[2018.08.21-22.39.44:564][982]LogTemp: Warning: Stamina = 99.040527
+[2018.08.21-22.39.44:574][983]LogTemp: Warning: Stamina = 99.030533
+[2018.08.21-22.39.44:584][984]LogTemp: Warning: Stamina = 99.020538
+[2018.08.21-22.39.44:594][985]LogTemp: Warning: Stamina = 99.010544
+[2018.08.21-22.39.44:603][986]LogTemp: Warning: Stamina = 99.000549
+[2018.08.21-22.39.44:615][987]LogTemp: Warning: Stamina = 98.990555
+[2018.08.21-22.39.44:624][988]LogTemp: Warning: Stamina = 98.980560
+[2018.08.21-22.39.44:634][989]LogTemp: Warning: Stamina = 98.970566
+[2018.08.21-22.39.44:644][990]LogTemp: Warning: Stamina = 98.960571
+[2018.08.21-22.39.44:654][991]LogTemp: Warning: Stamina = 98.950577
+[2018.08.21-22.39.44:664][992]LogTemp: Warning: Stamina = 98.940582
+[2018.08.21-22.39.44:673][993]LogTemp: Warning: Stamina = 98.930588
+[2018.08.21-22.39.44:683][994]LogTemp: Warning: Stamina = 98.920593
+[2018.08.21-22.39.44:693][995]LogTemp: Warning: Stamina = 98.910599
+[2018.08.21-22.39.44:703][996]LogTemp: Warning: Stamina = 98.900604
+[2018.08.21-22.39.44:712][997]LogTemp: Warning: Stamina = 98.890610
+[2018.08.21-22.39.44:722][998]LogTemp: Warning: Stamina = 98.880615
+[2018.08.21-22.39.44:732][999]LogTemp: Warning: Stamina = 98.870621
+[2018.08.21-22.39.44:743][  0]LogTemp: Warning: Stamina = 98.860626
+[2018.08.21-22.39.44:752][  1]LogTemp: Warning: Stamina = 98.850632
+[2018.08.21-22.39.44:763][  2]LogTemp: Warning: Stamina = 98.840637
+[2018.08.21-22.39.44:773][  3]LogTemp: Warning: Stamina = 98.830643
+[2018.08.21-22.39.44:783][  4]LogTemp: Warning: Stamina = 98.820648
+[2018.08.21-22.39.44:793][  5]LogTemp: Warning: Stamina = 98.810654
+[2018.08.21-22.39.44:803][  6]LogTemp: Warning: Stamina = 98.800659
+[2018.08.21-22.39.44:814][  7]LogTemp: Warning: Stamina = 98.790665
+[2018.08.21-22.39.44:823][  8]LogTemp: Warning: Stamina = 98.780670
+[2018.08.21-22.39.44:833][  9]LogTemp: Warning: Stamina = 98.770676
+[2018.08.21-22.39.44:843][ 10]LogTemp: Warning: Stamina = 98.760681
+[2018.08.21-22.39.44:853][ 11]LogTemp: Warning: Stamina = 98.750687
+[2018.08.21-22.39.44:863][ 12]LogTemp: Warning: Stamina = 98.740692
+[2018.08.21-22.39.44:873][ 13]LogTemp: Warning: Stamina = 98.730698
+[2018.08.21-22.39.44:883][ 14]LogTemp: Warning: Stamina = 98.720703
+[2018.08.21-22.39.44:893][ 15]LogTemp: Warning: Stamina = 98.710709
+[2018.08.21-22.39.44:903][ 16]LogTemp: Warning: Stamina = 98.700714
+[2018.08.21-22.39.44:914][ 17]LogTemp: Warning: Stamina = 98.690720
+[2018.08.21-22.39.44:924][ 18]LogTemp: Warning: Stamina = 98.680725
+[2018.08.21-22.39.44:934][ 19]LogTemp: Warning: Stamina = 98.670731
+[2018.08.21-22.39.44:944][ 20]LogTemp: Warning: Stamina = 98.660736
+[2018.08.21-22.39.44:953][ 21]LogTemp: Warning: Stamina = 98.650742
+[2018.08.21-22.39.44:963][ 22]LogTemp: Warning: Stamina = 98.640747
+[2018.08.21-22.39.44:972][ 23]LogTemp: Warning: Stamina = 98.630753
+[2018.08.21-22.39.44:982][ 24]LogTemp: Warning: Stamina = 98.620758
+[2018.08.21-22.39.44:992][ 25]LogTemp: Warning: Stamina = 98.610764
+[2018.08.21-22.39.45:002][ 26]LogTemp: Warning: Stamina = 98.600769
+[2018.08.21-22.39.45:012][ 27]LogTemp: Warning: Stamina = 98.590775
+[2018.08.21-22.39.45:023][ 28]LogTemp: Warning: Stamina = 98.580780
+[2018.08.21-22.39.45:033][ 29]LogTemp: Warning: Stamina = 98.570786
+[2018.08.21-22.39.45:043][ 30]LogTemp: Warning: Stamina = 98.560791
+[2018.08.21-22.39.45:053][ 31]LogTemp: Warning: Stamina = 98.550797
+[2018.08.21-22.39.45:063][ 32]LogTemp: Warning: Stamina = 98.540802
+[2018.08.21-22.39.45:072][ 33]LogTemp: Warning: Stamina = 98.530807
+[2018.08.21-22.39.45:082][ 34]LogTemp: Warning: Stamina = 98.520813
+[2018.08.21-22.39.45:092][ 35]LogTemp: Warning: Stamina = 98.510818
+[2018.08.21-22.39.45:103][ 36]LogTemp: Warning: Stamina = 98.500824
+[2018.08.21-22.39.45:113][ 37]LogTemp: Warning: Stamina = 98.490829
+[2018.08.21-22.39.45:123][ 38]LogTemp: Warning: Stamina = 98.480835
+[2018.08.21-22.39.45:133][ 39]LogTemp: Warning: Stamina = 98.470840
+[2018.08.21-22.39.45:143][ 40]LogTemp: Warning: Stamina = 98.460846
+[2018.08.21-22.39.45:153][ 41]LogTemp: Warning: Stamina = 98.450851
+[2018.08.21-22.39.45:163][ 42]LogTemp: Warning: Stamina = 98.440857
+[2018.08.21-22.39.45:174][ 43]LogTemp: Warning: Stamina = 98.430862
+[2018.08.21-22.39.45:183][ 44]LogTemp: Warning: Stamina = 98.420868
+[2018.08.21-22.39.45:193][ 45]LogTemp: Warning: Stamina = 98.410873
+[2018.08.21-22.39.45:202][ 46]LogTemp: Warning: Stamina = 98.400879
+[2018.08.21-22.39.45:212][ 47]LogTemp: Warning: Stamina = 98.390884
+[2018.08.21-22.39.45:223][ 48]LogTemp: Warning: Stamina = 98.380890
+[2018.08.21-22.39.45:232][ 49]LogTemp: Warning: Stamina = 98.370895
+[2018.08.21-22.39.45:243][ 50]LogTemp: Warning: Stamina = 98.360901
+[2018.08.21-22.39.45:253][ 51]LogTemp: Warning: Stamina = 98.350906
+[2018.08.21-22.39.45:263][ 52]LogTemp: Warning: Stamina = 98.340912
+[2018.08.21-22.39.45:273][ 53]LogTemp: Warning: Stamina = 98.330917
+[2018.08.21-22.39.45:283][ 54]LogTemp: Warning: Stamina = 98.320923
+[2018.08.21-22.39.45:292][ 55]LogTemp: Warning: Stamina = 98.310928
+[2018.08.21-22.39.45:302][ 56]LogTemp: Warning: Stamina = 98.300934
+[2018.08.21-22.39.45:313][ 57]LogTemp: Warning: Stamina = 98.290939
+[2018.08.21-22.39.45:323][ 58]LogTemp: Warning: Stamina = 98.280945
+[2018.08.21-22.39.45:332][ 59]LogTemp: Warning: Stamina = 98.270950
+[2018.08.21-22.39.45:342][ 60]LogTemp: Warning: Stamina = 98.260956
+[2018.08.21-22.39.45:352][ 61]LogTemp: Warning: Stamina = 98.250961
+[2018.08.21-22.39.45:362][ 62]LogTemp: Warning: Stamina = 98.240967
+[2018.08.21-22.39.45:371][ 63]LogTemp: Warning: Stamina = 98.230972
+[2018.08.21-22.39.45:381][ 64]LogTemp: Warning: Stamina = 98.220978
+[2018.08.21-22.39.45:391][ 65]LogTemp: Warning: Stamina = 98.210983
+[2018.08.21-22.39.45:401][ 66]LogTemp: Warning: Stamina = 98.200989
+[2018.08.21-22.39.45:411][ 67]LogTemp: Warning: Stamina = 98.190994
+[2018.08.21-22.39.45:421][ 68]LogTemp: Warning: Stamina = 98.181000
+[2018.08.21-22.39.45:430][ 69]LogTemp: Warning: Stamina = 98.171005
+[2018.08.21-22.39.45:441][ 70]LogTemp: Warning: Stamina = 98.161011
+[2018.08.21-22.39.45:451][ 71]LogTemp: Warning: Stamina = 98.151016
+[2018.08.21-22.39.45:460][ 72]LogTemp: Warning: Stamina = 98.141022
+[2018.08.21-22.39.45:470][ 73]LogTemp: Warning: Stamina = 98.131027
+[2018.08.21-22.39.45:480][ 74]LogTemp: Warning: Stamina = 98.121033
+[2018.08.21-22.39.45:491][ 75]LogTemp: Warning: Stamina = 98.111038
+[2018.08.21-22.39.45:501][ 76]LogTemp: Warning: Stamina = 98.101044
+[2018.08.21-22.39.45:511][ 77]LogTemp: Warning: Stamina = 98.091049
+[2018.08.21-22.39.45:520][ 78]LogTemp: Warning: Stamina = 98.081055
+[2018.08.21-22.39.45:530][ 79]LogTemp: Warning: Stamina = 98.071060
+[2018.08.21-22.39.45:539][ 80]LogTemp: Warning: Stamina = 98.061066
+[2018.08.21-22.39.45:549][ 81]LogTemp: Warning: Stamina = 98.051071
+[2018.08.21-22.39.45:559][ 82]LogTemp: Warning: Stamina = 98.041077
+[2018.08.21-22.39.45:569][ 83]LogTemp: Warning: Stamina = 98.031082
+[2018.08.21-22.39.45:579][ 84]LogTemp: Warning: Stamina = 98.021088
+[2018.08.21-22.39.45:589][ 85]LogTemp: Warning: Stamina = 98.011093
+[2018.08.21-22.39.45:599][ 86]LogTemp: Warning: Stamina = 98.001099
+[2018.08.21-22.39.45:609][ 87]LogTemp: Warning: Stamina = 97.991104
+[2018.08.21-22.39.45:619][ 88]LogTemp: Warning: Stamina = 97.981110
+[2018.08.21-22.39.45:629][ 89]LogTemp: Warning: Stamina = 97.971115
+[2018.08.21-22.39.45:639][ 90]LogTemp: Warning: Stamina = 97.961121
+[2018.08.21-22.39.45:650][ 91]LogTemp: Warning: Stamina = 97.951126
+[2018.08.21-22.39.45:660][ 92]LogTemp: Warning: Stamina = 97.941132
+[2018.08.21-22.39.45:670][ 93]LogTemp: Warning: Stamina = 97.931137
+[2018.08.21-22.39.45:704][ 94]LogBlueprintUserMessages: [MyALBIRB_EXPERIENCEPawn_C_0] Hello
+[2018.08.21-22.39.45:725][ 94]LogTemp: Warning: Stamina = 97.921143
+[2018.08.21-22.39.46:805][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.39.46:874][209]LogTemp: Warning: Stamina = 97.341461
+[2018.08.21-22.39.46:885][210]LogTemp: Warning: Stamina = 97.331467
+[2018.08.21-22.39.46:895][211]LogTemp: Warning: Stamina = 97.321472
+[2018.08.21-22.39.46:906][212]LogTemp: Warning: Stamina = 97.311478
+[2018.08.21-22.39.46:916][213]LogTemp: Warning: Stamina = 97.301483
+[2018.08.21-22.39.46:926][214]LogTemp: Warning: Stamina = 97.291489
+[2018.08.21-22.39.46:938][215]LogTemp: Warning: Stamina = 97.281494
+[2018.08.21-22.39.46:947][216]LogTemp: Warning: Stamina = 97.271500
+[2018.08.21-22.39.46:957][217]LogTemp: Warning: Stamina = 97.261505
+[2018.08.21-22.39.46:968][218]LogTemp: Warning: Stamina = 97.251511
+[2018.08.21-22.39.46:978][219]LogTemp: Warning: Stamina = 97.241516
+[2018.08.21-22.39.46:988][220]LogTemp: Warning: Stamina = 97.231522
+[2018.08.21-22.39.46:998][221]LogTemp: Warning: Stamina = 97.221527
+[2018.08.21-22.39.47:007][222]LogTemp: Warning: Stamina = 97.211533
+[2018.08.21-22.39.47:017][223]LogTemp: Warning: Stamina = 97.201538
+[2018.08.21-22.39.47:027][224]LogTemp: Warning: Stamina = 97.191544
+[2018.08.21-22.39.47:037][225]LogTemp: Warning: Stamina = 97.181549
+[2018.08.21-22.39.47:048][226]LogTemp: Warning: Stamina = 97.171555
+[2018.08.21-22.39.47:057][227]LogTemp: Warning: Stamina = 97.161560
+[2018.08.21-22.39.47:068][228]LogTemp: Warning: Stamina = 97.151566
+[2018.08.21-22.39.47:078][229]LogTemp: Warning: Stamina = 97.141571
+[2018.08.21-22.39.47:088][230]LogTemp: Warning: Stamina = 97.131577
+[2018.08.21-22.39.47:098][231]LogTemp: Warning: Stamina = 97.121582
+[2018.08.21-22.39.47:109][232]LogTemp: Warning: Stamina = 97.111588
+[2018.08.21-22.39.47:119][233]LogTemp: Warning: Stamina = 97.101593
+[2018.08.21-22.39.47:129][234]LogTemp: Warning: Stamina = 97.091599
+[2018.08.21-22.39.47:139][235]LogTemp: Warning: Stamina = 97.081604
+[2018.08.21-22.39.47:149][236]LogTemp: Warning: Stamina = 97.071609
+[2018.08.21-22.39.47:159][237]LogTemp: Warning: Stamina = 97.061615
+[2018.08.21-22.39.47:169][238]LogTemp: Warning: Stamina = 97.051620
+[2018.08.21-22.39.47:179][239]LogTemp: Warning: Stamina = 97.041626
+[2018.08.21-22.39.47:189][240]LogTemp: Warning: Stamina = 97.031631
+[2018.08.21-22.39.47:200][241]LogTemp: Warning: Stamina = 97.021637
+[2018.08.21-22.39.47:209][242]LogTemp: Warning: Stamina = 97.011642
+[2018.08.21-22.39.47:220][243]LogTemp: Warning: Stamina = 97.001648
+[2018.08.21-22.39.47:230][244]LogTemp: Warning: Stamina = 96.991653
+[2018.08.21-22.39.47:240][245]LogTemp: Warning: Stamina = 96.981659
+[2018.08.21-22.39.47:251][246]LogTemp: Warning: Stamina = 96.971664
+[2018.08.21-22.39.47:260][247]LogTemp: Warning: Stamina = 96.961670
+[2018.08.21-22.39.47:270][248]LogTemp: Warning: Stamina = 96.951675
+[2018.08.21-22.39.47:280][249]LogTemp: Warning: Stamina = 96.941681
+[2018.08.21-22.39.47:289][250]LogTemp: Warning: Stamina = 96.931686
+[2018.08.21-22.39.47:299][251]LogTemp: Warning: Stamina = 96.921692
+[2018.08.21-22.39.47:310][252]LogTemp: Warning: Stamina = 96.911697
+[2018.08.21-22.39.47:320][253]LogTemp: Warning: Stamina = 96.901703
+[2018.08.21-22.39.47:330][254]LogTemp: Warning: Stamina = 96.891708
+[2018.08.21-22.39.47:341][255]LogTemp: Warning: Stamina = 96.881714
+[2018.08.21-22.39.47:350][256]LogTemp: Warning: Stamina = 96.871719
+[2018.08.21-22.39.47:360][257]LogTemp: Warning: Stamina = 96.861725
+[2018.08.21-22.39.47:370][258]LogTemp: Warning: Stamina = 96.851730
+[2018.08.21-22.39.47:381][259]LogTemp: Warning: Stamina = 96.841736
+[2018.08.21-22.39.47:392][260]LogTemp: Warning: Stamina = 96.831741
+[2018.08.21-22.39.47:402][261]LogTemp: Warning: Stamina = 96.821747
+[2018.08.21-22.39.47:414][262]LogTemp: Warning: Stamina = 96.811752
+[2018.08.21-22.39.47:425][263]LogTemp: Warning: Stamina = 96.801758
+[2018.08.21-22.39.47:437][264]LogTemp: Warning: Stamina = 96.791763
+[2018.08.21-22.39.47:448][265]LogTemp: Warning: Stamina = 96.781769
+[2018.08.21-22.39.47:460][266]LogTemp: Warning: Stamina = 96.771774
+[2018.08.21-22.39.47:470][267]LogTemp: Warning: Stamina = 96.761780
+[2018.08.21-22.39.47:481][268]LogTemp: Warning: Stamina = 96.746788
+[2018.08.21-22.39.47:490][269]LogTemp: Warning: Stamina = 96.736794
+[2018.08.21-22.39.47:500][270]LogTemp: Warning: Stamina = 96.726799
+[2018.08.21-22.39.47:510][271]LogTemp: Warning: Stamina = 96.716805
+[2018.08.21-22.39.47:520][272]LogTemp: Warning: Stamina = 96.706810
+[2018.08.21-22.39.47:530][273]LogTemp: Warning: Stamina = 96.696815
+[2018.08.21-22.39.47:541][274]LogTemp: Warning: Stamina = 96.686821
+[2018.08.21-22.39.47:551][275]LogTemp: Warning: Stamina = 96.676826
+[2018.08.21-22.39.47:561][276]LogTemp: Warning: Stamina = 96.666832
+[2018.08.21-22.39.47:571][277]LogTemp: Warning: Stamina = 96.656837
+[2018.08.21-22.39.47:582][278]LogTemp: Warning: Stamina = 96.646843
+[2018.08.21-22.39.47:592][279]LogTemp: Warning: Stamina = 96.636848
+[2018.08.21-22.39.47:603][280]LogTemp: Warning: Stamina = 96.626854
+[2018.08.21-22.39.47:612][281]LogTemp: Warning: Stamina = 96.616859
+[2018.08.21-22.39.47:622][282]LogTemp: Warning: Stamina = 96.606865
+[2018.08.21-22.39.47:633][283]LogTemp: Warning: Stamina = 96.596870
+[2018.08.21-22.39.47:644][284]LogTemp: Warning: Stamina = 96.586876
+[2018.08.21-22.39.47:654][285]LogTemp: Warning: Stamina = 96.576881
+[2018.08.21-22.39.47:664][286]LogTemp: Warning: Stamina = 96.566887
+[2018.08.21-22.39.47:674][287]LogTemp: Warning: Stamina = 96.556892
+[2018.08.21-22.39.47:685][288]LogTemp: Warning: Stamina = 96.546898
+[2018.08.21-22.39.47:694][289]LogTemp: Warning: Stamina = 96.536903
+[2018.08.21-22.39.47:704][290]LogTemp: Warning: Stamina = 96.526909
+[2018.08.21-22.39.47:714][291]LogTemp: Warning: Stamina = 96.516914
+[2018.08.21-22.39.47:724][292]LogTemp: Warning: Stamina = 96.506920
+[2018.08.21-22.39.47:735][293]LogTemp: Warning: Stamina = 96.496925
+[2018.08.21-22.39.47:744][294]LogTemp: Warning: Stamina = 96.486931
+[2018.08.21-22.39.47:754][295]LogTemp: Warning: Stamina = 96.476936
+[2018.08.21-22.39.47:764][296]LogTemp: Warning: Stamina = 96.466942
+[2018.08.21-22.39.47:774][297]LogTemp: Warning: Stamina = 96.456947
+[2018.08.21-22.39.47:783][298]LogTemp: Warning: Stamina = 96.446953
+[2018.08.21-22.39.47:793][299]LogTemp: Warning: Stamina = 96.436958
+[2018.08.21-22.39.47:804][300]LogTemp: Warning: Stamina = 96.426964
+[2018.08.21-22.39.47:814][301]LogTemp: Warning: Stamina = 96.416969
+[2018.08.21-22.39.47:823][302]LogTemp: Warning: Stamina = 96.406975
+[2018.08.21-22.39.47:833][303]LogTemp: Warning: Stamina = 96.396980
+[2018.08.21-22.39.47:843][304]LogTemp: Warning: Stamina = 96.386986
+[2018.08.21-22.39.47:853][305]LogTemp: Warning: Stamina = 96.376991
+[2018.08.21-22.39.47:864][306]LogTemp: Warning: Stamina = 96.366997
+[2018.08.21-22.39.47:873][307]LogTemp: Warning: Stamina = 96.357002
+[2018.08.21-22.39.47:883][308]LogTemp: Warning: Stamina = 96.347008
+[2018.08.21-22.39.47:893][309]LogTemp: Warning: Stamina = 96.337013
+[2018.08.21-22.39.47:903][310]LogTemp: Warning: Stamina = 96.327019
+[2018.08.21-22.39.47:913][311]LogTemp: Warning: Stamina = 96.317024
+[2018.08.21-22.39.47:924][312]LogTemp: Warning: Stamina = 96.307030
+[2018.08.21-22.39.47:934][313]LogTemp: Warning: Stamina = 96.297035
+[2018.08.21-22.39.47:945][314]LogTemp: Warning: Stamina = 96.287041
+[2018.08.21-22.39.47:954][315]LogTemp: Warning: Stamina = 96.277046
+[2018.08.21-22.39.47:964][316]LogTemp: Warning: Stamina = 96.267052
+[2018.08.21-22.39.47:974][317]LogTemp: Warning: Stamina = 96.257057
+[2018.08.21-22.39.47:984][318]LogTemp: Warning: Stamina = 96.247063
+[2018.08.21-22.39.47:994][319]LogTemp: Warning: Stamina = 96.237068
+[2018.08.21-22.39.48:004][320]LogTemp: Warning: Stamina = 96.227074
+[2018.08.21-22.39.48:015][321]LogTemp: Warning: Stamina = 96.217079
+[2018.08.21-22.39.48:024][322]LogTemp: Warning: Stamina = 96.207085
+[2018.08.21-22.39.48:035][323]LogTemp: Warning: Stamina = 96.197090
+[2018.08.21-22.39.48:045][324]LogTemp: Warning: Stamina = 96.187096
+[2018.08.21-22.39.48:055][325]LogTemp: Warning: Stamina = 96.177101
+[2018.08.21-22.39.48:066][326]LogTemp: Warning: Stamina = 96.167107
+[2018.08.21-22.39.48:076][327]LogTemp: Warning: Stamina = 96.157112
+[2018.08.21-22.39.48:086][328]LogTemp: Warning: Stamina = 96.147118
+[2018.08.21-22.39.48:096][329]LogTemp: Warning: Stamina = 96.137123
+[2018.08.21-22.39.48:106][330]LogTemp: Warning: Stamina = 96.127129
+[2018.08.21-22.39.48:116][331]LogTemp: Warning: Stamina = 96.117134
+[2018.08.21-22.39.48:126][332]LogTemp: Warning: Stamina = 96.107140
+[2018.08.21-22.39.48:138][333]LogTemp: Warning: Stamina = 96.097145
+[2018.08.21-22.39.48:148][334]LogTemp: Warning: Stamina = 96.087151
+[2018.08.21-22.39.48:158][335]LogTemp: Warning: Stamina = 96.077156
+[2018.08.21-22.39.48:168][336]LogTemp: Warning: Stamina = 96.067162
+[2018.08.21-22.39.48:178][337]LogTemp: Warning: Stamina = 96.057167
+[2018.08.21-22.39.48:188][338]LogTemp: Warning: Stamina = 96.047173
+[2018.08.21-22.39.48:198][339]LogTemp: Warning: Stamina = 96.037178
+[2018.08.21-22.39.48:209][340]LogTemp: Warning: Stamina = 96.027184
+[2018.08.21-22.39.48:219][341]LogTemp: Warning: Stamina = 96.017189
+[2018.08.21-22.39.48:228][342]LogTemp: Warning: Stamina = 96.007195
+[2018.08.21-22.39.48:239][343]LogTemp: Warning: Stamina = 95.997200
+[2018.08.21-22.39.48:248][344]LogTemp: Warning: Stamina = 95.987206
+[2018.08.21-22.39.48:259][345]LogTemp: Warning: Stamina = 95.977211
+[2018.08.21-22.39.48:270][346]LogTemp: Warning: Stamina = 95.967216
+[2018.08.21-22.39.48:280][347]LogTemp: Warning: Stamina = 95.957222
+[2018.08.21-22.39.48:290][348]LogTemp: Warning: Stamina = 95.947227
+[2018.08.21-22.39.48:300][349]LogTemp: Warning: Stamina = 95.937233
+[2018.08.21-22.39.48:310][350]LogTemp: Warning: Stamina = 95.927238
+[2018.08.21-22.39.48:320][351]LogTemp: Warning: Stamina = 95.917244
+[2018.08.21-22.39.48:331][352]LogTemp: Warning: Stamina = 95.907249
+[2018.08.21-22.39.48:340][353]LogTemp: Warning: Stamina = 95.897255
+[2018.08.21-22.39.48:350][354]LogTemp: Warning: Stamina = 95.887260
+[2018.08.21-22.39.48:360][355]LogTemp: Warning: Stamina = 95.877266
+[2018.08.21-22.39.48:370][356]LogTemp: Warning: Stamina = 95.867271
+[2018.08.21-22.39.48:380][357]LogTemp: Warning: Stamina = 95.857277
+[2018.08.21-22.39.48:390][358]LogTemp: Warning: Stamina = 95.847282
+[2018.08.21-22.39.48:401][359]LogTemp: Warning: Stamina = 95.837288
+[2018.08.21-22.39.48:410][360]LogTemp: Warning: Stamina = 95.827293
+[2018.08.21-22.39.48:419][361]LogTemp: Warning: Stamina = 95.817299
+[2018.08.21-22.39.48:430][362]LogTemp: Warning: Stamina = 95.807304
+[2018.08.21-22.39.48:440][363]LogTemp: Warning: Stamina = 95.797310
+[2018.08.21-22.39.48:450][364]LogTemp: Warning: Stamina = 95.787315
+[2018.08.21-22.39.48:460][365]LogTemp: Warning: Stamina = 95.777321
+[2018.08.21-22.39.48:470][366]LogTemp: Warning: Stamina = 95.767326
+[2018.08.21-22.39.48:480][367]LogTemp: Warning: Stamina = 95.757332
+[2018.08.21-22.39.48:490][368]LogTemp: Warning: Stamina = 95.747337
+[2018.08.21-22.39.48:500][369]LogTemp: Warning: Stamina = 95.737343
+[2018.08.21-22.39.48:510][370]LogTemp: Warning: Stamina = 95.727348
+[2018.08.21-22.39.48:521][371]LogTemp: Warning: Stamina = 95.717354
+[2018.08.21-22.39.48:532][372]LogTemp: Warning: Stamina = 95.707359
+[2018.08.21-22.39.48:541][373]LogTemp: Warning: Stamina = 95.697365
+[2018.08.21-22.39.48:551][374]LogTemp: Warning: Stamina = 95.687370
+[2018.08.21-22.39.48:561][375]LogTemp: Warning: Stamina = 95.677376
+[2018.08.21-22.39.48:571][376]LogTemp: Warning: Stamina = 95.667381
+[2018.08.21-22.39.48:582][377]LogTemp: Warning: Stamina = 95.657387
+[2018.08.21-22.39.48:592][378]LogTemp: Warning: Stamina = 95.642395
+[2018.08.21-22.39.48:601][379]LogTemp: Warning: Stamina = 95.632401
+[2018.08.21-22.39.48:611][380]LogTemp: Warning: Stamina = 95.622406
+[2018.08.21-22.39.48:621][381]LogTemp: Warning: Stamina = 95.612411
+[2018.08.21-22.39.48:632][382]LogTemp: Warning: Stamina = 95.602417
+[2018.08.21-22.39.48:642][383]LogTemp: Warning: Stamina = 95.592422
+[2018.08.21-22.39.48:652][384]LogTemp: Warning: Stamina = 95.582428
+[2018.08.21-22.39.48:662][385]LogTemp: Warning: Stamina = 95.572433
+[2018.08.21-22.39.48:673][386]LogTemp: Warning: Stamina = 95.562439
+[2018.08.21-22.39.48:682][387]LogTemp: Warning: Stamina = 95.552444
+[2018.08.21-22.39.48:692][388]LogTemp: Warning: Stamina = 95.542450
+[2018.08.21-22.39.48:703][389]LogTemp: Warning: Stamina = 95.532455
+[2018.08.21-22.39.48:713][390]LogTemp: Warning: Stamina = 95.522461
+[2018.08.21-22.39.48:723][391]LogTemp: Warning: Stamina = 95.512466
+[2018.08.21-22.39.48:733][392]LogTemp: Warning: Stamina = 95.502472
+[2018.08.21-22.39.48:744][393]LogTemp: Warning: Stamina = 95.492477
+[2018.08.21-22.39.48:754][394]LogTemp: Warning: Stamina = 95.482483
+[2018.08.21-22.39.48:764][395]LogTemp: Warning: Stamina = 95.472488
+[2018.08.21-22.39.48:774][396]LogTemp: Warning: Stamina = 95.462494
+[2018.08.21-22.39.48:784][397]LogTemp: Warning: Stamina = 95.452499
+[2018.08.21-22.39.48:794][398]LogTemp: Warning: Stamina = 95.442505
+[2018.08.21-22.39.48:804][399]LogTemp: Warning: Stamina = 95.432510
+[2018.08.21-22.39.48:814][400]LogTemp: Warning: Stamina = 95.422516
+[2018.08.21-22.39.48:824][401]LogTemp: Warning: Stamina = 95.412521
+[2018.08.21-22.39.48:835][402]LogTemp: Warning: Stamina = 95.402527
+[2018.08.21-22.39.48:844][403]LogTemp: Warning: Stamina = 95.392532
+[2018.08.21-22.39.48:855][404]LogTemp: Warning: Stamina = 95.382538
+[2018.08.21-22.39.48:865][405]LogTemp: Warning: Stamina = 95.372543
+[2018.08.21-22.39.48:875][406]LogTemp: Warning: Stamina = 95.362549
+[2018.08.21-22.39.48:885][407]LogTemp: Warning: Stamina = 95.352554
+[2018.08.21-22.39.48:896][408]LogTemp: Warning: Stamina = 95.342560
+[2018.08.21-22.39.48:906][409]LogTemp: Warning: Stamina = 95.332565
+[2018.08.21-22.39.48:916][410]LogTemp: Warning: Stamina = 95.322571
+[2018.08.21-22.39.48:926][411]LogTemp: Warning: Stamina = 95.312576
+[2018.08.21-22.39.48:937][412]LogTemp: Warning: Stamina = 95.302582
+[2018.08.21-22.39.48:948][413]LogTemp: Warning: Stamina = 95.292587
+[2018.08.21-22.39.48:958][414]LogTemp: Warning: Stamina = 95.282593
+[2018.08.21-22.39.48:968][415]LogTemp: Warning: Stamina = 95.272598
+[2018.08.21-22.39.48:978][416]LogTemp: Warning: Stamina = 95.262604
+[2018.08.21-22.39.48:989][417]LogTemp: Warning: Stamina = 95.252609
+[2018.08.21-22.39.48:999][418]LogTemp: Warning: Stamina = 95.242615
+[2018.08.21-22.39.49:009][419]LogTemp: Warning: Stamina = 95.232620
+[2018.08.21-22.39.49:019][420]LogTemp: Warning: Stamina = 95.222626
+[2018.08.21-22.39.49:029][421]LogTemp: Warning: Stamina = 95.212631
+[2018.08.21-22.39.49:040][422]LogTemp: Warning: Stamina = 95.202637
+[2018.08.21-22.39.49:050][423]LogTemp: Warning: Stamina = 95.192642
+[2018.08.21-22.39.49:059][424]LogTemp: Warning: Stamina = 95.182648
+[2018.08.21-22.39.49:070][425]LogTemp: Warning: Stamina = 95.172653
+[2018.08.21-22.39.49:079][426]LogTemp: Warning: Stamina = 95.162659
+[2018.08.21-22.39.49:089][427]LogTemp: Warning: Stamina = 95.152664
+[2018.08.21-22.39.49:099][428]LogTemp: Warning: Stamina = 95.142670
+[2018.08.21-22.39.49:109][429]LogTemp: Warning: Stamina = 95.132675
+[2018.08.21-22.39.49:118][430]LogTemp: Warning: Stamina = 95.122681
+[2018.08.21-22.39.49:128][431]LogTemp: Warning: Stamina = 95.112686
+[2018.08.21-22.39.49:138][432]LogTemp: Warning: Stamina = 95.102692
+[2018.08.21-22.39.49:149][433]LogTemp: Warning: Stamina = 95.092697
+[2018.08.21-22.39.49:158][434]LogTemp: Warning: Stamina = 95.082703
+[2018.08.21-22.39.49:168][435]LogTemp: Warning: Stamina = 95.072708
+[2018.08.21-22.39.49:179][436]LogTemp: Warning: Stamina = 95.062714
+[2018.08.21-22.39.49:191][437]LogBlueprintUserMessages: [MyALBIRB_EXPERIENCEPawn_C_0] Hello
+[2018.08.21-22.39.49:192][437]LogTemp: Warning: Stamina = 95.052719
+[2018.08.21-22.39.49:991][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.50:022][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.50:994][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.21-22.39.52:736][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.52:737][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.21-22.39.52:737][771]PIE: New page: PIE session: FlyingExampleMap (Aug 22, 2018, 10:39:52 PM)
+[2018.08.21-22.39.52:737][771]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FlyingExampleMap
+[2018.08.21-22.39.52:754][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016863s)
+[2018.08.21-22.39.52:754][771]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.21-22.39.52:754][771]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2018.08.21-22.39.52:755][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FlyingExampleMap.FlyingExampleMap to /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.017793s)
+[2018.08.21-22.39.52:781][771]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.21-22.39.52:786][771]LogInit: FAudioDevice initialized.
+[2018.08.21-22.39.52:791][771]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.21-22.39.52:838][771]LogLoad: Game class is 'BP_Gamemode_1_C'
+[2018.08.21-22.39.52:842][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.22-10.39.52
+[2018.08.21-22.39.52:842][771]LogWorld: Bringing up level for play took: 0.003923
+[2018.08.21-22.39.52:848][771]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FlyingExampleMap 0.328
+[2018.08.21-22.39.52:848][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.52:870][771]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.08.21-22.39.53:946][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.39.54:050][863]LogTemp: Warning: Stamina = 99.535255
+[2018.08.21-22.39.54:069][864]LogTemp: Warning: Stamina = 99.525261
+[2018.08.21-22.39.54:081][865]LogTemp: Warning: Stamina = 99.515266
+[2018.08.21-22.39.54:093][866]LogTemp: Warning: Stamina = 99.505272
+[2018.08.21-22.39.54:105][867]LogTemp: Warning: Stamina = 99.495277
+[2018.08.21-22.39.54:117][868]LogTemp: Warning: Stamina = 99.485283
+[2018.08.21-22.39.54:129][869]LogTemp: Warning: Stamina = 99.475288
+[2018.08.21-22.39.54:141][870]LogTemp: Warning: Stamina = 99.465294
+[2018.08.21-22.39.54:154][871]LogTemp: Warning: Stamina = 99.455299
+[2018.08.21-22.39.54:169][872]LogTemp: Warning: Stamina = 99.445305
+[2018.08.21-22.39.54:180][873]LogTemp: Warning: Stamina = 99.435310
+[2018.08.21-22.39.54:193][874]LogTemp: Warning: Stamina = 99.425316
+[2018.08.21-22.39.54:205][875]LogTemp: Warning: Stamina = 99.415321
+[2018.08.21-22.39.54:219][876]LogTemp: Warning: Stamina = 99.400330
+[2018.08.21-22.39.54:230][877]LogTemp: Warning: Stamina = 99.390335
+[2018.08.21-22.39.54:243][878]LogTemp: Warning: Stamina = 99.380341
+[2018.08.21-22.39.54:256][879]LogTemp: Warning: Stamina = 99.370346
+[2018.08.21-22.39.54:268][880]LogTemp: Warning: Stamina = 99.360352
+[2018.08.21-22.39.54:279][881]LogTemp: Warning: Stamina = 99.350357
+[2018.08.21-22.39.54:291][882]LogTemp: Warning: Stamina = 99.340363
+[2018.08.21-22.39.54:302][883]LogTemp: Warning: Stamina = 99.330368
+[2018.08.21-22.39.54:314][884]LogTemp: Warning: Stamina = 99.320374
+[2018.08.21-22.39.54:326][885]LogTemp: Warning: Stamina = 99.310379
+[2018.08.21-22.39.54:338][886]LogTemp: Warning: Stamina = 99.300385
+[2018.08.21-22.39.54:349][887]LogTemp: Warning: Stamina = 99.290390
+[2018.08.21-22.39.54:361][888]LogTemp: Warning: Stamina = 99.280396
+[2018.08.21-22.39.54:372][889]LogTemp: Warning: Stamina = 99.270401
+[2018.08.21-22.39.54:385][890]LogTemp: Warning: Stamina = 99.260406
+[2018.08.21-22.39.54:397][891]LogTemp: Warning: Stamina = 99.250412
+[2018.08.21-22.39.54:409][892]LogTemp: Warning: Stamina = 99.240417
+[2018.08.21-22.39.54:420][893]LogTemp: Warning: Stamina = 99.230423
+[2018.08.21-22.39.54:432][894]LogTemp: Warning: Stamina = 99.220428
+[2018.08.21-22.39.54:444][895]LogTemp: Warning: Stamina = 99.210434
+[2018.08.21-22.39.54:456][896]LogTemp: Warning: Stamina = 99.200439
+[2018.08.21-22.39.54:469][897]LogTemp: Warning: Stamina = 99.190445
+[2018.08.21-22.39.54:481][898]LogTemp: Warning: Stamina = 99.180450
+[2018.08.21-22.39.54:494][899]LogTemp: Warning: Stamina = 99.170456
+[2018.08.21-22.39.54:507][900]LogTemp: Warning: Stamina = 99.160461
+[2018.08.21-22.39.54:518][901]LogTemp: Warning: Stamina = 99.150467
+[2018.08.21-22.39.54:530][902]LogTemp: Warning: Stamina = 99.140472
+[2018.08.21-22.39.54:542][903]LogTemp: Warning: Stamina = 99.130478
+[2018.08.21-22.39.54:554][904]LogTemp: Warning: Stamina = 99.120483
+[2018.08.21-22.39.54:566][905]LogTemp: Warning: Stamina = 99.110489
+[2018.08.21-22.39.54:577][906]LogTemp: Warning: Stamina = 99.100494
+[2018.08.21-22.39.54:589][907]LogTemp: Warning: Stamina = 99.090500
+[2018.08.21-22.39.54:600][908]LogTemp: Warning: Stamina = 99.080505
+[2018.08.21-22.39.54:612][909]LogTemp: Warning: Stamina = 99.070511
+[2018.08.21-22.39.54:624][910]LogTemp: Warning: Stamina = 99.060516
+[2018.08.21-22.39.54:635][911]LogTemp: Warning: Stamina = 99.050522
+[2018.08.21-22.39.54:647][912]LogTemp: Warning: Stamina = 99.040527
+[2018.08.21-22.39.54:660][913]LogTemp: Warning: Stamina = 99.030533
+[2018.08.21-22.39.54:672][914]LogTemp: Warning: Stamina = 99.020538
+[2018.08.21-22.39.54:682][915]LogTemp: Warning: Stamina = 99.010544
+[2018.08.21-22.39.54:694][916]LogTemp: Warning: Stamina = 99.000549
+[2018.08.21-22.39.54:706][917]LogTemp: Warning: Stamina = 98.990555
+[2018.08.21-22.39.54:717][918]LogTemp: Warning: Stamina = 98.980560
+[2018.08.21-22.39.54:728][919]LogTemp: Warning: Stamina = 98.970566
+[2018.08.21-22.39.54:740][920]LogTemp: Warning: Stamina = 98.960571
+[2018.08.21-22.39.54:752][921]LogTemp: Warning: Stamina = 98.950577
+[2018.08.21-22.39.54:763][922]LogTemp: Warning: Stamina = 98.940582
+[2018.08.21-22.39.54:774][923]LogTemp: Warning: Stamina = 98.930588
+[2018.08.21-22.39.54:786][924]LogTemp: Warning: Stamina = 98.920593
+[2018.08.21-22.39.54:797][925]LogTemp: Warning: Stamina = 98.910599
+[2018.08.21-22.39.54:808][926]LogTemp: Warning: Stamina = 98.900604
+[2018.08.21-22.39.54:820][927]LogTemp: Warning: Stamina = 98.890610
+[2018.08.21-22.39.54:831][928]LogTemp: Warning: Stamina = 98.880615
+[2018.08.21-22.39.54:842][929]LogTemp: Warning: Stamina = 98.870621
+[2018.08.21-22.39.54:854][930]LogTemp: Warning: Stamina = 98.860626
+[2018.08.21-22.39.54:865][931]LogTemp: Warning: Stamina = 98.850632
+[2018.08.21-22.39.54:877][932]LogTemp: Warning: Stamina = 98.840637
+[2018.08.21-22.39.54:888][933]LogTemp: Warning: Stamina = 98.825645
+[2018.08.21-22.39.54:900][934]LogTemp: Warning: Stamina = 98.815651
+[2018.08.21-22.39.54:911][935]LogTemp: Warning: Stamina = 98.805656
+[2018.08.21-22.39.54:923][936]LogTemp: Warning: Stamina = 98.795662
+[2018.08.21-22.39.54:934][937]LogTemp: Warning: Stamina = 98.785667
+[2018.08.21-22.39.54:946][938]LogTemp: Warning: Stamina = 98.775673
+[2018.08.21-22.39.54:958][939]LogTemp: Warning: Stamina = 98.765678
+[2018.08.21-22.39.54:970][940]LogTemp: Warning: Stamina = 98.755684
+[2018.08.21-22.39.54:981][941]LogTemp: Warning: Stamina = 98.745689
+[2018.08.21-22.39.54:994][942]LogTemp: Warning: Stamina = 98.735695
+[2018.08.21-22.39.55:006][943]LogTemp: Warning: Stamina = 98.725700
+[2018.08.21-22.39.55:017][944]LogTemp: Warning: Stamina = 98.715706
+[2018.08.21-22.39.55:029][945]LogTemp: Warning: Stamina = 98.705711
+[2018.08.21-22.39.55:041][946]LogTemp: Warning: Stamina = 98.695717
+[2018.08.21-22.39.55:052][947]LogTemp: Warning: Stamina = 98.685722
+[2018.08.21-22.39.55:064][948]LogTemp: Warning: Stamina = 98.675728
+[2018.08.21-22.39.55:076][949]LogTemp: Warning: Stamina = 98.665733
+[2018.08.21-22.39.55:086][950]LogTemp: Warning: Stamina = 98.655739
+[2018.08.21-22.39.55:099][951]LogTemp: Warning: Stamina = 98.645744
+[2018.08.21-22.39.55:111][952]LogTemp: Warning: Stamina = 98.635750
+[2018.08.21-22.39.55:122][953]LogTemp: Warning: Stamina = 98.625755
+[2018.08.21-22.39.55:134][954]LogTemp: Warning: Stamina = 98.615761
+[2018.08.21-22.39.55:145][955]LogTemp: Warning: Stamina = 98.605766
+[2018.08.21-22.39.55:157][956]LogTemp: Warning: Stamina = 98.595772
+[2018.08.21-22.39.55:168][957]LogTemp: Warning: Stamina = 98.585777
+[2018.08.21-22.39.55:180][958]LogTemp: Warning: Stamina = 98.575783
+[2018.08.21-22.39.55:192][959]LogTemp: Warning: Stamina = 98.565788
+[2018.08.21-22.39.55:203][960]LogTemp: Warning: Stamina = 98.555794
+[2018.08.21-22.39.55:214][961]LogTemp: Warning: Stamina = 98.545799
+[2018.08.21-22.39.55:226][962]LogTemp: Warning: Stamina = 98.535805
+[2018.08.21-22.39.55:238][963]LogTemp: Warning: Stamina = 98.525810
+[2018.08.21-22.39.55:248][964]LogTemp: Warning: Stamina = 98.515816
+[2018.08.21-22.39.55:261][965]LogTemp: Warning: Stamina = 98.505821
+[2018.08.21-22.39.55:273][966]LogTemp: Warning: Stamina = 98.495827
+[2018.08.21-22.39.55:284][967]LogTemp: Warning: Stamina = 98.485832
+[2018.08.21-22.39.55:296][968]LogTemp: Warning: Stamina = 98.475838
+[2018.08.21-22.39.55:308][969]LogTemp: Warning: Stamina = 98.465843
+[2018.08.21-22.39.55:319][970]LogTemp: Warning: Stamina = 98.455849
+[2018.08.21-22.39.55:330][971]LogBlueprintUserMessages: [MyALBIRB_EXPERIENCEPawn_C_0] Hello
+[2018.08.21-22.39.55:330][971]LogTemp: Warning: Stamina = 98.445854
+[2018.08.21-22.39.56:650][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.39.56:729][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.39.56:743][ 93]LogSlate: Window 'ALBIRB_EXPERIENCE Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.21-22.39.56:773][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.08.21-22.40.00:614][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-22.40.08:203][213]LogSavePackage: Save=33.34ms
+[2018.08.21-22.40.08:203][213]LogSavePackage: Moving '../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/MyALBIRB_EXPERIENCEPawnD06CA60B4776501ACF7BD69E040F2122.tmp' to '../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/MyALBIRB_EXPERIENCEPawn.uasset'
+[2018.08.21-22.40.08:205][213]LogSavePackage: Display: Finished SavePackage ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/MyALBIRB_EXPERIENCEPawn.uasset
+[2018.08.21-22.40.08:218][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Pawn" FILE="../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset" SILENT=true
+[2018.08.21-22.40.08:248][213]LogSavePackage: Save=27.44ms
+[2018.08.21-22.40.08:248][213]LogSavePackage: Moving '../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Saved/BP_Pawn68F8942C44DD16C7D33ACEB39464F80D.tmp' to '../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset'
+[2018.08.21-22.40.08:251][213]LogSavePackage: Display: Finished SavePackage ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Content/Player/BP_Pawn.uasset
+[2018.08.21-22.40.12:350][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764

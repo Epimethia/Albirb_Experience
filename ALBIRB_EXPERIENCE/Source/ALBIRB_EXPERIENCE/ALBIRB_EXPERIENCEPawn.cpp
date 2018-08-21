@@ -31,8 +31,8 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	// Create a spring arm component
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm0"));
 	SpringArm->SetupAttachment(RootComponent);	// Attach SpringArm to RootComponent
-	SpringArm->TargetArmLength = 160.0f; // The camera follows at this distance behind the character	
-	SpringArm->SocketOffset = FVector(0.f,0.f,60.f);
+	SpringArm->TargetArmLength = 600.0f; // The camera follows at this distance behind the character	
+	SpringArm->SocketOffset = FVector(0.f,0.f,200.f);
 	SpringArm->bEnableCameraLag = false;	// Do not allow camera to lag
 	SpringArm->CameraLagSpeed = 15.f;
 
@@ -40,6 +40,7 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera0"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);	// Attach the camera
 	Camera->bUsePawnControlRotation = false; // Don't rotate camera with controller
+	Camera->SetRelativeRotation(FRotator(45.0f, 0.0f, 0.0f));
 
 	// Set handling parameters
 	Gravity = -900.0f;

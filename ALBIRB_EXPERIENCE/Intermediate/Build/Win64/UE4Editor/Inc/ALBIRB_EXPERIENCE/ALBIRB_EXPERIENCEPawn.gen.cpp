@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 				{ "ToolTip", "Current upward speed" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentUpwardSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentUpwardSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000004, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentUpwardSpeed), METADATA_PARAMS(NewProp_CurrentUpwardSpeed_MetaData, ARRAY_COUNT(NewProp_CurrentUpwardSpeed_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentUpwardSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentUpwardSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentUpwardSpeed), METADATA_PARAMS(NewProp_CurrentUpwardSpeed_MetaData, ARRAY_COUNT(NewProp_CurrentUpwardSpeed_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentForwardSpeed_MetaData[] = {
 				{ "Category", "ALBIRB_EXPERIENCEPawn" },
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 				{ "ToolTip", "Current forward speed" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentForwardSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentForwardSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000004, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentForwardSpeed), METADATA_PARAMS(NewProp_CurrentForwardSpeed_MetaData, ARRAY_COUNT(NewProp_CurrentForwardSpeed_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentForwardSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentForwardSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentForwardSpeed), METADATA_PARAMS(NewProp_CurrentForwardSpeed_MetaData, ARRAY_COUNT(NewProp_CurrentForwardSpeed_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 				{ "AllowPrivateAccess", "true" },
@@ -160,7 +160,11 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 		}
 		return OuterClass;
 	}
+<<<<<<< HEAD
 	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 1553814957);
+=======
+	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 1092713095);
+>>>>>>> a70e0c32a13f9d8c79cc4a7326561adaa14cc764
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AALBIRB_EXPERIENCEPawn(Z_Construct_UClass_AALBIRB_EXPERIENCEPawn, &AALBIRB_EXPERIENCEPawn::StaticClass, TEXT("/Script/ALBIRB_EXPERIENCE"), TEXT("AALBIRB_EXPERIENCEPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AALBIRB_EXPERIENCEPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
