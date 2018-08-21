@@ -1,8 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Performing 3 actions (4 in parallel)
+  Compiling game modules for hot reload
+  Parsing headers for ALBIRB_EXPERIENCEEditor
+    Running UnrealHeaderTool "D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.uproject" "D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\ALBIRB_EXPERIENCEEditor\Development\ALBIRB_EXPERIENCEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ALBIRB_EXPERIENCEEditor in 6.8432829 seconds
+  Performing 8 actions (4 in parallel)
   ALBIRB_EXPERIENCEPawn.cpp
-  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE.dll
-  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE.lib
-     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.exp
-     Creating library D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.lib and object D:\Users\james.dev7362\Documents\GitHub\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE.suppressed.exp
-  Total build time: 5.07 seconds (Local executor: 4.22 seconds)
+  ALBIRB_EXPERIENCEGameMode.cpp
+  PerchingComponent.cpp
+  ALBIRB_EXPERIENCE.init.gen.cpp
+  ALBIRB_EXPERIENCEPawn.gen.cpp
+  PerchingComponent.gen.cpp
+  [7/8] Link UE4Editor-ALBIRB_EXPERIENCE-5003.dll
+  [8/8] Link UE4Editor-ALBIRB_EXPERIENCE-5003.lib
+     Creating library D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.lib and object D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.exp
+     Creating library D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.suppressed.lib and object D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-5003.suppressed.exp
+  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
+  Total build time: 9.95 seconds (Local executor: 1.52 seconds)
