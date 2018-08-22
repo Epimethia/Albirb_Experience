@@ -96,8 +96,6 @@ private:
 	/** Current perch status */
 	bool Perching;	
 
-<<<<<<< HEAD
-=======
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActor> PerchBlueprint;	// 
 
@@ -110,8 +108,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float StaminaDepletionRate;
-
->>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 public:
 	/** Returns PlaneMesh subobject **/
 	FORCEINLINE class USkeletalMeshComponent* GetPlaneMesh() const { return PlaneMesh; }

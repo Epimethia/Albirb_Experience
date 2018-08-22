@@ -7,13 +7,10 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-<<<<<<< HEAD
 #include "Engine/TriggerVolume.h"
 #include "Engine/World.h"
-=======
 #include <vector>
 #include "EngineUtils.h"
->>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 #include "Engine/StaticMesh.h"
 #include <assert.h>
 #include <math.h>
@@ -61,13 +58,10 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	CurrentUpwardSpeed = Gravity;
 	CurrentUpwardSpeedAccel = 1000.0f;
 	CurrentForwardSpeed = 750.f;
-<<<<<<< HEAD
-=======
 	StaminaRechargeRate = 0.1f;
 	StaminaDepletionRate = 0.02f;
 	Owner = this;
 	World = GetWorld();
->>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
@@ -169,11 +163,7 @@ void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 void AALBIRB_EXPERIENCEPawn::PerchInput()
 {
 	Perching = true;	
-<<<<<<< HEAD
 	CurrentUpwardSpeed = Gravity;
-=======
-	CurrentUpwardSpeed = Gravity;	
->>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 }
 
 void AALBIRB_EXPERIENCEPawn::PerchInputReleased()

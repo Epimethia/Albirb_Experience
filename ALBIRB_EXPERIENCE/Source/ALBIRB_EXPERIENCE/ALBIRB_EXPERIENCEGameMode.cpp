@@ -9,7 +9,6 @@ FVector AALBIRB_EXPERIENCEGameMode::GeneratePoint(FVector _ForwardVect, FRotator
 	y = Math.sin(angle)*radius;*/
 
 	float YRatio = FMath::RandRange(-1.0f, 1.0f);
-
 	FVector CenterPoint = (_ForwardVect * 20000.0f) + _CurrentPos;
 
 	float y = YRatio * 10000.0f + CenterPoint.Y;
