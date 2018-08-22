@@ -58,6 +58,8 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	CurrentForwardSpeed = 750.f;
 	StaminaRechargeRate = 0.1f;
 	StaminaDepletionRate = 0.02f;
+	PerchReleaseTimer = 1000.0f;
+	PerchTimerLimit = 0.5f;
 	Owner = this;
 	World = GetWorld();
 }
@@ -66,6 +68,19 @@ void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Staminaaa = %f"), Stamina);
 
+	// If the player isn't trying to fly upwards, apply gravity
+	if (!Rising && PerchReleaseTimer > PerchTimerLimit)
+	{
+		CurrentUpwardSpeed = Gravity;
+	}	
+	else if (PerchReleaseTimer < PerchTimerLimit)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("PerchTimer = %f"), PerchReleaseTimer);
+		PerchReleaseTimer += DeltaSeconds;
+	}
+			
+
+	// Apply movement 
 	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.0f, CurrentUpwardSpeed * DeltaSeconds);
 
 	// Decrement Stamina
@@ -79,7 +94,7 @@ void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 		{
 			RegenerateStamina();
 		}		
-	}
+	}	
 
 	// Move plan forwards (with sweep so we stop when we collide with things)
 	AddActorLocalOffset(LocalMove, true);	
@@ -111,6 +126,7 @@ void AALBIRB_EXPERIENCEPawn::RegenerateStamina()
 			{				
 				Stamina += StaminaRechargeRate;
 				Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
+				PerchReleaseTimer = 0.0f;
 			}
 		}		
 	}
@@ -166,11 +182,19 @@ void AALBIRB_EXPERIENCEPawn::PerchInput()
 
 void AALBIRB_EXPERIENCEPawn::PerchInputReleased()
 {
-	Perching = false;	
+	Perching = false;
+	// If the player gets (close to) full stamina, give a boost from the perch
+	if (Stamina >= 95.0f)
+	{
+		CurrentForwardSpeed += 1000;
+		CurrentForwardSpeed = FMath::Clamp(CurrentForwardSpeed, MinSpeed, MaxSpeed);
+		CurrentUpwardSpeed = (1000 * (Stamina / 100)); // Stamina changes upward speed
+	}
 }
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 {
+	Rising = true;
 	if (!Perching)
 	{
 		// Decrement Stamina
@@ -189,6 +213,7 @@ void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInputReleased()
 {
+	Rising = false;
 	CurrentUpwardSpeed = Gravity;	
 }
 

@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{AB3819AA-3D91-4005-8DA5-75CB8B65632F}</ProjectGuid>
+		<ProjectGuid>{85E29DC8-CAAA-4C89-B4B5-4FAAEA55809B}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>ALBIRB_EXPERIENCE</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
