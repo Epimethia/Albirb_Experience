@@ -47,6 +47,8 @@ public:
 	/** Current stamina*/
 	float Stamina;
 
+	bool Rising; // Is the player trying to fly upwards
+
 protected:
 
 	// Begin APawn overrides
@@ -65,6 +67,9 @@ protected:
 
 	void PerchInput();
 	void PerchInputReleased();
+
+	void TuckInput();
+	void TuckInputReleased();
 
 private:
 
@@ -109,6 +114,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float StaminaDepletionRate;
+
+	float PerchReleaseTimer;
+	float PerchTimerLimit;	
 
 public:
 	/** Returns PlaneMesh subobject **/

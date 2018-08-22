@@ -2,6 +2,10 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"ALBIRB_EXPERIENCE": "UE4Editor-ALBIRB_EXPERIENCE-6150.dll"
+=======
+		"ALBIRB_EXPERIENCE": "UE4Editor-ALBIRB_EXPERIENCE-8357.dll"
+>>>>>>> Jasper-BrokeMasterMonkaS
 	}
 }
