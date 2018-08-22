@@ -11,8 +11,8 @@ class AALBIRB_EXPERIENCEPawn : public APawn
 	GENERATED_BODY()
 
 	/** StaticMesh component that will be the visuals for our flying pawn */
-	UPROPERTY(Category = Mesh, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class UStaticMeshComponent* PlaneMesh;
+	UPROPERTY(Category = Mesh, VisibleDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	class USkeletalMeshComponent* PlaneMesh;
 
 	/** Spring arm that will offset the camera */
 	UPROPERTY(Category = Camera, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
@@ -28,16 +28,20 @@ public:
 
 	// Begin AActor overrides
 	virtual void Tick(float DeltaSeconds) override;
+	void RegenerateStamina();
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;		
 	// End AActor overrides
-
 	/** Current forward speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float CurrentForwardSpeed;
+	float CurrentForwardSpeed;
 
 	/** Current upward speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float CurrentUpwardSpeed;
+	float CurrentUpwardSpeed;
+
+	/** Current upward speed accel */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float CurrentUpwardSpeedAccel;
 
 	/** Current stamina*/
 	float Stamina;
@@ -92,9 +96,25 @@ private:
 	/** Current perch status */
 	bool Perching;	
 
+<<<<<<< HEAD
+=======
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> PerchBlueprint;	// 
+
+	UWorld* World;
+
+	AActor* Owner;
+
+	UPROPERTY(EditAnywhere)
+	float StaminaRechargeRate;
+
+	UPROPERTY(EditAnywhere)
+	float StaminaDepletionRate;
+
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 public:
 	/** Returns PlaneMesh subobject **/
-	FORCEINLINE class UStaticMeshComponent* GetPlaneMesh() const { return PlaneMesh; }
+	FORCEINLINE class USkeletalMeshComponent* GetPlaneMesh() const { return PlaneMesh; }
 	/** Returns SpringArm subobject **/
 	FORCEINLINE class USpringArmComponent* GetSpringArm() const { return SpringArm; }
 	/** Returns Camera subobject **/

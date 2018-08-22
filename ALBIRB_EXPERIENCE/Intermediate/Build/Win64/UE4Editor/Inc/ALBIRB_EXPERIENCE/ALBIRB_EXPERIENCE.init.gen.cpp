@@ -19,7 +19,11 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCE_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ALBIRB_EXPERIENCE",
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0xD081BA6A,
+=======
+				0x8942D601,
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 				0xE90FABE2,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

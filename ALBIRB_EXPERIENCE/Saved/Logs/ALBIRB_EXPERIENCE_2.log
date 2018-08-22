@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 08/22/18 19:48:46
+=======
+﻿Log file open, 08/22/18 16:25:42
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +11,20 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ALBIRB_EXPERIENCE
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(2027128313) SRandInit(2027128313).
+=======
+LogInit: Display: RandInit(228478116) SRandInit(228478116).
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.260782
+=======
+LogStats: Stats thread started at 0.260245
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +96,13 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.038s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../../Users/steven.zha7447/Desktop/AlBirbExperience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE.dll (API version 3944462).
+=======
+LogStreaming: Display: Took  0.037s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Binaries/Win64/UE4Editor-ALBIRB_EXPERIENCE.dll (API version 3944462).
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -189,8 +206,12 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+<<<<<<< HEAD
 LogInit: WinSock: I am 1806C022 (10.18.0.49:0)
 LogHMD: Failed initializing OVRPlugin 1.21.0
+=======
+LogInit: WinSock: I am 1806C024 (10.18.0.77:0)
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,11 +240,16 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  /Game/Maps/FlyingExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+<<<<<<< HEAD
 LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+=======
+LogInit: Base Directory: D:/Epic/UE_4.19/Engine/Binaries/Win64/
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.08.22-07.48.48:311][  0]LogInit: Selected Device Profile: [Windows]
 [2018.08.22-07.48.48:311][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.08.22-07.48.48:315][  0]LogInit: Computer: 1806C022
@@ -3308,3 +3334,147 @@ LogInit: Object subsystem initialized
 [2018.08.22-07.49.27:510][943]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.08.22-07.49.27:534][943]LogExit: Exiting.
 [2018.08.22-07.49.27:540][943]Log file closed, 08/22/18 19:49:27
+=======
+[2018.08.22-04.25.43:966][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.22-04.25.43:966][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.22-04.25.43:971][  0]LogInit: Computer: 1806C024
+[2018.08.22-04.25.43:971][  0]LogInit: User: jamesdev7362
+[2018.08.22-04.25.43:971][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.22-04.25.43:971][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2018.08.22-04.25.43:971][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.08.22-04.25.43:971][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.22-04.25.43:971][  0]LogMemory: Process Physical Memory: 275.55 MB used, 275.55 MB peak
+[2018.08.22-04.25.43:971][  0]LogMemory: Process Virtual Memory: 272.78 MB used, 272.78 MB peak
+[2018.08.22-04.25.43:971][  0]LogMemory: Physical Memory: 12278.45 MB used,  20449.20 MB free, 32727.65 MB total
+[2018.08.22-04.25.43:971][  0]LogMemory: Virtual Memory: 706.59 MB used,  20449.20 MB free, 134217728.00 MB total
+[2018.08.22-04.25.43:992][  0]LogInit: Using OS detected language (en-US).
+[2018.08.22-04.25.43:992][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.22-04.25.43:992][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.08.22-04.25.43:992][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2018.08.22-04.25.44:380][  0]LogStreaming: Display: Took  0.389s to EndInitTextLocalization.
+[2018.08.22-04.25.44:401][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.22-04.25.44:401][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.22-04.25.44:405][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.22-04.25.44:450][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.08.22-04.25.44:450][  0]LogD3D11RHI:       8086/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.22-04.25.44:453][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.22-04.25.44:453][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.22-04.25.44:453][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.22-04.25.44:462][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.22-04.25.44:462][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.22-04.25.44:462][  0]LogWindows: EnumDisplayDevices:
+[2018.08.22-04.25.44:462][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.08.22-04.25.44:463][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.08.22-04.25.44:463][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.08.22-04.25.44:463][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.08.22-04.25.44:463][  0]LogWindows:    4. 'Mirage Driver' (P:0 D:0)
+[2018.08.22-04.25.44:463][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.22-04.25.44:463][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.08.22-04.25.44:463][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.22-04.25.44:463][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.22-04.25.44:463][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.08.22-04.25.44:484][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.08.22-04.25.44:484][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.22-04.25.44:484][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.22-04.25.44:494][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.22-04.25.44:578][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/Intermediate/Shaders/WorkingDirectory/14936/).
+[2018.08.22-04.25.44:578][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/james.dev7362/AppData/Local/Temp/UnrealShaderWorkingDir/6426B4784298938EB99D1B904A941E4A/'.
+[2018.08.22-04.25.44:758][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.22-04.25.44:769][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.22-04.25.44:780][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.22-04.25.44:791][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.22-04.25.44:791][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.22-04.25.44:865][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.22-04.25.44:865][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.22-04.25.44:865][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.22-04.25.45:390][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.22-04.25.45:442][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB D:/Users/james.dev7362/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.22-04.25.45:442][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Users/james.dev7362/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.08.22-04.25.45:442][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.22-04.25.45:442][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.22-04.25.45:442][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/james.dev7362/Documents/GitHub/Albirb_Experience/ALBIRB_EXPERIENCE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.22-04.25.45:442][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.22-04.25.45:455][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.22-04.25.45:467][  0]LogDerivedDataCache: Using Local data cache path D:/Users/james.dev7362/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.22-04.25.45:467][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.22-04.25.45:467][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.22-04.25.45:476][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.22-04.25.45:477][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.22-04.25.45:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.22-04.25.45:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.22-04.25.45:558][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2018.08.22-04.25.45:713][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.008169 seconds
+[2018.08.22-04.25.45:795][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.22-04.25.45:904][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.22-04.25.45:905][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.22-04.25.45:905][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.22-04.25.45:905][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.22-04.25.45:905][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.22-04.25.45:905][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.22-04.25.45:929][  0]LogNetVersion: ALBIRB_EXPERIENCE , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1179153627)
+[2018.08.22-04.25.46:405][  0]LogMoviePlayer: Initializing movie player
+[2018.08.22-04.25.46:610][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.22-04.25.46:634][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.22-04.25.46:824][  0]SourceControl: Source control is disabled
+[2018.08.22-04.25.46:824][  0]SourceControl: Source control is disabled
+[2018.08.22-04.25.46:836][  0]SourceControl: Source control is disabled
+[2018.08.22-04.25.47:107][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.22-04.25.47:196][  0]LogOcInput: OculusInput pre-init called
+[2018.08.22-04.25.47:223][  0]LogUObjectArray: 40155 objects as part of root set at end of initial load.
+[2018.08.22-04.25.47:223][  0]LogUObjectAllocator: 8378720 out of 0 bytes used by permanent object pool.
+[2018.08.22-04.25.47:223][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.22-04.25.47:267][  0]LogEngine: Initializing Engine...
+[2018.08.22-04.25.47:268][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.22-04.25.47:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.22-04.25.47:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.22-04.25.47:425][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.22-04.25.47:435][  0]LogInit: FAudioDevice initialized.
+[2018.08.22-04.25.47:453][  0]LogInit: Texture streaming: Enabled
+[2018.08.22-04.25.47:554][  0]LogInit: Display: Game Engine Initialized.
+[2018.08.22-04.25.47:554][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.22-04.25.47:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.22-04.25.47:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.22-04.25.47:617][  0]LogInit: Display: Starting Game.
+[2018.08.22-04.25.47:617][  0]LogNet: Browse: /Game/Maps/FlyingExampleMap?Name=Player
+[2018.08.22-04.25.47:617][  0]LogLoad: LoadMap: /Game/Maps/FlyingExampleMap?Name=Player
+[2018.08.22-04.25.47:671][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283ab1d8, Size=8, Default__BP_Gamemode_1_C Function /Game/Maps/BP_Gamemode_1.BP_Gamemode_1_C:ExecuteUbergraph_BP_Gamemode_1
+[2018.08.22-04.25.47:676][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022128355000, Size=328, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.22-04.25.47:678][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022128726368, Size=40, Default__BP_MenuWidget_C Function /Game/Menu/BP_MenuWidget.BP_MenuWidget_C:ExecuteUbergraph_BP_MenuWidget
+[2018.08.22-04.25.47:679][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283ab150, Size=4, Default__BP_GameOverWidget_C Function /Game/Menu/BP_GameOverWidget.BP_GameOverWidget_C:ExecuteUbergraph_BP_GameOverWidget
+[2018.08.22-04.25.47:683][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283ab0f0, Size=4, Default__BP_HowToPlay_C Function /Game/Menu/BP_HowToPlay.BP_HowToPlay_C:ExecuteUbergraph_BP_HowToPlay
+[2018.08.22-04.25.47:689][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022128333e80, Size=16, Default__BP_PauseWidget_C Function /Game/Menu/BP_PauseWidget.BP_PauseWidget_C:ExecuteUbergraph_BP_PauseWidget
+[2018.08.22-04.25.47:692][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283aafc0, Size=4, Default__Bird_Anim_BP_C Function /Game/Player/Flying/Bird/Bird_Anim_BP.Bird_Anim_BP_C:ExecuteUbergraph_Bird_Anim_BP
+[2018.08.22-04.25.47:722][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000221283aafc0, Size=4
+[2018.08.22-04.25.47:722][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283aafc0, Size=4, Default__Bird_Anim_BP_C Function /Engine/Transient.REINST_Bird_Anim_BP_C_0:ExecuteUbergraph_Bird_Anim_BP
+[2018.08.22-04.25.47:722][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000221283ab150, Size=4
+[2018.08.22-04.25.47:722][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283ab150, Size=4, Default__BP_GameOverWidget_C Function /Engine/Transient.REINST_BP_GameOverWidget_C_0:ExecuteUbergraph_BP_GameOverWidget
+[2018.08.22-04.25.47:722][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000221283ab0f0, Size=4
+[2018.08.22-04.25.47:722][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283ab0f0, Size=4, Default__BP_HowToPlay_C Function /Engine/Transient.REINST_BP_HowToPlay_C_1:ExecuteUbergraph_BP_HowToPlay
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022128726368, Size=40
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022128726368, Size=40, Default__BP_MenuWidget_C Function /Engine/Transient.REINST_BP_MenuWidget_C_2:ExecuteUbergraph_BP_MenuWidget
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022128333e80, Size=16
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022128333e80, Size=16, Default__BP_PauseWidget_C Function /Engine/Transient.REINST_BP_PauseWidget_C_3:ExecuteUbergraph_BP_PauseWidget
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022128355000, Size=328
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002211e40c880, Size=328, Default__MyALBIRB_EXPERIENCEPawn_C Function /Engine/Transient.REINST_MyALBIRB_EXPERIENCEPawn_C_5:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000221283ab1d8, Size=8
+[2018.08.22-04.25.47:723][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283ab1d8, Size=8, Default__BP_Gamemode_1_C Function /Engine/Transient.REINST_BP_Gamemode_1_C_6:ExecuteUbergraph_BP_Gamemode_1
+[2018.08.22-04.25.47:742][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000221283a81d8, Size=4, Default__Bird_Anim_BP_C Function /Game/Player/Flying/Bird/Bird_Anim_BP.Bird_Anim_BP_C:ExecuteUbergraph_Bird_Anim_BP
+[2018.08.22-04.25.47:745][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002211e28bf10, Size=4, Default__BP_GameOverWidget_C Function /Game/Menu/BP_GameOverWidget.BP_GameOverWidget_C:ExecuteUbergraph_BP_GameOverWidget
+[2018.08.22-04.25.47:745][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002211e28bee0, Size=4, Default__BP_HowToPlay_C Function /Game/Menu/BP_HowToPlay.BP_HowToPlay_C:ExecuteUbergraph_BP_HowToPlay
+[2018.08.22-04.25.47:746][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022128b9d198, Size=40, Default__BP_MenuWidget_C Function /Game/Menu/BP_MenuWidget.BP_MenuWidget_C:ExecuteUbergraph_BP_MenuWidget
+[2018.08.22-04.25.47:747][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002211e2df170, Size=16, Default__BP_PauseWidget_C Function /Game/Menu/BP_PauseWidget.BP_PauseWidget_C:ExecuteUbergraph_BP_PauseWidget
+[2018.08.22-04.25.47:748][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002211e25ba00, Size=328, Default__MyALBIRB_EXPERIENCEPawn_C Function /Game/MyALBIRB_EXPERIENCEPawn.MyALBIRB_EXPERIENCEPawn_C:ExecuteUbergraph_MyALBIRB_EXPERIENCEPawn
+[2018.08.22-04.25.47:749][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002211e28bc20, Size=8, Default__BP_Gamemode_1_C Function /Game/Maps/BP_Gamemode_1.BP_Gamemode_1_C:ExecuteUbergraph_BP_Gamemode_1
+[2018.08.22-04.25.47:827][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.269938ms] /Game/Player/Flying/Bird/SaddleBack_FlightCycle_1.SaddleBack_FlightCycle_1
+[2018.08.22-04.25.47:864][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.08.22-04.25.47:864][  0]LogLoad: Game class is 'BP_Gamemode_1_C'
+[2018.08.22-04.25.47:871][  0]LogWorld: Bringing World /Game/Maps/FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.08.22-16.25.47
+[2018.08.22-04.25.47:872][  0]LogWorld: Bringing up level for play took: 0.007024
+[2018.08.22-04.25.47:874][  0]LogLoad: Took 0.256769 seconds to LoadMap(/Game/Maps/FlyingExampleMap)
+[2018.08.22-04.25.47:926][  0]LogLoad: (Engine Initialization) Total time: 6.05 seconds
+[2018.08.22-04.25.47:926][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.22-04.25.47:955][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.08.22-04.25.47:996][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.22-04.25.47:998][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.22-04.25.50:178][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+>>>>>>> b4d3d935a3e4224bef78bff7bcdd900f06e1f50b
