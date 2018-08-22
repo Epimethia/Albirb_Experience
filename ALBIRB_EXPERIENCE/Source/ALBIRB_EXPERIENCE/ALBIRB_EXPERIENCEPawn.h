@@ -29,15 +29,20 @@ public:
 
 	// Begin AActor overrides
 	virtual void Tick(float DeltaSeconds) override;
+	void RegenerateStamina();
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;		
 	// End AActor overrides
 	/** Current forward speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float CurrentForwardSpeed;
+	float CurrentForwardSpeed;
 
 	/** Current upward speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float CurrentUpwardSpeed;
+	float CurrentUpwardSpeed;
+
+	/** Current upward speed accel */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float CurrentUpwardSpeedAccel;
 
 	/** Current stamina*/
 	float Stamina;
@@ -93,9 +98,17 @@ private:
 	bool Perching;	
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<AActor> PerchBlueprint;	
+	TSubclassOf<AActor> PerchBlueprint;	// 
 
 	UWorld* World;
+
+	AActor* Owner;
+
+	UPROPERTY(EditAnywhere)
+	float StaminaRechargeRate;
+
+	UPROPERTY(EditAnywhere)
+	float StaminaDepletionRate;
 
 public:
 	/** Returns PlaneMesh subobject **/

@@ -7,9 +7,11 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-
+#include <vector>
 #include "EngineUtils.h"
 #include "Engine/StaticMesh.h"
+#include <assert.h>
+#include <math.h>
 
 AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 {
@@ -46,25 +48,38 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	// Set handling parameters
 	Gravity = -900.0f;
 	Acceleration = 500.f;
-	TurnSpeed = 50.f;
+	TurnSpeed = 20.f;
 	MaxSpeed = 4000.f;
 	MinSpeed = 500.f;
 	CurrentForwardSpeed = 500.f;
 	Stamina = 100.0f;
-	CurrentUpwardSpeed = Gravity;	
+	CurrentUpwardSpeed = Gravity;
+	CurrentUpwardSpeedAccel = 1000.0f;
 	CurrentForwardSpeed = 750.f;
-
+	StaminaRechargeRate = 0.1f;
+	StaminaDepletionRate = 0.02f;
+	Owner = this;
 	World = GetWorld();
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Stamina = %f"), Stamina);
+	UE_LOG(LogTemp, Warning, TEXT("Staminaaa = %f"), Stamina);
 
 	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.0f, CurrentUpwardSpeed * DeltaSeconds);
 
 	// Decrement Stamina
-	Stamina -= 0.005;
+	Stamina -= StaminaDepletionRate / 1.5f; 
+	Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
+
+	// Check if we're perching
+	if (Perching)
+	{
+		if (Stamina < 100.0f)
+		{
+			RegenerateStamina();
+		}		
+	}
 
 	// Move plan forwards (with sweep so we stop when we collide with things)
 	AddActorLocalOffset(LocalMove, true);	
@@ -81,6 +96,24 @@ void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 
 	// Call any parent class Tick implementation
 	Super::Tick(DeltaSeconds);
+}
+
+void AALBIRB_EXPERIENCEPawn::RegenerateStamina()
+{	
+	// Check important variables aren't null
+	if (World && PerchBlueprint && Owner)
+	{
+		// Check player distance from all perches
+		for (TActorIterator<AActor> It(World, PerchBlueprint); It; ++It)
+		{
+			float Distance = Owner->GetDistanceTo(*It);				
+			if (Distance < 1500.0f)
+			{				
+				Stamina += StaminaRechargeRate;
+				Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
+			}
+		}		
+	}
 }
 
 void AALBIRB_EXPERIENCEPawn::NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
@@ -111,13 +144,15 @@ void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 	if (!Perching)
 	{
 		// Decrement Stamina
-		Stamina -= 0.005;
+		Stamina -= StaminaDepletionRate;
+		Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
+
 		// Is there any input?
 		bool bHasInput = !FMath::IsNearlyEqual(Val, 0.f);
 		// If input is not held down, reduce speed
 		float CurrentAcc = bHasInput ? (Val * Acceleration) : (-0.5f * Acceleration);
 		// Calculate new speed
-		float NewForwardSpeed = CurrentForwardSpeed + (GetWorld()->GetDeltaSeconds() * CurrentAcc);
+		float NewForwardSpeed = CurrentForwardSpeed + ((GetWorld()->GetDeltaSeconds() * CurrentAcc * (Stamina / 100))); // Stamina changes accel speed
 		// Clamp between MinSpeed and MaxSpeed
 		CurrentForwardSpeed = FMath::Clamp(NewForwardSpeed, MinSpeed, MaxSpeed);
 	}
@@ -126,18 +161,7 @@ void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 void AALBIRB_EXPERIENCEPawn::PerchInput()
 {
 	Perching = true;	
-	CurrentUpwardSpeed = Gravity;
-
-	// Check if we're perching
-	//for (TActorIterator<AActor> It(World, PerchBlueprint); It; ++It)
-	//{		
-	//	//float Distance = GetOwner()->GetDistanceTo(*It);
-	//	//if (Distance < 1500)
-	//	//{
-	//	//	UE_LOG(LogTemp, Error, TEXT("Incrementing Stamina"));
-	//	//	Stamina += 1.1f;
-	//	//}				
-	//}
+	CurrentUpwardSpeed = Gravity;	
 }
 
 void AALBIRB_EXPERIENCEPawn::PerchInputReleased()
@@ -150,9 +174,16 @@ void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 	if (!Perching)
 	{
 		// Decrement Stamina
-		Stamina -= 0.005;
-		// Increase Upward Speed
-		CurrentUpwardSpeed += 2500.0f;
+		Stamina -= StaminaDepletionRate;
+		Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
+
+		// Set upward speed to atleast 500.0f
+		if (CurrentUpwardSpeed < 0.0f)
+		{
+			CurrentUpwardSpeed = 50.0f;
+		}
+		// Increase Upward Speed		
+		CurrentUpwardSpeed += (CurrentUpwardSpeedAccel * (Stamina / 100)); // Stamina changes upward speed
 	}
 }
 

@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\ALBIRB_EXPERIENCE.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
 			<UniqueIdentifier>{33307C32-8209-41E5-A24B-E75593F414EB}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{A8ABE0F3-62C7-46D7-A24C-5B481E5DB940}</UniqueIdentifier>
+>>>>>>> origin/Jasper-BrokeMasterMonkaS
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{E6F0C54E-6D5F-4BDB-9EE5-561EFAFEFCB9}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{90227936-FBDB-407D-AAA9-CC68B126E595}</UniqueIdentifier>
+>>>>>>> origin/Jasper-BrokeMasterMonkaS
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +39,11 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ALBIRB_EXPERIENCE">
+<<<<<<< HEAD
 			<UniqueIdentifier>{A1D1D2F8-5E9A-427E-A983-5B117DF33A8E}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{D2AE3ACF-8087-43FE-9272-5793D09F60A1}</UniqueIdentifier>
+>>>>>>> origin/Jasper-BrokeMasterMonkaS
 		</Filter>
 		<None Include="..\..\Source\ALBIRB_EXPERIENCE\ALBIRB_EXPERIENCE.Build.cs">
 			<Filter>Source\ALBIRB_EXPERIENCE</Filter>
