@@ -35,11 +35,15 @@ public:
 
 	/** Current forward speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float CurrentForwardSpeed;
+	float CurrentForwardSpeed;
 
 	/** Current upward speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float CurrentUpwardSpeed;
+	float CurrentUpwardSpeed;
+
+	/** Current upward speed accel */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float CurrentUpwardSpeedAccel;
 
 	/** Current stamina*/
 	float Stamina;
@@ -95,11 +99,17 @@ private:
 	bool Perching;	
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<AActor> PerchBlueprint;	
+	TSubclassOf<AActor> PerchBlueprint;	// 
 
 	UWorld* World;
 
 	AActor* Owner;
+
+	UPROPERTY(EditAnywhere)
+	float StaminaRechargeRate;
+
+	UPROPERTY(EditAnywhere)
+	float StaminaDepletionRate;
 
 public:
 	/** Returns PlaneMesh subobject **/

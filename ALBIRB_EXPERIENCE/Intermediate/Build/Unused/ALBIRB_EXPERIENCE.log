@@ -1,9 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Performing full C++ include scan (no include cache file)
-  Performing 2 actions (4 in parallel)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
   ALBIRB_EXPERIENCEPawn.cpp
-  [2/2] Link ALBIRB_EXPERIENCE-Win64-DebugGame.exe
-     Creating library D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Binaries\Win64\ALBIRB_EXPERIENCE-Win64-DebugGame.lib and object D:\Users\Jasper.Lyo7552\Documents\Unreal Projects\ALBirb\ALBIRB_EXPERIENCE\Binaries\Win64\ALBIRB_EXPERIENCE-Win64-DebugGame.exp
-  Deploying ALBIRB_EXPERIENCE Win64 DebugGame...
-  Prepping UE4 for deployment to Win64
-  Total build time: 47.58 seconds (Local executor: 45.89 seconds)
+  [2/3] Link UE4Editor-ALBIRB_EXPERIENCE-9647.dll
+  [3/3] Link UE4Editor-ALBIRB_EXPERIENCE-9647.lib
+     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9647.suppressed.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9647.suppressed.exp
+     Creating library C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9647.lib and object C:\Users\PlagueDoctor\Documents\repos\Albirb_Experience\ALBIRB_EXPERIENCE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ALBIRB_EXPERIENCE-9647.exp
+  Deploying ALBIRB_EXPERIENCEEditor Win64 Development...
+  Total build time: 6.64 seconds (Local executor: 2.85 seconds)

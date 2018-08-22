@@ -68,7 +68,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AALBIRB_EXPERIENCEPawn); \
 	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, MaxSpeed); } \
 	FORCEINLINE static uint32 __PPO__MinSpeed() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, MinSpeed); } \
 	FORCEINLINE static uint32 __PPO__Gravity() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, Gravity); } \
-	FORCEINLINE static uint32 __PPO__PerchBlueprint() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, PerchBlueprint); }
+	FORCEINLINE static uint32 __PPO__PerchBlueprint() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, PerchBlueprint); } \
+	FORCEINLINE static uint32 __PPO__StaminaRechargeRate() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, StaminaRechargeRate); } \
+	FORCEINLINE static uint32 __PPO__StaminaDepletionRate() { return STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, StaminaDepletionRate); }
 
 
 #define ALBIRB_EXPERIENCE_Source_ALBIRB_EXPERIENCE_ALBIRB_EXPERIENCEPawn_h_9_PROLOG

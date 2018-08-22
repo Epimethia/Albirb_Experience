@@ -47,6 +47,20 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StaminaDepletionRate_MetaData[] = {
+				{ "Category", "ALBIRB_EXPERIENCEPawn" },
+				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_StaminaDepletionRate = { UE4CodeGen_Private::EPropertyClass::Float, "StaminaDepletionRate", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, StaminaDepletionRate), METADATA_PARAMS(NewProp_StaminaDepletionRate_MetaData, ARRAY_COUNT(NewProp_StaminaDepletionRate_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StaminaRechargeRate_MetaData[] = {
+				{ "Category", "ALBIRB_EXPERIENCEPawn" },
+				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_StaminaRechargeRate = { UE4CodeGen_Private::EPropertyClass::Float, "StaminaRechargeRate", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, StaminaRechargeRate), METADATA_PARAMS(NewProp_StaminaRechargeRate_MetaData, ARRAY_COUNT(NewProp_StaminaRechargeRate_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PerchBlueprint_MetaData[] = {
 				{ "Category", "ALBIRB_EXPERIENCEPawn" },
 				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
@@ -94,6 +108,14 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Acceleration = { UE4CodeGen_Private::EPropertyClass::Float, "Acceleration", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, Acceleration), METADATA_PARAMS(NewProp_Acceleration_MetaData, ARRAY_COUNT(NewProp_Acceleration_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentUpwardSpeedAccel_MetaData[] = {
+				{ "Category", "ALBIRB_EXPERIENCEPawn" },
+				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
+				{ "ToolTip", "Current upward speed accel" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentUpwardSpeedAccel = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentUpwardSpeedAccel", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, CurrentUpwardSpeedAccel), METADATA_PARAMS(NewProp_CurrentUpwardSpeedAccel_MetaData, ARRAY_COUNT(NewProp_CurrentUpwardSpeedAccel_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentUpwardSpeed_MetaData[] = {
 				{ "Category", "ALBIRB_EXPERIENCEPawn" },
 				{ "ModuleRelativePath", "ALBIRB_EXPERIENCEPawn.h" },
@@ -140,12 +162,15 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlaneMesh = { UE4CodeGen_Private::EPropertyClass::Object, "PlaneMesh", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b001d, 1, nullptr, STRUCT_OFFSET(AALBIRB_EXPERIENCEPawn, PlaneMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_PlaneMesh_MetaData, ARRAY_COUNT(NewProp_PlaneMesh_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_StaminaDepletionRate,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_StaminaRechargeRate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PerchBlueprint,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Gravity,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TurnSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Acceleration,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentUpwardSpeedAccel,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentUpwardSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentForwardSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Camera,
@@ -170,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeALBIRB_EXPERIENCEPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 1092713095);
+	IMPLEMENT_CLASS(AALBIRB_EXPERIENCEPawn, 556945848);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AALBIRB_EXPERIENCEPawn(Z_Construct_UClass_AALBIRB_EXPERIENCEPawn, &AALBIRB_EXPERIENCEPawn::StaticClass, TEXT("/Script/ALBIRB_EXPERIENCE"), TEXT("AALBIRB_EXPERIENCEPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AALBIRB_EXPERIENCEPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
