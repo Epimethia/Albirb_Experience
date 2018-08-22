@@ -59,14 +59,14 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	StaminaRechargeRate = 0.1f;
 	StaminaDepletionRate = 0.02f;
 	PerchReleaseTimer = 1000.0f;
-	PerchTimerLimit = 0.5f;
+	PerchTimerLimit = 0.5f;	
 	Owner = this;
 	World = GetWorld();
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Staminaaa = %f"), Stamina);
+	UE_LOG(LogTemp, Warning, TEXT("Stamina = %f"), Stamina);
 
 	// If the player isn't trying to fly upwards, apply gravity
 	if (!Rising && PerchReleaseTimer > PerchTimerLimit)
@@ -75,10 +75,13 @@ void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 	}	
 	else if (PerchReleaseTimer < PerchTimerLimit)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("PerchTimer = %f"), PerchReleaseTimer);
+		//UE_LOG(LogTemp, Warning, TEXT("PerchTimer = %f"), PerchReleaseTimer);
 		PerchReleaseTimer += DeltaSeconds;
 	}
-			
+	else if (Rising)
+	{
+		CurrentUpwardSpeed = (CurrentUpwardSpeedAccel * (Stamina / 100)); // Stamina changes upward speed		
+	}			
 
 	// Apply movement 
 	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.0f, CurrentUpwardSpeed * DeltaSeconds);
@@ -152,6 +155,8 @@ void AALBIRB_EXPERIENCEPawn::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAction("MoveUp", IE_Released, this, &AALBIRB_EXPERIENCEPawn::MoveUpInputReleased);
 	PlayerInputComponent->BindAction("Perching", IE_Pressed, this, &AALBIRB_EXPERIENCEPawn::PerchInput);
 	PlayerInputComponent->BindAction("Perching", IE_Released, this, &AALBIRB_EXPERIENCEPawn::PerchInputReleased);
+	PlayerInputComponent->BindAction("Tuck", IE_Pressed, this, &AALBIRB_EXPERIENCEPawn::TuckInput);
+	PlayerInputComponent->BindAction("Tuck", IE_Released, this, &AALBIRB_EXPERIENCEPawn::TuckInputReleased);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AALBIRB_EXPERIENCEPawn::MoveRightInput);
 }
 
@@ -192,23 +197,41 @@ void AALBIRB_EXPERIENCEPawn::PerchInputReleased()
 	}
 }
 
+void AALBIRB_EXPERIENCEPawn::TuckInput()
+{
+	CurrentUpwardSpeed = Gravity * 2;
+	CurrentForwardSpeed += 2000.0f;
+	CurrentForwardSpeed = FMath::Clamp(CurrentForwardSpeed, MinSpeed, MaxSpeed * 1.25f);
+}
+
+void AALBIRB_EXPERIENCEPawn::TuckInputReleased()
+{
+	CurrentUpwardSpeed = Gravity;
+	CurrentForwardSpeed = FMath::Clamp(CurrentForwardSpeed, MinSpeed, MaxSpeed);
+}
+
 void AALBIRB_EXPERIENCEPawn::MoveUpInput()
 {
-	Rising = true;
-	if (!Perching)
+	//UE_LOG(LogTemp, Warning, TEXT("Z Coord = %f"), Owner->GetActorLocation().Z);
+	if (Owner->GetActorLocation().Z < 13000.0f)
 	{
-		// Decrement Stamina
-		Stamina -= StaminaDepletionRate;
-		Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
-
-		// Set upward speed to atleast 500.0f
-		if (CurrentUpwardSpeed < 0.0f)
+		Rising = true;
+		if (!Perching)
 		{
-			CurrentUpwardSpeed = 50.0f;
+			// Decrement Stamina
+			Stamina -= StaminaDepletionRate;
+			Stamina = FMath::Clamp(Stamina, 0.0f, 100.0f);
+
+			// Set upward speed to atleast 500.0f
+			if (CurrentUpwardSpeed < 0.0f)
+			{
+				CurrentUpwardSpeed = 50.0f;
+			}
+			// Increase Upward Speed		
+			CurrentUpwardSpeed += (CurrentUpwardSpeedAccel * (Stamina / 100)); // Stamina changes upward speed
+			CurrentUpwardSpeed = FMath::Clamp(CurrentUpwardSpeed, 10.0f, 10000.0f);
 		}
-		// Increase Upward Speed		
-		CurrentUpwardSpeed += (CurrentUpwardSpeedAccel * (Stamina / 100)); // Stamina changes upward speed
-	}
+	}	
 }
 
 void AALBIRB_EXPERIENCEPawn::MoveUpInputReleased()

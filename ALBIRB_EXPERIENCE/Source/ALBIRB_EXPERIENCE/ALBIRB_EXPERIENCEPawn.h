@@ -68,6 +68,9 @@ protected:
 	void PerchInput();
 	void PerchInputReleased();
 
+	void TuckInput();
+	void TuckInputReleased();
+
 private:
 
 	/** How quickly forward speed changes */
@@ -113,7 +116,7 @@ private:
 	float StaminaDepletionRate;
 
 	float PerchReleaseTimer;
-	float PerchTimerLimit;
+	float PerchTimerLimit;	
 
 public:
 	/** Returns PlaneMesh subobject **/
