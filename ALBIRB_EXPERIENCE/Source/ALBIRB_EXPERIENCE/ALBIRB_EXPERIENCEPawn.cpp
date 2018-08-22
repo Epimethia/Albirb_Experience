@@ -4,6 +4,7 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Camera/CameraComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
@@ -15,17 +16,17 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	// Structure to hold one-time initialization
 	struct FConstructorStatics
 	{
-		ConstructorHelpers::FObjectFinderOptional<UStaticMesh> PlaneMesh;
+		ConstructorHelpers::FObjectFinderOptional<USkeletalMesh> PlaneMesh;
 		FConstructorStatics()
-			: PlaneMesh(TEXT("StaticMesh'/Game/Player/Flying/Meshes/UFO.UFO'"))
+			: PlaneMesh(TEXT("SkeletalMesh'/Game/Player/Flying/Bird/SaddleBack_FlightCycle_1.SaddleBack_FlightCycle_1'"))
 		{
 		}
 	};
 	static FConstructorStatics ConstructorStatics;
 
 	// Create static mesh component
-	PlaneMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlaneMesh0"));
-	PlaneMesh->SetStaticMesh(ConstructorStatics.PlaneMesh.Get());	// Set static mesh
+	PlaneMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("PlaneMesh0"));
+	//PlaneMesh->SetSkeletalMesh(ConstructorStatics.PlaneMesh.Get());	// Set static mesh
 	RootComponent = PlaneMesh;
 
 	// Create a spring arm component

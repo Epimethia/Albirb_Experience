@@ -8,15 +8,13 @@ FVector AALBIRB_EXPERIENCEGameMode::GeneratePoint(FVector _ForwardVect, FRotator
 	/*x = Math.cos(angle)*radius;
 	y = Math.sin(angle)*radius;*/
 
-	float Radius = FMath::FRandRange(1600.0f, 2000.0f);
-	float Angle = FMath::FRandRange(-90.0f, 90.0f) + _Rotation.Yaw;
+	float YRatio = FMath::RandRange(-1.0f, 1.0f);
 
-	FVector CenterPoint = (_ForwardVect * 2000.0f) + _CurrentPos;
+	FVector CenterPoint = (_ForwardVect * 20000.0f) + _CurrentPos;
 
-	float x = FMath::Cos(Angle) * (Radius * 2.0f);
-	float y = FMath::Sin(Angle) * (Radius * 2.0f);
-
-	return FVector(x, y, 0.0f) + CenterPoint;
+	float y = YRatio * 10000.0f + CenterPoint.Y;
+	float x = CenterPoint.X + FMath::RandRange(-2000.0f, 2000.0f);
+	return FVector(x, y, 0.0f);
 }
 
 AALBIRB_EXPERIENCEGameMode::AALBIRB_EXPERIENCEGameMode()
