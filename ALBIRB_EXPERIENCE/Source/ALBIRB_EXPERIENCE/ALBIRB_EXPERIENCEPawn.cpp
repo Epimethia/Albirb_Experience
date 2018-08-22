@@ -6,9 +6,10 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-
+#include <vector>
 #include "EngineUtils.h"
 #include "Engine/StaticMesh.h"
+#include <math.h>
 
 AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 {
@@ -52,18 +53,25 @@ AALBIRB_EXPERIENCEPawn::AALBIRB_EXPERIENCEPawn()
 	Stamina = 100.0f;
 	CurrentUpwardSpeed = Gravity;	
 	CurrentForwardSpeed = 750.f;
-
+	Owner = GetOwner();
 	World = GetWorld();
 }
 
 void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Stamina = %f"), Stamina);
+	UE_LOG(LogTemp, Warning, TEXT("Staminaa = %f"), Stamina);
 
 	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaSeconds, 0.0f, CurrentUpwardSpeed * DeltaSeconds);
 
 	// Decrement Stamina
 	Stamina -= 0.005;
+
+	// Check if we're perching
+	if (Perching)
+	{
+		RegenerateStamina();
+	}
+
 
 	// Move plan forwards (with sweep so we stop when we collide with things)
 	AddActorLocalOffset(LocalMove, true);	
@@ -80,6 +88,32 @@ void AALBIRB_EXPERIENCEPawn::Tick(float DeltaSeconds)
 
 	// Call any parent class Tick implementation
 	Super::Tick(DeltaSeconds);
+}
+
+void AALBIRB_EXPERIENCEPawn::RegenerateStamina()
+{
+	std::vector<AActor*> PositionVector;
+	if (World && PerchBlueprint && Owner)
+	{
+		for (TActorIterator<AActor> It(World, PerchBlueprint); It; ++It)
+		{
+			//float Distance = Owner->GetDistanceTo(*It);	
+			AActor* tempActor = *It;
+			PositionVector.push_back(tempActor);
+			UE_LOG(LogTemp, Warning, TEXT("Incrementing Stamina - VecSize = %i"), static_cast<int>(PositionVector.size()));
+
+		}
+
+		// Loop through vector and check distances
+		for (unsigned int i = 0; i < PositionVector.size(); i++)
+		{
+			float Distance = abs(Owner->GetActorLocation().Size() - PositionVector[i]->GetActorLocation().Size());
+			if (Distance < 2000.0f)
+			{
+				Stamina += 1.0f;
+			}
+		}
+	}
 }
 
 void AALBIRB_EXPERIENCEPawn::NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
@@ -125,18 +159,7 @@ void AALBIRB_EXPERIENCEPawn::ThrustInput(float Val)
 void AALBIRB_EXPERIENCEPawn::PerchInput()
 {
 	Perching = true;	
-	CurrentUpwardSpeed = Gravity;
-
-	// Check if we're perching
-	//for (TActorIterator<AActor> It(World, PerchBlueprint); It; ++It)
-	//{		
-	//	//float Distance = GetOwner()->GetDistanceTo(*It);
-	//	//if (Distance < 1500)
-	//	//{
-	//	//	UE_LOG(LogTemp, Error, TEXT("Incrementing Stamina"));
-	//	//	Stamina += 1.1f;
-	//	//}				
-	//}
+	CurrentUpwardSpeed = Gravity;	
 }
 
 void AALBIRB_EXPERIENCEPawn::PerchInputReleased()
